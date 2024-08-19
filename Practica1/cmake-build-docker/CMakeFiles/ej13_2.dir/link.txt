@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/ej13_2.dir/ej13_2.c.o  -o ej13_2 

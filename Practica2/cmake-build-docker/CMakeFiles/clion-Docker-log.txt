@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica/Practica2 Select CMakeLists.txt

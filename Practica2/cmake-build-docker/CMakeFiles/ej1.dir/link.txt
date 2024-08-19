@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g   CMakeFiles/ej1.dir/ej1.c.o  -o ej1 

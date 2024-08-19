@@ -1,0 +1,3 @@
+/Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica 1/cmake-build-debug/CMakeFiles/Practica_1.dir
+/Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

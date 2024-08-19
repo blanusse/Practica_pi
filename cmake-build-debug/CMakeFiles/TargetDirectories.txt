@@ -1,0 +1,3 @@
+/Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica_2/cmake-build-debug/CMakeFiles/getnum.dir
+/Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/beltranlanusse/Desktop/Facultad/CUATRIMESTRE 2/Programacion Imperativa/Guias/Practica_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

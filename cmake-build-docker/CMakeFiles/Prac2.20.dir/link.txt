@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac2.20.dir/Practica2/ej20.c.o  -o Prac2.20 
