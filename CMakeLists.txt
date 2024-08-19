@@ -75,7 +75,26 @@ add_executable(Prac3.24 Practica3/ej24.c)
 add_executable(Prac3.25 Practica3/ej25.c Lib/getnum.c)
 add_executable(Prac3.26 Practica3/ej26.c)
 
-add_executable(asdm Practica4/prueba.c)
+
+
+
+add_executable(Prac4 Practica4/ej1.c)
+add_executable(Prac4.2 Practica4/ej2.c)
+add_executable(Prac4.3 Practica4/ej3.c)
+add_executable(Prac4.4 Practica4/ej4.c)
+add_executable(Prac4.5 Practica4/ej5.c)
+add_executable(Prac4.6 Practica4/ej6.c)
+add_executable(Prac4.7 Practica4/ej7.c)
+add_executable(Prac4.8 Practica4/ej8.c)
+add_executable(Prac4.9 Practica4/ej9.c)
+add_executable(Prac4.10 Practica4/ej10.c)
+add_executable(Prac4.11 Practica4/ej11.c)
+add_executable(Prac4.12 Practica4/ej12.c)
+add_executable(Prac4.13 Practica4/ej13.c)
+add_executable(Prac4.14 Practica4/ej14.c)
+add_executable(Prac4.15 Practica4/ej15.c)
+add_executable(Prac4.16 Practica4/ej16.c)
+add_executable(Prac4.17 Practica4/ej17.c)
 
 
 
@@ -89,6 +108,6 @@ add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
 
 
 
-#for i in {1..26}; do
+#for i in {1..17}; do
 #touch "ej$i.c"
 #done
