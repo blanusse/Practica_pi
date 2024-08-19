@@ -14,6 +14,8 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.3.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.16.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.2.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/edit_cache.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.19.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.11.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.14.dir
@@ -25,6 +27,5 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.23.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.24.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.26.dir
-/tmp/Practica/cmake-build-docker/CMakeFiles/Prac3.19.dir
-/tmp/Practica/cmake-build-docker/CMakeFiles/edit_cache.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/asdm.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir

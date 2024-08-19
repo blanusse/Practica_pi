@@ -306,6 +306,19 @@ Prac3.2/fast:
 .PHONY : Prac3.2/fast
 
 #=============================================================================
+# Target rules for targets named Prac3.19
+
+# Build rule for target.
+Prac3.19: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac3.19
+.PHONY : Prac3.19
+
+# fast build rule for target.
+Prac3.19/fast:
+	$(MAKE) -f CMakeFiles/Prac3.19.dir/build.make CMakeFiles/Prac3.19.dir/build
+.PHONY : Prac3.19/fast
+
+#=============================================================================
 # Target rules for targets named Prac3
 
 # Build rule for target.
@@ -449,17 +462,17 @@ Prac3.26/fast:
 .PHONY : Prac3.26/fast
 
 #=============================================================================
-# Target rules for targets named Prac3.19
+# Target rules for targets named asdm
 
 # Build rule for target.
-Prac3.19: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac3.19
-.PHONY : Prac3.19
+asdm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 asdm
+.PHONY : asdm
 
 # fast build rule for target.
-Prac3.19/fast:
-	$(MAKE) -f CMakeFiles/Prac3.19.dir/build.make CMakeFiles/Prac3.19.dir/build
-.PHONY : Prac3.19/fast
+asdm/fast:
+	$(MAKE) -f CMakeFiles/asdm.dir/build.make CMakeFiles/asdm.dir/build
+.PHONY : asdm/fast
 
 #=============================================================================
 # Target rules for targets named Taller2
@@ -1224,6 +1237,33 @@ Practica3/ej9.c.s:
 	$(MAKE) -f CMakeFiles/Prac3.9.dir/build.make CMakeFiles/Prac3.9.dir/Practica3/ej9.c.s
 .PHONY : Practica3/ej9.c.s
 
+Practica4/prueba.o: Practica4/prueba.c.o
+
+.PHONY : Practica4/prueba.o
+
+# target to build an object file
+Practica4/prueba.c.o:
+	$(MAKE) -f CMakeFiles/asdm.dir/build.make CMakeFiles/asdm.dir/Practica4/prueba.c.o
+.PHONY : Practica4/prueba.c.o
+
+Practica4/prueba.i: Practica4/prueba.c.i
+
+.PHONY : Practica4/prueba.i
+
+# target to preprocess a source file
+Practica4/prueba.c.i:
+	$(MAKE) -f CMakeFiles/asdm.dir/build.make CMakeFiles/asdm.dir/Practica4/prueba.c.i
+.PHONY : Practica4/prueba.c.i
+
+Practica4/prueba.s: Practica4/prueba.c.s
+
+.PHONY : Practica4/prueba.s
+
+# target to generate assembly for a file
+Practica4/prueba.c.s:
+	$(MAKE) -f CMakeFiles/asdm.dir/build.make CMakeFiles/asdm.dir/Practica4/prueba.c.s
+.PHONY : Practica4/prueba.c.s
+
 Taller/Taller1.o: Taller/Taller1.c.o
 
 .PHONY : Taller/Taller1.o
@@ -1300,6 +1340,8 @@ help:
 	@echo "... Prac3.3"
 	@echo "... Prac3.16"
 	@echo "... Prac3.2"
+	@echo "... edit_cache"
+	@echo "... Prac3.19"
 	@echo "... Prac3"
 	@echo "... Prac3.11"
 	@echo "... Prac3.14"
@@ -1311,8 +1353,7 @@ help:
 	@echo "... Prac3.23"
 	@echo "... Prac3.24"
 	@echo "... Prac3.26"
-	@echo "... Prac3.19"
-	@echo "... edit_cache"
+	@echo "... asdm"
 	@echo "... Taller2"
 	@echo "... Lib/getnum.o"
 	@echo "... Lib/getnum.i"
@@ -1395,6 +1436,9 @@ help:
 	@echo "... Practica3/ej9.o"
 	@echo "... Practica3/ej9.i"
 	@echo "... Practica3/ej9.s"
+	@echo "... Practica4/prueba.o"
+	@echo "... Practica4/prueba.i"
+	@echo "... Practica4/prueba.s"
 	@echo "... Taller/Taller1.o"
 	@echo "... Taller/Taller1.i"
 	@echo "... Taller/Taller1.s"

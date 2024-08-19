@@ -75,6 +75,8 @@ add_executable(Prac3.24 Practica3/ej24.c)
 add_executable(Prac3.25 Practica3/ej25.c Lib/getnum.c)
 add_executable(Prac3.26 Practica3/ej26.c)
 
+add_executable(asdm Practica4/prueba.c)
+
 
 
 
