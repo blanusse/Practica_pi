@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/Practica/Practica3/ej25.c
-ctype.h
--
+/tmp/Practica/Practica4/ej1.c
 stdio.h
 -
 

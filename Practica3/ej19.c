@@ -10,7 +10,7 @@
 
 int main(void) {
     int contadorCinco=0, contadorEntero=0, contadorDecimal=0;
-    for (int c=getchar();c!='\n';c=getchar()) {
+    for (int c=getchar(); c!=EOF ;c=getchar()) {
         if(c=='.' || c==',')
             contadorEntero=contadorCinco;
         else {
