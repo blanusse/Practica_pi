@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac4.14b.dir/Practica4/tp4_14b.c.o  -o Prac4.14b 

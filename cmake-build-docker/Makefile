@@ -150,6 +150,19 @@ Prac4.15/fast:
 .PHONY : Prac4.15/fast
 
 #=============================================================================
+# Target rules for targets named Prac4.14a
+
+# Build rule for target.
+Prac4.14a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac4.14a
+.PHONY : Prac4.14a
+
+# fast build rule for target.
+Prac4.14a/fast:
+	$(MAKE) -f CMakeFiles/Prac4.14a.dir/build.make CMakeFiles/Prac4.14a.dir/build
+.PHONY : Prac4.14a/fast
+
+#=============================================================================
 # Target rules for targets named Prac4.14
 
 # Build rule for target.
@@ -161,6 +174,32 @@ Prac4.14: cmake_check_build_system
 Prac4.14/fast:
 	$(MAKE) -f CMakeFiles/Prac4.14.dir/build.make CMakeFiles/Prac4.14.dir/build
 .PHONY : Prac4.14/fast
+
+#=============================================================================
+# Target rules for targets named Prac4.13b
+
+# Build rule for target.
+Prac4.13b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac4.13b
+.PHONY : Prac4.13b
+
+# fast build rule for target.
+Prac4.13b/fast:
+	$(MAKE) -f CMakeFiles/Prac4.13b.dir/build.make CMakeFiles/Prac4.13b.dir/build
+.PHONY : Prac4.13b/fast
+
+#=============================================================================
+# Target rules for targets named Prac4.13a
+
+# Build rule for target.
+Prac4.13a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac4.13a
+.PHONY : Prac4.13a
+
+# fast build rule for target.
+Prac4.13a/fast:
+	$(MAKE) -f CMakeFiles/Prac4.13a.dir/build.make CMakeFiles/Prac4.13a.dir/build
+.PHONY : Prac4.13a/fast
 
 #=============================================================================
 # Target rules for targets named Prac4.13
@@ -291,6 +330,19 @@ Prac4.2: cmake_check_build_system
 Prac4.2/fast:
 	$(MAKE) -f CMakeFiles/Prac4.2.dir/build.make CMakeFiles/Prac4.2.dir/build
 .PHONY : Prac4.2/fast
+
+#=============================================================================
+# Target rules for targets named Prac4.14b
+
+# Build rule for target.
+Prac4.14b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac4.14b
+.PHONY : Prac4.14b
+
+# fast build rule for target.
+Prac4.14b/fast:
+	$(MAKE) -f CMakeFiles/Prac4.14b.dir/build.make CMakeFiles/Prac4.14b.dir/build
+.PHONY : Prac4.14b/fast
 
 #=============================================================================
 # Target rules for targets named Prac3.6
@@ -1904,6 +1956,114 @@ Practica4/ej9.c.s:
 	$(MAKE) -f CMakeFiles/Prac4.9.dir/build.make CMakeFiles/Prac4.9.dir/Practica4/ej9.c.s
 .PHONY : Practica4/ej9.c.s
 
+Practica4/tp4_13a.o: Practica4/tp4_13a.c.o
+
+.PHONY : Practica4/tp4_13a.o
+
+# target to build an object file
+Practica4/tp4_13a.c.o:
+	$(MAKE) -f CMakeFiles/Prac4.13a.dir/build.make CMakeFiles/Prac4.13a.dir/Practica4/tp4_13a.c.o
+.PHONY : Practica4/tp4_13a.c.o
+
+Practica4/tp4_13a.i: Practica4/tp4_13a.c.i
+
+.PHONY : Practica4/tp4_13a.i
+
+# target to preprocess a source file
+Practica4/tp4_13a.c.i:
+	$(MAKE) -f CMakeFiles/Prac4.13a.dir/build.make CMakeFiles/Prac4.13a.dir/Practica4/tp4_13a.c.i
+.PHONY : Practica4/tp4_13a.c.i
+
+Practica4/tp4_13a.s: Practica4/tp4_13a.c.s
+
+.PHONY : Practica4/tp4_13a.s
+
+# target to generate assembly for a file
+Practica4/tp4_13a.c.s:
+	$(MAKE) -f CMakeFiles/Prac4.13a.dir/build.make CMakeFiles/Prac4.13a.dir/Practica4/tp4_13a.c.s
+.PHONY : Practica4/tp4_13a.c.s
+
+Practica4/tp4_13b.o: Practica4/tp4_13b.c.o
+
+.PHONY : Practica4/tp4_13b.o
+
+# target to build an object file
+Practica4/tp4_13b.c.o:
+	$(MAKE) -f CMakeFiles/Prac4.13b.dir/build.make CMakeFiles/Prac4.13b.dir/Practica4/tp4_13b.c.o
+.PHONY : Practica4/tp4_13b.c.o
+
+Practica4/tp4_13b.i: Practica4/tp4_13b.c.i
+
+.PHONY : Practica4/tp4_13b.i
+
+# target to preprocess a source file
+Practica4/tp4_13b.c.i:
+	$(MAKE) -f CMakeFiles/Prac4.13b.dir/build.make CMakeFiles/Prac4.13b.dir/Practica4/tp4_13b.c.i
+.PHONY : Practica4/tp4_13b.c.i
+
+Practica4/tp4_13b.s: Practica4/tp4_13b.c.s
+
+.PHONY : Practica4/tp4_13b.s
+
+# target to generate assembly for a file
+Practica4/tp4_13b.c.s:
+	$(MAKE) -f CMakeFiles/Prac4.13b.dir/build.make CMakeFiles/Prac4.13b.dir/Practica4/tp4_13b.c.s
+.PHONY : Practica4/tp4_13b.c.s
+
+Practica4/tp4_14a.o: Practica4/tp4_14a.c.o
+
+.PHONY : Practica4/tp4_14a.o
+
+# target to build an object file
+Practica4/tp4_14a.c.o:
+	$(MAKE) -f CMakeFiles/Prac4.14a.dir/build.make CMakeFiles/Prac4.14a.dir/Practica4/tp4_14a.c.o
+.PHONY : Practica4/tp4_14a.c.o
+
+Practica4/tp4_14a.i: Practica4/tp4_14a.c.i
+
+.PHONY : Practica4/tp4_14a.i
+
+# target to preprocess a source file
+Practica4/tp4_14a.c.i:
+	$(MAKE) -f CMakeFiles/Prac4.14a.dir/build.make CMakeFiles/Prac4.14a.dir/Practica4/tp4_14a.c.i
+.PHONY : Practica4/tp4_14a.c.i
+
+Practica4/tp4_14a.s: Practica4/tp4_14a.c.s
+
+.PHONY : Practica4/tp4_14a.s
+
+# target to generate assembly for a file
+Practica4/tp4_14a.c.s:
+	$(MAKE) -f CMakeFiles/Prac4.14a.dir/build.make CMakeFiles/Prac4.14a.dir/Practica4/tp4_14a.c.s
+.PHONY : Practica4/tp4_14a.c.s
+
+Practica4/tp4_14b.o: Practica4/tp4_14b.c.o
+
+.PHONY : Practica4/tp4_14b.o
+
+# target to build an object file
+Practica4/tp4_14b.c.o:
+	$(MAKE) -f CMakeFiles/Prac4.14b.dir/build.make CMakeFiles/Prac4.14b.dir/Practica4/tp4_14b.c.o
+.PHONY : Practica4/tp4_14b.c.o
+
+Practica4/tp4_14b.i: Practica4/tp4_14b.c.i
+
+.PHONY : Practica4/tp4_14b.i
+
+# target to preprocess a source file
+Practica4/tp4_14b.c.i:
+	$(MAKE) -f CMakeFiles/Prac4.14b.dir/build.make CMakeFiles/Prac4.14b.dir/Practica4/tp4_14b.c.i
+.PHONY : Practica4/tp4_14b.c.i
+
+Practica4/tp4_14b.s: Practica4/tp4_14b.c.s
+
+.PHONY : Practica4/tp4_14b.s
+
+# target to generate assembly for a file
+Practica4/tp4_14b.c.s:
+	$(MAKE) -f CMakeFiles/Prac4.14b.dir/build.make CMakeFiles/Prac4.14b.dir/Practica4/tp4_14b.c.s
+.PHONY : Practica4/tp4_14b.c.s
+
 Taller/Taller1.o: Taller/Taller1.c.o
 
 .PHONY : Taller/Taller1.o
@@ -1967,7 +2127,10 @@ help:
 	@echo "... Taller2"
 	@echo "... Prac4.17"
 	@echo "... Prac4.15"
+	@echo "... Prac4.14a"
 	@echo "... Prac4.14"
+	@echo "... Prac4.13b"
+	@echo "... Prac4.13a"
 	@echo "... Prac4.13"
 	@echo "... Prac4.11"
 	@echo "... Prac4.6"
@@ -1978,6 +2141,7 @@ help:
 	@echo "... Prac4.5"
 	@echo "... Prac3.21"
 	@echo "... Prac4.2"
+	@echo "... Prac4.14b"
 	@echo "... Prac3.6"
 	@echo "... Prac3.5"
 	@echo "... Prac3.9"
@@ -2143,6 +2307,18 @@ help:
 	@echo "... Practica4/ej9.o"
 	@echo "... Practica4/ej9.i"
 	@echo "... Practica4/ej9.s"
+	@echo "... Practica4/tp4_13a.o"
+	@echo "... Practica4/tp4_13a.i"
+	@echo "... Practica4/tp4_13a.s"
+	@echo "... Practica4/tp4_13b.o"
+	@echo "... Practica4/tp4_13b.i"
+	@echo "... Practica4/tp4_13b.s"
+	@echo "... Practica4/tp4_14a.o"
+	@echo "... Practica4/tp4_14a.i"
+	@echo "... Practica4/tp4_14a.s"
+	@echo "... Practica4/tp4_14b.o"
+	@echo "... Practica4/tp4_14b.i"
+	@echo "... Practica4/tp4_14b.s"
 	@echo "... Taller/Taller1.o"
 	@echo "... Taller/Taller1.i"
 	@echo "... Taller/Taller1.s"

@@ -91,7 +91,13 @@ add_executable(Prac4.10 Practica4/ej10.c)
 add_executable(Prac4.11 Practica4/ej11.c)
 add_executable(Prac4.12 Practica4/ej12.c)
 add_executable(Prac4.13 Practica4/ej13.c)
+add_executable(Prac4.13a Practica4/tp4_13a.c)
+add_executable(Prac4.13b Practica4/tp4_13b.c)
+
 add_executable(Prac4.14 Practica4/ej14.c)
+add_executable(Prac4.14a Practica4/tp4_14a.c)
+add_executable(Prac4.14b Practica4/tp4_14b.c)
+
 add_executable(Prac4.15 Practica4/ej15.c)
 add_executable(Prac4.16 Practica4/ej16.c)
 add_executable(Prac4.17 Practica4/ej17.c)

@@ -19,7 +19,7 @@ main(void)
 #define PI 3.14
 int main(void)
 {
-	float a=0;
+	float a=0
 	float b;
     b = a + PI++;
     printf("%f", a);
@@ -29,6 +29,7 @@ int main(void)
  /*
  * a=0
  * b= falla al linkeditar ya que no se puede usar 3.14++, si o si es una variable
+ * Tambien falta un ; en la linea de float a=0
  * Lo cambiaria poniendo (PI+1). Terminaria quedando b=4.14
  * */
 
