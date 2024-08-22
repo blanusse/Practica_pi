@@ -4,5 +4,6 @@
 CMakeFiles/Prac3.25.dir/Lib/getnum.c.o: ../Lib/getnum.c
 CMakeFiles/Prac3.25.dir/Lib/getnum.c.o: ../Lib/getnum.h
 
+CMakeFiles/Prac3.25.dir/Practica3/ej25.c.o: ../Lib/getnum.h
 CMakeFiles/Prac3.25.dir/Practica3/ej25.c.o: ../Practica3/ej25.c
 

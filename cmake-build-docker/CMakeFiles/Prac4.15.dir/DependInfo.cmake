@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/Practica/Practica4/ej15.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o"
+  "/tmp/Practica/Lib/getnum.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac4.15.dir/Lib/getnum.c.o"
+  "/tmp/Practica/Practica4/tp4_15a.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o"
+  "/tmp/Practica/Practica4/tp4_15b.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o"
+  "/tmp/Practica/Practica4/tp4_15main.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

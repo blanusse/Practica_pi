@@ -57,30 +57,75 @@ include CMakeFiles/Prac4.15.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Prac4.15.dir/flags.make
 
-CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o: CMakeFiles/Prac4.15.dir/flags.make
-CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o: ../Practica4/ej15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o   -c /tmp/Practica/Practica4/ej15.c
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o: CMakeFiles/Prac4.15.dir/flags.make
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o: ../Practica4/tp4_15main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o   -c /tmp/Practica/Practica4/tp4_15main.c
 
-CMakeFiles/Prac4.15.dir/Practica4/ej15.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac4.15.dir/Practica4/ej15.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica4/ej15.c > CMakeFiles/Prac4.15.dir/Practica4/ej15.c.i
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica4/tp4_15main.c > CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.i
 
-CMakeFiles/Prac4.15.dir/Practica4/ej15.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac4.15.dir/Practica4/ej15.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica4/ej15.c -o CMakeFiles/Prac4.15.dir/Practica4/ej15.c.s
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica4/tp4_15main.c -o CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.s
+
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o: CMakeFiles/Prac4.15.dir/flags.make
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o: ../Practica4/tp4_15b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o   -c /tmp/Practica/Practica4/tp4_15b.c
+
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica4/tp4_15b.c > CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.i
+
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica4/tp4_15b.c -o CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.s
+
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o: CMakeFiles/Prac4.15.dir/flags.make
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o: ../Practica4/tp4_15a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o   -c /tmp/Practica/Practica4/tp4_15a.c
+
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica4/tp4_15a.c > CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.i
+
+CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica4/tp4_15a.c -o CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.s
+
+CMakeFiles/Prac4.15.dir/Lib/getnum.c.o: CMakeFiles/Prac4.15.dir/flags.make
+CMakeFiles/Prac4.15.dir/Lib/getnum.c.o: ../Lib/getnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Prac4.15.dir/Lib/getnum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac4.15.dir/Lib/getnum.c.o   -c /tmp/Practica/Lib/getnum.c
+
+CMakeFiles/Prac4.15.dir/Lib/getnum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac4.15.dir/Lib/getnum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/getnum.c > CMakeFiles/Prac4.15.dir/Lib/getnum.c.i
+
+CMakeFiles/Prac4.15.dir/Lib/getnum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac4.15.dir/Lib/getnum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/getnum.c -o CMakeFiles/Prac4.15.dir/Lib/getnum.c.s
 
 # Object files for target Prac4.15
 Prac4_15_OBJECTS = \
-"CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o"
+"CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o" \
+"CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o" \
+"CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o" \
+"CMakeFiles/Prac4.15.dir/Lib/getnum.c.o"
 
 # External object files for target Prac4.15
 Prac4_15_EXTERNAL_OBJECTS =
 
-Prac4.15: CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o
+Prac4.15: CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o
+Prac4.15: CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o
+Prac4.15: CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o
+Prac4.15: CMakeFiles/Prac4.15.dir/Lib/getnum.c.o
 Prac4.15: CMakeFiles/Prac4.15.dir/build.make
 Prac4.15: CMakeFiles/Prac4.15.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Prac4.15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Prac4.15"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Prac4.15.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

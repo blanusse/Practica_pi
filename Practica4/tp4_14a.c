@@ -7,7 +7,7 @@ int
 main (void)
 {
 	float x, y, z;
-	x= getfloat("Ingrese un número real :");
+	x= getfloat("Ingrese un nï¿½mero real :");
 	putchar('\n');
 
 	y = f1(x);
@@ -32,3 +32,11 @@ funAuxiliar (float x)
 
 	return x;
 }
+
+/*
+ * error1: En vez de copiar las funciones del otro archivo,
+ *		   es conveniente incluirlo en el encabezado con su archivo .h
+ * error2: Le falta incluir a getnum.h para usar getfloat
+ * error3: no deja usar f2 poruqe no esta incluido el archivo que contiene la funcion, ademas de no invocarla arriba
+ * error4: Falta hacer el archivo .h del otro
+ */

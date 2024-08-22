@@ -1902,6 +1902,7 @@
 		</Build>
 		<Unit filename="/tmp/Practica/Lib/getnum.c">
 			<Option target="Taller2"/>
+			<Option target="Prac4.15"/>
 			<Option target="Prac3.13"/>
 			<Option target="Prac3.21"/>
 			<Option target="Prac3.8"/>
@@ -1912,6 +1913,7 @@
 		</Unit>
 		<Unit filename="/tmp/Practica/Lib/getnum.h">
 			<Option target="Taller2"/>
+			<Option target="Prac4.15"/>
 			<Option target="Prac3.13"/>
 			<Option target="Prac3.21"/>
 			<Option target="Prac3.8"/>
@@ -2016,9 +2018,6 @@
 		<Unit filename="/tmp/Practica/Practica4/ej14.c">
 			<Option target="Prac4.14"/>
 		</Unit>
-		<Unit filename="/tmp/Practica/Practica4/ej15.c">
-			<Option target="Prac4.15"/>
-		</Unit>
 		<Unit filename="/tmp/Practica/Practica4/ej16.c">
 			<Option target="Prac4.16"/>
 		</Unit>
@@ -2060,6 +2059,21 @@
 		</Unit>
 		<Unit filename="/tmp/Practica/Practica4/tp4_14b.c">
 			<Option target="Prac4.14b"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Practica4/tp4_15a.c">
+			<Option target="Prac4.15"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Practica4/tp4_15a.h">
+			<Option target="Prac4.15"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Practica4/tp4_15b.c">
+			<Option target="Prac4.15"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Practica4/tp4_15b.h">
+			<Option target="Prac4.15"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Practica4/tp4_15main.c">
+			<Option target="Prac4.15"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Taller/Taller1.c">
 			<Option target="Taller1"/>

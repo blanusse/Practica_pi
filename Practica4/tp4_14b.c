@@ -14,3 +14,8 @@ funAuxiliar (float x)
 
 	return x;
 }
+
+
+/* error1:Hay que declarar la funcion antes de invocarla
+ *
+ */

@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Prac4.15.dir/Practica4/ej15.c.o"
+  "CMakeFiles/Prac4.15.dir/Lib/getnum.c.o"
+  "CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o"
+  "CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o"
+  "CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o"
   "Prac4.15"
   "Prac4.15.pdb"
 )

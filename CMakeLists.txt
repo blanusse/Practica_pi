@@ -98,7 +98,9 @@ add_executable(Prac4.14 Practica4/ej14.c)
 add_executable(Prac4.14a Practica4/tp4_14a.c)
 add_executable(Prac4.14b Practica4/tp4_14b.c)
 
-add_executable(Prac4.15 Practica4/ej15.c)
+add_executable(Prac4.15 Practica4/tp4_15main.c Practica4/tp4_15b.c Practica4/tp4_15a.c Lib/getnum.c)
+
+
 add_executable(Prac4.16 Practica4/ej16.c)
 add_executable(Prac4.17 Practica4/ej17.c)
 
@@ -117,3 +119,6 @@ add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
 #for i in {1..17}; do
 #touch "ej$i.c"
 #done
+
+
+#date +"%d %m %Y"
