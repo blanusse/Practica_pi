@@ -23,6 +23,7 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 #add_executable(Prac1.16 Practica1/ej16.c)
 
 
+
 #add_executable(Prac2 Practica2/ej1.c)
 #add_executable(Prac2.2 Practica2/ej2.c)
 #add_executable(Prac2.3 Practica2/ej3.c)
@@ -63,7 +64,7 @@ add_executable(Prac3.12 Practica3/ej12.c)
 add_executable(Prac3.13 Practica3/ej13.c Lib/getnum.c)
 add_executable(Prac3.14 Practica3/ej14.c)
 add_executable(Prac3.15 Practica3/ej15.c Lib/getnum.c)
-add_executable(Prac3.16 Practica3/ej16.c)
+add_executable(Prac3.16 Practica3/ej16b.c Lib/getnum.c)
 add_executable(Prac3.17 Practica3/ej17.c)
 add_executable(Prac3.18 Practica3/ej18.c Lib/getnum.c)
 add_executable(Prac3.19 Practica3/ej19.c)
@@ -74,7 +75,6 @@ add_executable(Prac3.23 Practica3/ej23.c)
 add_executable(Prac3.24 Practica3/ej24.c)
 add_executable(Prac3.25 Practica3/ej25.c Lib/getnum.c)
 add_executable(Prac3.26 Practica3/ej26.c)
-
 
 
 
@@ -93,24 +93,21 @@ add_executable(Prac4.12 Practica4/ej12.c)
 add_executable(Prac4.13 Practica4/ej13.c)
 add_executable(Prac4.13a Practica4/tp4_13a.c)
 add_executable(Prac4.13b Practica4/tp4_13b.c)
-
 add_executable(Prac4.14 Practica4/ej14.c)
 add_executable(Prac4.14a Practica4/tp4_14a.c)
 add_executable(Prac4.14b Practica4/tp4_14b.c)
-
 add_executable(Prac4.15 Practica4/tp4_15main.c Practica4/tp4_15b.c Practica4/tp4_15a.c Lib/getnum.c)
-
-
 add_executable(Prac4.16 Practica4/ej16.c)
 add_executable(Prac4.17 Practica4/ej17.c)
 
 
 
-
+add_executable(dasd Practica3/prueba.c)
 
 
 add_executable(Taller1 Taller/Taller1.c)
 add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
+add_executable(Taller3 Taller/Taller3.c Lib/getnum.c)
 
 
 

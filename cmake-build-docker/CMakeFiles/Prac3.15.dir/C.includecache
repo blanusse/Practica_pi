@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/tmp/Practica/Lib/getnum.h
+stdarg.h
+-
+
 /tmp/Practica/Practica3/ej15.c
 stdio.h
 -
+../Lib/getnum.h
+/tmp/Practica/Lib/getnum.h
 

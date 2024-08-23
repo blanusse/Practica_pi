@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Taller2.dir/DependInfo.cmake"
+  "CMakeFiles/Taller3.dir/DependInfo.cmake"
   "CMakeFiles/Prac4.17.dir/DependInfo.cmake"
   "CMakeFiles/Prac4.15.dir/DependInfo.cmake"
   "CMakeFiles/Prac4.14a.dir/DependInfo.cmake"
@@ -67,6 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Prac3.9.dir/DependInfo.cmake"
   "CMakeFiles/Prac3.7.dir/DependInfo.cmake"
   "CMakeFiles/Prac3.4.dir/DependInfo.cmake"
+  "CMakeFiles/dasd.dir/DependInfo.cmake"
   "CMakeFiles/Prac3.10.dir/DependInfo.cmake"
   "CMakeFiles/Prac3.8.dir/DependInfo.cmake"
   "CMakeFiles/Prac3.25.dir/DependInfo.cmake"

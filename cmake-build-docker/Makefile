@@ -124,6 +124,19 @@ Taller2/fast:
 .PHONY : Taller2/fast
 
 #=============================================================================
+# Target rules for targets named Taller3
+
+# Build rule for target.
+Taller3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller3
+.PHONY : Taller3
+
+# fast build rule for target.
+Taller3/fast:
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/build
+.PHONY : Taller3/fast
+
+#=============================================================================
 # Target rules for targets named Prac4.17
 
 # Build rule for target.
@@ -408,6 +421,19 @@ Prac3.4: cmake_check_build_system
 Prac3.4/fast:
 	$(MAKE) -f CMakeFiles/Prac3.4.dir/build.make CMakeFiles/Prac3.4.dir/build
 .PHONY : Prac3.4/fast
+
+#=============================================================================
+# Target rules for targets named dasd
+
+# Build rule for target.
+dasd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dasd
+.PHONY : dasd
+
+# fast build rule for target.
+dasd/fast:
+	$(MAKE) -f CMakeFiles/dasd.dir/build.make CMakeFiles/dasd.dir/build
+.PHONY : dasd/fast
 
 #=============================================================================
 # Target rules for targets named Prac3.10
@@ -754,12 +780,14 @@ Lib/getnum.o: Lib/getnum.c.o
 # target to build an object file
 Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac4.15.dir/build.make CMakeFiles/Prac4.15.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.13.dir/build.make CMakeFiles/Prac3.13.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.21.dir/build.make CMakeFiles/Prac3.21.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.8.dir/build.make CMakeFiles/Prac3.8.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.25.dir/build.make CMakeFiles/Prac3.25.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.3.dir/build.make CMakeFiles/Prac3.3.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.15.dir/build.make CMakeFiles/Prac3.15.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac3.18.dir/build.make CMakeFiles/Prac3.18.dir/Lib/getnum.c.o
 .PHONY : Lib/getnum.c.o
@@ -771,12 +799,14 @@ Lib/getnum.i: Lib/getnum.c.i
 # target to preprocess a source file
 Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac4.15.dir/build.make CMakeFiles/Prac4.15.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.13.dir/build.make CMakeFiles/Prac3.13.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.21.dir/build.make CMakeFiles/Prac3.21.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.8.dir/build.make CMakeFiles/Prac3.8.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.25.dir/build.make CMakeFiles/Prac3.25.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.3.dir/build.make CMakeFiles/Prac3.3.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.15.dir/build.make CMakeFiles/Prac3.15.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac3.18.dir/build.make CMakeFiles/Prac3.18.dir/Lib/getnum.c.i
 .PHONY : Lib/getnum.c.i
@@ -788,12 +818,14 @@ Lib/getnum.s: Lib/getnum.c.s
 # target to generate assembly for a file
 Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac4.15.dir/build.make CMakeFiles/Prac4.15.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.13.dir/build.make CMakeFiles/Prac3.13.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.21.dir/build.make CMakeFiles/Prac3.21.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.8.dir/build.make CMakeFiles/Prac3.8.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.25.dir/build.make CMakeFiles/Prac3.25.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.3.dir/build.make CMakeFiles/Prac3.3.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.15.dir/build.make CMakeFiles/Prac3.15.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac3.18.dir/build.make CMakeFiles/Prac3.18.dir/Lib/getnum.c.s
 .PHONY : Lib/getnum.c.s
@@ -987,32 +1019,32 @@ Practica3/ej15.c.s:
 	$(MAKE) -f CMakeFiles/Prac3.15.dir/build.make CMakeFiles/Prac3.15.dir/Practica3/ej15.c.s
 .PHONY : Practica3/ej15.c.s
 
-Practica3/ej16.o: Practica3/ej16.c.o
+Practica3/ej16b.o: Practica3/ej16b.c.o
 
-.PHONY : Practica3/ej16.o
+.PHONY : Practica3/ej16b.o
 
 # target to build an object file
-Practica3/ej16.c.o:
-	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Practica3/ej16.c.o
-.PHONY : Practica3/ej16.c.o
+Practica3/ej16b.c.o:
+	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Practica3/ej16b.c.o
+.PHONY : Practica3/ej16b.c.o
 
-Practica3/ej16.i: Practica3/ej16.c.i
+Practica3/ej16b.i: Practica3/ej16b.c.i
 
-.PHONY : Practica3/ej16.i
+.PHONY : Practica3/ej16b.i
 
 # target to preprocess a source file
-Practica3/ej16.c.i:
-	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Practica3/ej16.c.i
-.PHONY : Practica3/ej16.c.i
+Practica3/ej16b.c.i:
+	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Practica3/ej16b.c.i
+.PHONY : Practica3/ej16b.c.i
 
-Practica3/ej16.s: Practica3/ej16.c.s
+Practica3/ej16b.s: Practica3/ej16b.c.s
 
-.PHONY : Practica3/ej16.s
+.PHONY : Practica3/ej16b.s
 
 # target to generate assembly for a file
-Practica3/ej16.c.s:
-	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Practica3/ej16.c.s
-.PHONY : Practica3/ej16.c.s
+Practica3/ej16b.c.s:
+	$(MAKE) -f CMakeFiles/Prac3.16.dir/build.make CMakeFiles/Prac3.16.dir/Practica3/ej16b.c.s
+.PHONY : Practica3/ej16b.c.s
 
 Practica3/ej17.o: Practica3/ej17.c.o
 
@@ -1499,6 +1531,33 @@ Practica3/ej9.s: Practica3/ej9.c.s
 Practica3/ej9.c.s:
 	$(MAKE) -f CMakeFiles/Prac3.9.dir/build.make CMakeFiles/Prac3.9.dir/Practica3/ej9.c.s
 .PHONY : Practica3/ej9.c.s
+
+Practica3/prueba.o: Practica3/prueba.c.o
+
+.PHONY : Practica3/prueba.o
+
+# target to build an object file
+Practica3/prueba.c.o:
+	$(MAKE) -f CMakeFiles/dasd.dir/build.make CMakeFiles/dasd.dir/Practica3/prueba.c.o
+.PHONY : Practica3/prueba.c.o
+
+Practica3/prueba.i: Practica3/prueba.c.i
+
+.PHONY : Practica3/prueba.i
+
+# target to preprocess a source file
+Practica3/prueba.c.i:
+	$(MAKE) -f CMakeFiles/dasd.dir/build.make CMakeFiles/dasd.dir/Practica3/prueba.c.i
+.PHONY : Practica3/prueba.c.i
+
+Practica3/prueba.s: Practica3/prueba.c.s
+
+.PHONY : Practica3/prueba.s
+
+# target to generate assembly for a file
+Practica3/prueba.c.s:
+	$(MAKE) -f CMakeFiles/dasd.dir/build.make CMakeFiles/dasd.dir/Practica3/prueba.c.s
+.PHONY : Practica3/prueba.c.s
 
 Practica4/ej1.o: Practica4/ej1.c.o
 
@@ -2175,6 +2234,33 @@ Taller/Taller2.c.s:
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Taller/Taller2.c.s
 .PHONY : Taller/Taller2.c.s
 
+Taller/Taller3.o: Taller/Taller3.c.o
+
+.PHONY : Taller/Taller3.o
+
+# target to build an object file
+Taller/Taller3.c.o:
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Taller/Taller3.c.o
+.PHONY : Taller/Taller3.c.o
+
+Taller/Taller3.i: Taller/Taller3.c.i
+
+.PHONY : Taller/Taller3.i
+
+# target to preprocess a source file
+Taller/Taller3.c.i:
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Taller/Taller3.c.i
+.PHONY : Taller/Taller3.c.i
+
+Taller/Taller3.s: Taller/Taller3.c.s
+
+.PHONY : Taller/Taller3.s
+
+# target to generate assembly for a file
+Taller/Taller3.c.s:
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Taller/Taller3.c.s
+.PHONY : Taller/Taller3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2182,6 +2268,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... Taller2"
+	@echo "... Taller3"
 	@echo "... Prac4.17"
 	@echo "... Prac4.15"
 	@echo "... Prac4.14a"
@@ -2205,6 +2292,7 @@ help:
 	@echo "... Prac3.7"
 	@echo "... Prac3.4"
 	@echo "... rebuild_cache"
+	@echo "... dasd"
 	@echo "... Prac3.10"
 	@echo "... Prac3.8"
 	@echo "... Prac3.25"
@@ -2256,9 +2344,9 @@ help:
 	@echo "... Practica3/ej15.o"
 	@echo "... Practica3/ej15.i"
 	@echo "... Practica3/ej15.s"
-	@echo "... Practica3/ej16.o"
-	@echo "... Practica3/ej16.i"
-	@echo "... Practica3/ej16.s"
+	@echo "... Practica3/ej16b.o"
+	@echo "... Practica3/ej16b.i"
+	@echo "... Practica3/ej16b.s"
 	@echo "... Practica3/ej17.o"
 	@echo "... Practica3/ej17.i"
 	@echo "... Practica3/ej17.s"
@@ -2313,6 +2401,9 @@ help:
 	@echo "... Practica3/ej9.o"
 	@echo "... Practica3/ej9.i"
 	@echo "... Practica3/ej9.s"
+	@echo "... Practica3/prueba.o"
+	@echo "... Practica3/prueba.i"
+	@echo "... Practica3/prueba.s"
 	@echo "... Practica4/ej1.o"
 	@echo "... Practica4/ej1.i"
 	@echo "... Practica4/ej1.s"
@@ -2388,6 +2479,9 @@ help:
 	@echo "... Taller/Taller2.o"
 	@echo "... Taller/Taller2.i"
 	@echo "... Taller/Taller2.s"
+	@echo "... Taller/Taller3.o"
+	@echo "... Taller/Taller3.i"
+	@echo "... Taller/Taller3.s"
 .PHONY : help
 
 

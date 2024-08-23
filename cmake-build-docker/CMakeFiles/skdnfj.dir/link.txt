@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/skdnfj.dir/Practica3/probando.c.o CMakeFiles/skdnfj.dir/Lib/getnum.c.o  -o skdnfj 
