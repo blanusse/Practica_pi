@@ -2,7 +2,7 @@
 #include <math.h>
 #include "ej8.h"
 
-#include "../Lib/getnum.h"
+#include "../../Lib/getnum.h"
 
 //PUNTO A
 double redondeo(double num, int decimales) {

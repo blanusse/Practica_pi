@@ -1,7 +1,8 @@
 #include <assert.h>
 #include <stdio.h>
 #include "ej8.h"
-#include "../Lib/getnum.h"
+#include "../../Lib/getnum.h"
+
 
 /*
 //PUNTO A//
