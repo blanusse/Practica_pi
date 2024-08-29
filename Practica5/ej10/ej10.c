@@ -19,7 +19,9 @@ int divisorComunMaximo(int a, int b) {
 }
 
 void simplificar(int a, int b) {
-    printf("%d/%d", a/divisorComunMaximo(a, b), b/divisorComunMaximo(a, b));
+    if (b==0)
+        printf("Dividiendo por cero");
+    else printf("%d/%d", a/divisorComunMaximo(a, b), b/divisorComunMaximo(a, b));
 }
 
 void sumaFracciones (int a, int b, int c, int d) {
