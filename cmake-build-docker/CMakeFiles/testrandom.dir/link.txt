@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/testrandom.dir/Practica5/randomTester.c.o CMakeFiles/testrandom.dir/Lib/random.c.o  -o testrandom 

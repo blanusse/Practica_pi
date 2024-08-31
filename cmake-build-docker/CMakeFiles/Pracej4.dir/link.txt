@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Pracej4.dir/Practica5/ej4/ej4.c.o  -o Pracej4 

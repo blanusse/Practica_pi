@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/dasd.dir/Practica3/prueba.c.o  -o dasd 
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/dasd.dir/Practica5/prueba.c.o  -o dasd 

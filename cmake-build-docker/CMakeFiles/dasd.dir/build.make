@@ -57,27 +57,27 @@ include CMakeFiles/dasd.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dasd.dir/flags.make
 
-CMakeFiles/dasd.dir/Practica3/prueba.c.o: CMakeFiles/dasd.dir/flags.make
-CMakeFiles/dasd.dir/Practica3/prueba.c.o: ../Practica3/prueba.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dasd.dir/Practica3/prueba.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasd.dir/Practica3/prueba.c.o   -c /tmp/Practica/Practica3/prueba.c
+CMakeFiles/dasd.dir/Practica5/prueba.c.o: CMakeFiles/dasd.dir/flags.make
+CMakeFiles/dasd.dir/Practica5/prueba.c.o: ../Practica5/prueba.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dasd.dir/Practica5/prueba.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dasd.dir/Practica5/prueba.c.o   -c /tmp/Practica/Practica5/prueba.c
 
-CMakeFiles/dasd.dir/Practica3/prueba.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasd.dir/Practica3/prueba.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica3/prueba.c > CMakeFiles/dasd.dir/Practica3/prueba.c.i
+CMakeFiles/dasd.dir/Practica5/prueba.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dasd.dir/Practica5/prueba.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica5/prueba.c > CMakeFiles/dasd.dir/Practica5/prueba.c.i
 
-CMakeFiles/dasd.dir/Practica3/prueba.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasd.dir/Practica3/prueba.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica3/prueba.c -o CMakeFiles/dasd.dir/Practica3/prueba.c.s
+CMakeFiles/dasd.dir/Practica5/prueba.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dasd.dir/Practica5/prueba.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica5/prueba.c -o CMakeFiles/dasd.dir/Practica5/prueba.c.s
 
 # Object files for target dasd
 dasd_OBJECTS = \
-"CMakeFiles/dasd.dir/Practica3/prueba.c.o"
+"CMakeFiles/dasd.dir/Practica5/prueba.c.o"
 
 # External object files for target dasd
 dasd_EXTERNAL_OBJECTS =
 
-dasd: CMakeFiles/dasd.dir/Practica3/prueba.c.o
+dasd: CMakeFiles/dasd.dir/Practica5/prueba.c.o
 dasd: CMakeFiles/dasd.dir/build.make
 dasd: CMakeFiles/dasd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable dasd"

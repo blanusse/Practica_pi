@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include "../../Lib/getnum.h"
-
-extern int num=0, den=0;
-
 int divisorComunMaximo(int a, int b) {
     int divisor = 1;
     for(int i=1; i <= (a<b? a : b); i++) {
@@ -20,7 +17,7 @@ void simplificar(int a, int b) {
 }
 
 int menuOpciones (void) {
-    int opcion = 0;
+    int opcion;
     do
         opcion = getint("1)Simplificar una funcion\n"
                         "2)Sumar dos fracciones\n3)Terminar la ejecucion\nElija una opcion: ");
@@ -41,10 +38,10 @@ int main() {
     int a, b, c, d;
     switch (opcion) {
         case 1:
-            num = getint("Ingrese el numerador: ");
-            den = getint("Ingrese el denominador: ");
-            simplificar(num, den);
-            printf("%d/%d", num, den);
+            int num = getint("Ingrese el numerador: ");
+            int den = getint("Ingrese el denominador: ");
+            int mcd = divisorComunMaximo(num, den);
+            printf("%d/%d", num/mcd, den/mcd);
         break;
         case 2:
             a = getint("Ingrese un numerador: ");

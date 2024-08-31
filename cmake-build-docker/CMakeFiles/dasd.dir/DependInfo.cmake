@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/Practica/Practica3/prueba.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/dasd.dir/Practica3/prueba.c.o"
+  "/tmp/Practica/Practica5/prueba.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/dasd.dir/Practica5/prueba.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

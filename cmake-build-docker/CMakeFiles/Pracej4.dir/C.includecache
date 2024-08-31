@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica5/ej4/ej4.c
+stdio.h
+-
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+

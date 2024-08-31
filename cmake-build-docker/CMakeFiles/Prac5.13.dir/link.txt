@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac5.13.dir/Practica5/ej13/ej13.c.o  -o Prac5.13 
