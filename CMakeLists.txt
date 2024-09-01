@@ -138,6 +138,7 @@ add_executable(Prac6.1 Practica6/ej1/ej1.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.2 Practica6/ej2/ej2.c Lib/getnum.c Lib/random.c)
 
 add_executable(Prac6.3 Practica6/ej3/ej3.c Lib/getnum.c Lib/random.c)
+
 add_executable(Prac6.4 Practica6/ej4/ej4.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.5 Practica6/ej5/ej5.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.6 Practica6/ej6/ej6.c Lib/getnum.c Lib/random.c)
