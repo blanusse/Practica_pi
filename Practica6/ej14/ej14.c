@@ -2,9 +2,7 @@
 #include <assert.h>
 
 
-
-
-int contiene (int a[], unsigned int dimA, int b[], unsigned int dimB) {
+int AcontainedInB (int a[], int b[], int dimA, int dimB) {
     int itIs = 1;
     for(int i=0;i<dimA && itIs == 1; i++) {
         itIs = 0;
@@ -13,18 +11,17 @@ int contiene (int a[], unsigned int dimA, int b[], unsigned int dimB) {
                 itIs = 1;
         }
     }
-    if (itIs == 1)
-        return 1;
-    itIs = 2;
-
-    for(int i=0;i<dimB && itIs == 2; i++) {
-        itIs = 0;
-        for(int k=0; k<dimA; k++) {
-            if(b[i] == a[k] && itIs == 0)
-                itIs = 2;
-        }
-    }
     return itIs;
+}
+
+int contiene (int a[], unsigned int dimA, int b[], unsigned int dimB) {
+    if(AcontainedInB(a, b, dimA, dimB)==1)
+        return 1;
+
+    if(AcontainedInB(b, a, dimB, dimA) == 1)
+        return 2;
+
+    return 0;
 
 
 }
