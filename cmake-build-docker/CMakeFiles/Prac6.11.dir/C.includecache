@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/tmp/Practica/Lib/getnum.c
-stdio.h
--
-getnum.h
-/tmp/Practica/Lib/getnum.h
-string.h
--
-
-/tmp/Practica/Lib/getnum.h
-stdarg.h
--
-
-/tmp/Practica/Lib/random.c
-stdlib.h
--
-
 /tmp/Practica/Practica6/ej11/ej11.c
 stdio.h
 -

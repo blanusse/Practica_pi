@@ -1,22 +1,29 @@
 #include <stdio.h>
 #include <assert.h>
-
 #define MAXCOL 10
+#define COLREAL n-1
 
-void ordenaMatriz (int mat[][MAXCOL], int fil, int col, int n) {
-    int contador =0;
-    while (contador != fil) {
-        for(int i = 0; i<fil; i++) {
-            for(int j=0; j<fil; j++) {
-                if(mat[i][n-1] < mat[j][n-1])
-                    mat[contador][n-1] = mat[i][n-1];
+//int aux = a;
+//a = b;
+//b = aux;
+
+void ordenaMatriz(int mat[][MAXCOL], int filas, int columnas, int n) {
+    for(int c=0; c<filas-1; c++){
+
+        for(int i = 0; i < filas-1; i++) {
+
+            if (mat[i][COLREAL] > mat[i+1][COLREAL]) {
+
+                for(int j = 0; j<columnas; j++) {
+
+                    int aux = mat[i][j];
+                    mat[i][j] = mat[i+1][j];
+                    mat[i+1][j] = aux;
+                }
             }
         }
-        contador++;
     }
 }
-
-
 
 
 int checkVector(const int v1[], const int v2[], int dim) {
@@ -26,27 +33,16 @@ int checkVector(const int v1[], const int v2[], int dim) {
     return 1;
 }
 
-int main() {
-    int v1[][] = {{1, 2, 3},
-            {7, 9, 10},
-            {4, 5, 6}};
-    ordenaMatriz(v1, 3, 3, 1);
-
-
-}
-
-
-/*
 int main(void) {
     int m[][MAXCOL] = { {1, 2, 3, 4, 5},
-              {6, 2, 8, 9, 10},
-              {3, 5, 8, 2, 1},
-              {8, 7, 3, 6, 7}};
+                        {6, 2, 8, 9, 10},
+                        {3, 5, 8, 2, 1},
+                        {8, 7, 3, 6, 7}};
 
     int m2[][MAXCOL] = { {1, 2, 3, 4, 5},
-              {6, 2, 8, 9, 10},
-              {3, 5, 8, 2, 1},
-              {8, 7, 3, 6, 7}};
+                        {6, 2, 8, 9, 10},
+                        {3, 5, 8, 2, 1},
+                        {8, 7, 3, 6, 7}};
 
     // La matriz no cambia
     ordenaMatriz(m, 4, 5, 2);
@@ -69,3 +65,22 @@ int main(void) {
     printf("OK!\n");
     return 0;
 }
+
+
+
+/*
+int main() {
+    int m[][MAXCOL] = { {1, 2, 3, 4, 5},
+                         {6, 2, 8, 9, 10},
+                         {3, 5, 8, 2, 1},
+                         {8, 7, 3, 6, 7}};
+    int filas = 4;
+    int columnas = 5;
+    ordenaMatriz(m, filas, columnas, 3);
+    for(int i = 0; i<filas; i++) {
+        for(int k = 0; k<columnas; k++)
+            printf("%d ", m[i][k]);
+        printf("\n");
+    }
+}
+*/

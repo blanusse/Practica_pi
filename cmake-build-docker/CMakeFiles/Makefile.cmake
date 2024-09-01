@@ -45,7 +45,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Taller3.dir/DependInfo.cmake"
-  "CMakeFiles/Taller2.dir/DependInfo.cmake"
   "CMakeFiles/Taller1.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.33.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.32.dir/DependInfo.cmake"
@@ -62,8 +61,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Prac6.17.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.16.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.15.dir/DependInfo.cmake"
+  "CMakeFiles/Prac6.14.dir/DependInfo.cmake"
   "CMakeFiles/Prac5.8.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.2.dir/DependInfo.cmake"
+  "CMakeFiles/Taller2.dir/DependInfo.cmake"
+  "CMakeFiles/Prac6.13b.dir/DependInfo.cmake"
   "CMakeFiles/Pracej5.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.27.dir/DependInfo.cmake"
   "CMakeFiles/Prac5.9.dir/DependInfo.cmake"
@@ -80,7 +82,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Prac5.10.dir/DependInfo.cmake"
   "CMakeFiles/Prac6.6.dir/DependInfo.cmake"
   "CMakeFiles/Prac5.1.dir/DependInfo.cmake"
-  "CMakeFiles/Prac6.14.dir/DependInfo.cmake"
   "CMakeFiles/Prac5.14.dir/DependInfo.cmake"
   "CMakeFiles/Pracej4.dir/DependInfo.cmake"
   "CMakeFiles/Prac5.15.dir/DependInfo.cmake"
