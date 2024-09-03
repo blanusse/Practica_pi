@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /tmp/Practica/cmake-build-docker
 
 # The main recursive "all" target.
 all: CMakeFiles/Taller3.dir/all
+all: CMakeFiles/Taller2.dir/all
 all: CMakeFiles/Taller1.dir/all
 all: CMakeFiles/Prac6.33.dir/all
 all: CMakeFiles/Prac6.32.dir/all
@@ -70,11 +71,8 @@ all: CMakeFiles/Prac6.18.dir/all
 all: CMakeFiles/Prac6.17.dir/all
 all: CMakeFiles/Prac6.16.dir/all
 all: CMakeFiles/Prac6.15.dir/all
-all: CMakeFiles/Prac6.14.dir/all
 all: CMakeFiles/Prac5.8.dir/all
 all: CMakeFiles/Prac6.2.dir/all
-all: CMakeFiles/Taller2.dir/all
-all: CMakeFiles/Prac6.13b.dir/all
 all: CMakeFiles/Pracej5.dir/all
 all: CMakeFiles/Prac6.27.dir/all
 all: CMakeFiles/Prac5.9.dir/all
@@ -91,6 +89,7 @@ all: CMakeFiles/Prac6.13.dir/all
 all: CMakeFiles/Prac5.10.dir/all
 all: CMakeFiles/Prac6.6.dir/all
 all: CMakeFiles/Prac5.1.dir/all
+all: CMakeFiles/Prac6.14.dir/all
 all: CMakeFiles/Prac5.14.dir/all
 all: CMakeFiles/Pracej4.dir/all
 all: CMakeFiles/Prac5.15.dir/all
@@ -99,6 +98,7 @@ all: CMakeFiles/Prac6.22.dir/all
 all: CMakeFiles/Prac5.13.dir/all
 all: CMakeFiles/Prac6.1.dir/all
 all: CMakeFiles/Prac6.4.dir/all
+all: CMakeFiles/claseTeorica.dir/all
 all: CMakeFiles/Prac6.5.dir/all
 all: CMakeFiles/Prac6.34.dir/all
 all: CMakeFiles/Prac6.10.dir/all
@@ -119,6 +119,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Taller3.dir/clean
+clean: CMakeFiles/Taller2.dir/clean
 clean: CMakeFiles/Taller1.dir/clean
 clean: CMakeFiles/Prac6.33.dir/clean
 clean: CMakeFiles/Prac6.32.dir/clean
@@ -135,11 +136,8 @@ clean: CMakeFiles/Prac6.18.dir/clean
 clean: CMakeFiles/Prac6.17.dir/clean
 clean: CMakeFiles/Prac6.16.dir/clean
 clean: CMakeFiles/Prac6.15.dir/clean
-clean: CMakeFiles/Prac6.14.dir/clean
 clean: CMakeFiles/Prac5.8.dir/clean
 clean: CMakeFiles/Prac6.2.dir/clean
-clean: CMakeFiles/Taller2.dir/clean
-clean: CMakeFiles/Prac6.13b.dir/clean
 clean: CMakeFiles/Pracej5.dir/clean
 clean: CMakeFiles/Prac6.27.dir/clean
 clean: CMakeFiles/Prac5.9.dir/clean
@@ -156,6 +154,7 @@ clean: CMakeFiles/Prac6.13.dir/clean
 clean: CMakeFiles/Prac5.10.dir/clean
 clean: CMakeFiles/Prac6.6.dir/clean
 clean: CMakeFiles/Prac5.1.dir/clean
+clean: CMakeFiles/Prac6.14.dir/clean
 clean: CMakeFiles/Prac5.14.dir/clean
 clean: CMakeFiles/Pracej4.dir/clean
 clean: CMakeFiles/Prac5.15.dir/clean
@@ -164,6 +163,7 @@ clean: CMakeFiles/Prac6.22.dir/clean
 clean: CMakeFiles/Prac5.13.dir/clean
 clean: CMakeFiles/Prac6.1.dir/clean
 clean: CMakeFiles/Prac6.4.dir/clean
+clean: CMakeFiles/claseTeorica.dir/clean
 clean: CMakeFiles/Prac6.5.dir/clean
 clean: CMakeFiles/Prac6.34.dir/clean
 clean: CMakeFiles/Prac6.10.dir/clean
@@ -184,7 +184,7 @@ clean: CMakeFiles/Prac6.12.dir/clean
 CMakeFiles/Taller3.dir/all:
 	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/depend
 	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=95,96 "Built target Taller3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=93,94 "Built target Taller3"
 .PHONY : CMakeFiles/Taller3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,13 +205,40 @@ CMakeFiles/Taller3.dir/clean:
 .PHONY : CMakeFiles/Taller3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Taller2.dir
+
+# All Build rule for target.
+CMakeFiles/Taller2.dir/all:
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/depend
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=92 "Built target Taller2"
+.PHONY : CMakeFiles/Taller2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Taller2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Taller2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
+.PHONY : CMakeFiles/Taller2.dir/rule
+
+# Convenience name for target.
+Taller2: CMakeFiles/Taller2.dir/rule
+
+.PHONY : Taller2
+
+# clean rule for target.
+CMakeFiles/Taller2.dir/clean:
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/clean
+.PHONY : CMakeFiles/Taller2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Taller1.dir
 
 # All Build rule for target.
 CMakeFiles/Taller1.dir/all:
 	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/depend
 	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=93 "Built target Taller1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=91 "Built target Taller1"
 .PHONY : CMakeFiles/Taller1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +265,7 @@ CMakeFiles/Taller1.dir/clean:
 CMakeFiles/Prac6.33.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=73,74 "Built target Prac6.33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=71,72 "Built target Prac6.33"
 .PHONY : CMakeFiles/Prac6.33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -265,7 +292,7 @@ CMakeFiles/Prac6.33.dir/clean:
 CMakeFiles/Prac6.32.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=71,72 "Built target Prac6.32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=69,70 "Built target Prac6.32"
 .PHONY : CMakeFiles/Prac6.32.dir/all
 
 # Build rule for subdir invocation for target.
@@ -292,7 +319,7 @@ CMakeFiles/Prac6.32.dir/clean:
 CMakeFiles/Prac6.31.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=69,70 "Built target Prac6.31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=67,68 "Built target Prac6.31"
 .PHONY : CMakeFiles/Prac6.31.dir/all
 
 # Build rule for subdir invocation for target.
@@ -319,7 +346,7 @@ CMakeFiles/Prac6.31.dir/clean:
 CMakeFiles/Prac6.30.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=67,68 "Built target Prac6.30"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=65,66 "Built target Prac6.30"
 .PHONY : CMakeFiles/Prac6.30.dir/all
 
 # Build rule for subdir invocation for target.
@@ -373,7 +400,7 @@ CMakeFiles/Lib.dir/clean:
 CMakeFiles/Prac6.29.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=63,64 "Built target Prac6.29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=61,62 "Built target Prac6.29"
 .PHONY : CMakeFiles/Prac6.29.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,7 +427,7 @@ CMakeFiles/Prac6.29.dir/clean:
 CMakeFiles/Prac6.28.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=61,62 "Built target Prac6.28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=59,60 "Built target Prac6.28"
 .PHONY : CMakeFiles/Prac6.28.dir/all
 
 # Build rule for subdir invocation for target.
@@ -427,7 +454,7 @@ CMakeFiles/Prac6.28.dir/clean:
 CMakeFiles/Prac6.25.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=54,55 "Built target Prac6.25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=52,53 "Built target Prac6.25"
 .PHONY : CMakeFiles/Prac6.25.dir/all
 
 # Build rule for subdir invocation for target.
@@ -454,7 +481,7 @@ CMakeFiles/Prac6.25.dir/clean:
 CMakeFiles/Prac6.24.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=52,53 "Built target Prac6.24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=50,51 "Built target Prac6.24"
 .PHONY : CMakeFiles/Prac6.24.dir/all
 
 # Build rule for subdir invocation for target.
@@ -481,12 +508,12 @@ CMakeFiles/Prac6.24.dir/clean:
 CMakeFiles/Prac6.26.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=56,57,58 "Built target Prac6.26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=54,55 "Built target Prac6.26"
 .PHONY : CMakeFiles/Prac6.26.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Prac6.26.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.26.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
 .PHONY : CMakeFiles/Prac6.26.dir/rule
@@ -508,7 +535,7 @@ CMakeFiles/Prac6.26.dir/clean:
 CMakeFiles/Prac6.21.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=46,47 "Built target Prac6.21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=44,45 "Built target Prac6.21"
 .PHONY : CMakeFiles/Prac6.21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -535,7 +562,7 @@ CMakeFiles/Prac6.21.dir/clean:
 CMakeFiles/Prac6.18.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=38,39 "Built target Prac6.18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=36,37 "Built target Prac6.18"
 .PHONY : CMakeFiles/Prac6.18.dir/all
 
 # Build rule for subdir invocation for target.
@@ -562,7 +589,7 @@ CMakeFiles/Prac6.18.dir/clean:
 CMakeFiles/Prac6.17.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=36,37 "Built target Prac6.17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=34,35 "Built target Prac6.17"
 .PHONY : CMakeFiles/Prac6.17.dir/all
 
 # Build rule for subdir invocation for target.
@@ -589,7 +616,7 @@ CMakeFiles/Prac6.17.dir/clean:
 CMakeFiles/Prac6.16.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=34,35 "Built target Prac6.16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=32,33 "Built target Prac6.16"
 .PHONY : CMakeFiles/Prac6.16.dir/all
 
 # Build rule for subdir invocation for target.
@@ -616,7 +643,7 @@ CMakeFiles/Prac6.16.dir/clean:
 CMakeFiles/Prac6.15.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=32,33 "Built target Prac6.15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=30,31 "Built target Prac6.15"
 .PHONY : CMakeFiles/Prac6.15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -635,33 +662,6 @@ Prac6.15: CMakeFiles/Prac6.15.dir/rule
 CMakeFiles/Prac6.15.dir/clean:
 	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/clean
 .PHONY : CMakeFiles/Prac6.15.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Prac6.14.dir
-
-# All Build rule for target.
-CMakeFiles/Prac6.14.dir/all:
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/depend
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=30,31 "Built target Prac6.14"
-.PHONY : CMakeFiles/Prac6.14.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Prac6.14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.14.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
-.PHONY : CMakeFiles/Prac6.14.dir/rule
-
-# Convenience name for target.
-Prac6.14: CMakeFiles/Prac6.14.dir/rule
-
-.PHONY : Prac6.14
-
-# clean rule for target.
-CMakeFiles/Prac6.14.dir/clean:
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/clean
-.PHONY : CMakeFiles/Prac6.14.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Prac5.8.dir
@@ -697,7 +697,7 @@ CMakeFiles/Prac5.8.dir/clean:
 CMakeFiles/Prac6.2.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=42,43 "Built target Prac6.2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=40,41 "Built target Prac6.2"
 .PHONY : CMakeFiles/Prac6.2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -718,67 +718,13 @@ CMakeFiles/Prac6.2.dir/clean:
 .PHONY : CMakeFiles/Prac6.2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Taller2.dir
-
-# All Build rule for target.
-CMakeFiles/Taller2.dir/all:
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/depend
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=94 "Built target Taller2"
-.PHONY : CMakeFiles/Taller2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Taller2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Taller2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
-.PHONY : CMakeFiles/Taller2.dir/rule
-
-# Convenience name for target.
-Taller2: CMakeFiles/Taller2.dir/rule
-
-.PHONY : Taller2
-
-# clean rule for target.
-CMakeFiles/Taller2.dir/clean:
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/clean
-.PHONY : CMakeFiles/Taller2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Prac6.13b.dir
-
-# All Build rule for target.
-CMakeFiles/Prac6.13b.dir/all:
-	$(MAKE) -f CMakeFiles/Prac6.13b.dir/build.make CMakeFiles/Prac6.13b.dir/depend
-	$(MAKE) -f CMakeFiles/Prac6.13b.dir/build.make CMakeFiles/Prac6.13b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=27,28,29 "Built target Prac6.13b"
-.PHONY : CMakeFiles/Prac6.13b.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Prac6.13b.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.13b.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
-.PHONY : CMakeFiles/Prac6.13b.dir/rule
-
-# Convenience name for target.
-Prac6.13b: CMakeFiles/Prac6.13b.dir/rule
-
-.PHONY : Prac6.13b
-
-# clean rule for target.
-CMakeFiles/Prac6.13b.dir/clean:
-	$(MAKE) -f CMakeFiles/Prac6.13b.dir/build.make CMakeFiles/Prac6.13b.dir/clean
-.PHONY : CMakeFiles/Prac6.13b.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Pracej5.dir
 
 # All Build rule for target.
 CMakeFiles/Pracej5.dir/all:
 	$(MAKE) -f CMakeFiles/Pracej5.dir/build.make CMakeFiles/Pracej5.dir/depend
 	$(MAKE) -f CMakeFiles/Pracej5.dir/build.make CMakeFiles/Pracej5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=92 "Built target Pracej5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=90 "Built target Pracej5"
 .PHONY : CMakeFiles/Pracej5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -805,12 +751,12 @@ CMakeFiles/Pracej5.dir/clean:
 CMakeFiles/Prac6.27.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=59,60 "Built target Prac6.27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=56,57,58 "Built target Prac6.27"
 .PHONY : CMakeFiles/Prac6.27.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Prac6.27.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.27.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
 .PHONY : CMakeFiles/Prac6.27.dir/rule
@@ -859,12 +805,12 @@ CMakeFiles/Prac5.9.dir/clean:
 CMakeFiles/Prac6.9.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=88,89 "Built target Prac6.9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=85,86,87 "Built target Prac6.9"
 .PHONY : CMakeFiles/Prac6.9.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Prac6.9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.9.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
 .PHONY : CMakeFiles/Prac6.9.dir/rule
@@ -940,7 +886,7 @@ CMakeFiles/testrandom.dir/clean:
 CMakeFiles/Pracej3.dir/all:
 	$(MAKE) -f CMakeFiles/Pracej3.dir/build.make CMakeFiles/Pracej3.dir/depend
 	$(MAKE) -f CMakeFiles/Pracej3.dir/build.make CMakeFiles/Pracej3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=90 "Built target Pracej3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=88 "Built target Pracej3"
 .PHONY : CMakeFiles/Pracej3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -967,7 +913,7 @@ CMakeFiles/Pracej3.dir/clean:
 CMakeFiles/Prac6.20.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=44,45 "Built target Prac6.20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=42,43 "Built target Prac6.20"
 .PHONY : CMakeFiles/Prac6.20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -994,7 +940,7 @@ CMakeFiles/Prac6.20.dir/clean:
 CMakeFiles/Prac6.7.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=83,84 "Built target Prac6.7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=81,82 "Built target Prac6.7"
 .PHONY : CMakeFiles/Prac6.7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1048,7 +994,7 @@ CMakeFiles/Prac5.11.dir/clean:
 CMakeFiles/Prac6.23.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=50,51 "Built target Prac6.23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=48,49 "Built target Prac6.23"
 .PHONY : CMakeFiles/Prac6.23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1156,7 +1102,7 @@ CMakeFiles/Prac5.10.dir/clean:
 CMakeFiles/Prac6.6.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=81,82 "Built target Prac6.6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=79,80 "Built target Prac6.6"
 .PHONY : CMakeFiles/Prac6.6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1204,6 +1150,33 @@ CMakeFiles/Prac5.1.dir/clean:
 .PHONY : CMakeFiles/Prac5.1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Prac6.14.dir
+
+# All Build rule for target.
+CMakeFiles/Prac6.14.dir/all:
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/depend
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=27,28,29 "Built target Prac6.14"
+.PHONY : CMakeFiles/Prac6.14.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Prac6.14.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.14.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
+.PHONY : CMakeFiles/Prac6.14.dir/rule
+
+# Convenience name for target.
+Prac6.14: CMakeFiles/Prac6.14.dir/rule
+
+.PHONY : Prac6.14
+
+# clean rule for target.
+CMakeFiles/Prac6.14.dir/clean:
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/clean
+.PHONY : CMakeFiles/Prac6.14.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Prac5.14.dir
 
 # All Build rule for target.
@@ -1237,7 +1210,7 @@ CMakeFiles/Prac5.14.dir/clean:
 CMakeFiles/Pracej4.dir/all:
 	$(MAKE) -f CMakeFiles/Pracej4.dir/build.make CMakeFiles/Pracej4.dir/depend
 	$(MAKE) -f CMakeFiles/Pracej4.dir/build.make CMakeFiles/Pracej4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=91 "Built target Pracej4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=89 "Built target Pracej4"
 .PHONY : CMakeFiles/Pracej4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1291,7 +1264,7 @@ CMakeFiles/Prac5.15.dir/clean:
 CMakeFiles/Prac6.3.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=65,66 "Built target Prac6.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=63,64 "Built target Prac6.3"
 .PHONY : CMakeFiles/Prac6.3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1318,7 +1291,7 @@ CMakeFiles/Prac6.3.dir/clean:
 CMakeFiles/Prac6.22.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=48,49 "Built target Prac6.22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=46,47 "Built target Prac6.22"
 .PHONY : CMakeFiles/Prac6.22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1399,7 +1372,7 @@ CMakeFiles/Prac6.1.dir/clean:
 CMakeFiles/Prac6.4.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=77,78 "Built target Prac6.4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=75,76 "Built target Prac6.4"
 .PHONY : CMakeFiles/Prac6.4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1420,13 +1393,40 @@ CMakeFiles/Prac6.4.dir/clean:
 .PHONY : CMakeFiles/Prac6.4.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/claseTeorica.dir
+
+# All Build rule for target.
+CMakeFiles/claseTeorica.dir/all:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/depend
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=97,98 "Built target claseTeorica"
+.PHONY : CMakeFiles/claseTeorica.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/claseTeorica.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/claseTeorica.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
+.PHONY : CMakeFiles/claseTeorica.dir/rule
+
+# Convenience name for target.
+claseTeorica: CMakeFiles/claseTeorica.dir/rule
+
+.PHONY : claseTeorica
+
+# clean rule for target.
+CMakeFiles/claseTeorica.dir/clean:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/clean
+.PHONY : CMakeFiles/claseTeorica.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Prac6.5.dir
 
 # All Build rule for target.
 CMakeFiles/Prac6.5.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=79,80 "Built target Prac6.5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=77,78 "Built target Prac6.5"
 .PHONY : CMakeFiles/Prac6.5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1453,7 +1453,7 @@ CMakeFiles/Prac6.5.dir/clean:
 CMakeFiles/Prac6.34.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=75,76 "Built target Prac6.34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=73,74 "Built target Prac6.34"
 .PHONY : CMakeFiles/Prac6.34.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1507,12 +1507,12 @@ CMakeFiles/Prac6.10.dir/clean:
 CMakeFiles/Prac6.8.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=85,86,87 "Built target Prac6.8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=83,84 "Built target Prac6.8"
 .PHONY : CMakeFiles/Prac6.8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Prac6.8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prac6.8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Practica/cmake-build-docker/CMakeFiles 0
 .PHONY : CMakeFiles/Prac6.8.dir/rule
@@ -1534,7 +1534,7 @@ CMakeFiles/Prac6.8.dir/clean:
 CMakeFiles/Taller4.dir/all:
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/depend
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=97,98 "Built target Taller4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=95,96 "Built target Taller4"
 .PHONY : CMakeFiles/Taller4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1561,7 +1561,7 @@ CMakeFiles/Taller4.dir/clean:
 CMakeFiles/Prac6.19.dir/all:
 	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/depend
 	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=40,41 "Built target Prac6.19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=38,39 "Built target Prac6.19"
 .PHONY : CMakeFiles/Prac6.19.dir/all
 
 # Build rule for subdir invocation for target.

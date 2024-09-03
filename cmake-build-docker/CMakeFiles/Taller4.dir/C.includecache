@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/tmp/Practica/Lib/getnum.h
+stdarg.h
+-
+
 /tmp/Practica/Lib/random.h
 stdlib.h
 -
@@ -17,6 +21,8 @@ stdio.h
 -
 ../Lib/random.h
 /tmp/Practica/Lib/random.h
+../Lib/getnum.h
+/tmp/Practica/Lib/getnum.h
 assert.h
 -
 

@@ -149,7 +149,6 @@ add_executable(Prac6.10 Practica6/ej10/ej10.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.11 Practica6/ej11/ej11.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.12 Practica6/ej12/ej12.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.13 Practica6/ej13/ej13.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.13b Practica6/ej13/ej13GPT.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.14 Practica6/ej14/ej14.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.15 Practica6/ej15/ej15.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.16 Practica6/ej16/ej16.c Lib/getnum.c Lib/random.c)
@@ -184,6 +183,7 @@ add_executable(Taller1 Taller/Taller1.c)
 add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
 add_executable(Taller3 Taller/Taller3.c Lib/getnum.c)
 add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
+add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 

@@ -9,4 +9,6 @@
 /tmp/Practica/Practica6/ej13/ej13.c
 stdio.h
 -
+assert.h
+-
 

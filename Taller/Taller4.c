@@ -1,7 +1,15 @@
 #include <stdio.h>
 #include "../Lib/random.h"
+#include "../Lib/getnum.h"
 #include <assert.h>
 
+#define DIM 10
+
+
+
+
+//-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+//EJ1 TALLER 4
 
 /*
 int lecturaCarac (int letra, int limite) {
@@ -24,6 +32,8 @@ int main() {
 }
 
 */
+//-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+//EJERCICIO 2 TALLER 4
 /*
 void shuffle(int a[], int dim) {
     randomize()
@@ -56,7 +66,9 @@ int main() {
         printf("%d", a[i]);
 }
 */
-
+//-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+//EJERCICIO 3 TALLER 4
+/*
 int whereIs(int a[], int dim, int num, int b[]) {
     int c=0;
     for(int i = 0; i<dim; i++) {
@@ -127,3 +139,44 @@ main(void) {
     return 0;
 }
 */
+//-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+
+//EJERCICIO 4 TALLER 4
+int interseccion (const int a[], int dimA,const int b[], int dimB, int r[]) {
+    int c=0;
+    for(int i=0; i<dimA; i++)
+
+        for(int k=0; k<dimB; k++) {
+
+            if(a[i] == b[k]) {
+                r[c] = a[i];
+                c++;
+            }
+        }
+    return c;
+}
+int
+main(void) {
+    // Prueba para interseccion de desordenados
+    int a[] = {7,9,3,5,15};
+    int b[] = {5,6,7,9,8};
+    int ayb[5];
+    int aybDim = interseccion(a, 5, b, 5, ayb);
+    assert(aybDim == 3);
+    for(int i = 0; i < aybDim; i++) { // Debería obtenerse 5, 7 y 9 en cualquier orden
+        printf("%d ", ayb[i]);
+    }
+
+    //    // Prueba para interseccion de ordenados (y también desordenados)
+        int c[] = {3,5,7,9,15};
+        int d[] = {5,6,7,8,9};
+        int cyd[5];
+        int cybDim = interseccion(c, 5, d, 5, cyd);
+        assert(cybDim == 3);
+        assert(cyd[0] == 5);
+        assert(cyd[1] == 7);
+        assert(cyd[2] == 9);
+
+    printf("\nOK!");
+    return 0;
+}
