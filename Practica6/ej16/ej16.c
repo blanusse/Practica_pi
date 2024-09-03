@@ -5,44 +5,45 @@
 
 
 
-void matrizAvector (const int a[FILAS][COLS], int r[FILAS*COLS]) {
-    int c=0;
+int ascendenteODescendente(const int a[FILAS][COLS]) {
+    int isHigher = 0, isLower = 0;
     for(int i=0; i<FILAS; i++) {
-        for(int k = 0; k<COLS; k++) {
-            r[c] = a[i][k];
-            c++;
+        for(int k = 0; k < COLS && (isHigher != 1 || isLower != 1) && (k != COLS-1 || i != FILAS-1); k++) {
+            if(k <= COLS-2) {
+                if (a[i][k] < a[i][k+1])
+                    isHigher = 1;
+                else if (a[i][k] > a[i][k+1])
+                    isLower = 1;
+            }
+            else {
+                if (a[i][k] < a[i+1][0])
+                    isHigher = 1;
+                else if (a[i][k] > a[i+1][0])
+                    isLower = 1;
+            }
         }
     }
+    if (isHigher == 0 && isLower == 0)
+        return 1;
+    if ( isHigher == 1 && isLower == 0)
+        return 1;
+    if (isHigher == 0)
+        return -1;
+    return 0;
 }
 
-int esAscendente(int a[], int dim) {
-    int returnValue=1;
-    for(int i=0; i<dim-1 && returnValue != 0; i++) {
-        if (a[i] > a[i+1])
-            returnValue = 0;
-    }
-    return returnValue;
-}
-int esDescendente(int a[], int dim) {
-    int returnValue=1;
-    for(int i=0; i<dim-1 && returnValue != 0; i++) {
-        if (a[i] < a[i+1])
-            returnValue = 0;
-    }
-    return returnValue;
-}
 
-int ascendenteODescendente (const int a[FILAS][COLS]) {
-    int returnValue = 0;
-    int aux[FILAS*COLS];
-    matrizAvector(a, aux);
-    if (esAscendente(aux, FILAS*COLS))
-        returnValue = 1;
-    else if (esDescendente(aux, FILAS*COLS))
-        returnValue = -1;
-    return returnValue;
-
+/*
+int main() {
+    int m4[][COLS] = {
+        {1,2,3,4},
+        {5,6,7,8},
+        {9,10,11,10}
+    };
+    printf("%d", ascendenteODescendente(m4));
 }
+*/
+
 
 
 int main(void){

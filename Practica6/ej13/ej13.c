@@ -13,10 +13,9 @@ int prodVectores (int dim, int a[], int b[]) {
 void productoMat (int dim, int a[][dim], int b[][dim], int r[][dim]) {
     for(int i=0; i<dim; i++) {
         for(int j=0; j<dim; j++) {
-            int aux[dim], c=0;
+            int aux[dim];
             for(int k=0; k<dim;k++) {
-                aux[c] = b[k][j];
-                c++;
+                aux[k] = b[k][j];
             }
             r[i][j] = prodVectores(dim, a[i], aux);
         }
