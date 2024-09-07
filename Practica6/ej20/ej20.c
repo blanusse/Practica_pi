@@ -2,57 +2,69 @@
 #include <assert.h>
 
 #define DIM     9
-#define DIMBLOQUE   3
+#define DIMBLOCK   3
+#define validNum(a)     ((a) > 0 && (a) < 10)
 
-int seRepiteVector (int r[]) {
-    int repetido = 0;
-    for(int i = 0; i<DIM && repetido == 0; i++)
-        for (int k = 1+i; k<DIM && repetido == 0; k++) {
-            if (r[i] == r[k])
-                repetido = 1;
+
+int blockCheck (int a[][DIM] ,int dirX, int dirY) {
+    int repeat = 0;
+    int aux[DIM] = {0};
+    for(int i=0; i<DIMBLOCK && repeat == 0; i++) {
+        for(int k=0; k<DIMBLOCK && repeat == 0 && validNum(a[i][k]); k++) {
+            int num = a[dirX+i][dirY+k]-1;
+            if (aux[num] == 1 || !validNum(a[i][k]))
+                repeat = 1;
+            aux[num] = 1;
         }
-    return repetido;
-}
-
-void columna (int a[DIM][DIM], int r[DIM], int columnaN) {
-    for(int i=0; i<DIM; i++) {
-        r[i] = a[i][columnaN];
     }
+    return repeat;
 }
 
 int sudokuSolver(int a[][DIM]) {
+    //Me fijo si se repite en las filas
     int error = 0;
     for(int i=0; i<DIM && error == 0; i++) {
-        if (seRepiteVector(a[i])) {
-            error = 1;
-        }
         int aux[DIM] = {0};
-        for(int k = 0 ;k<DIM; k++) {
-            aux[k] = a[k][i];
-            if (a[k][i] >9 || a[k][i] < 1)
+        for(int k=0; k<DIM && error == 0; k++) {
+            if (!validNum(a[i][k]))
                 error = 1;
+            else {
+                int num = a[i][k]-1;
+                if(aux[num] == 1)
+                    error = 1;
+                aux[num] = 1;
+            }
         }
-        if (seRepiteVector(aux))
+    }
+    //Me fijo si se repite en las columnas
+    for(int i = 0; i<DIM && error == 0; i++) {
+        int aux[DIM]= {0};
+        for(int k=0; k<DIM && error == 0; k++) {
+            int num = a[k][i]-1;
+            if(aux[num] == 1)
+                error = 1;
+            aux[num] = 1;
+
+        }
+    }
+    //Me fijo si se repite en el bloque
+    int matDir[DIM][2] = {{0, 0},
+                            {3, 0},
+                            {6, 0},
+                            {0, 3},
+                            {3, 3},
+                            {6, 3},
+                            {0, 6},
+                            {3, 6},
+                            {6, 6}};
+    for(int i = 0; i<DIM && error == 0; i++) {
+        if(blockCheck(a, matDir[i][0], matDir[i][1]))
             error = 1;
     }
-    for(int j = 0; j<DIM && error == 0; j +=3) {
-        for(int h = 0; h<DIM && error == 0; h += 3) {
-            int aux[DIM], c = 0;
-            for(int t = 0+h; t < DIMBLOQUE + h; t++) {
-                for(int m = 0+j; m < DIMBLOQUE + j; m++) {
-                    aux[c] = a[t][m];
-                    c++;
-                }
-            }
-            if (seRepiteVector(aux))
-                error = 1;
-        }
-    }
-
-
 
     return !error;
 }
+
 
 
 
@@ -125,26 +137,3 @@ int main(void) {
 }
 
 
-/*
-
-int main() {
-
-    //int r[] = {0, 1, 3, 4, 5, 6, 7, 9, 9};
-    //printf("%d", seRepiteVector(r));
-    int sudoku2[DIM][DIM] = {
-        {3,8,1,9,7,6,5,4,2},
-        {2,4,7,5,3,8,1,9,6},
-        {5,6,9,2,1,4,8,7,3},
-        {6,7,4,8,5,2,3,1,9},
-        {1,3,5,7,4,9,6,2,8},
-        {9,2,8,1,6,3,7,5,4},
-        {4,1,2,6,8,5,9,3,7},
-        {7,9,6,3,2,1,4,8,5},
-        {8,5,3,4,9,7,2,6,1}
-    };
-
-    int r[DIM];
-    //columna(sudoku2, r, 2);
-    printf("%d", sudokuSolver(sudoku2));
-}
-*/

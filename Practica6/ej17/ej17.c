@@ -3,15 +3,15 @@
 #include <stdio.h>
 #define M   5
 #define N   4
-
-int armaFilas(int a[][M], int r[N]) {
+#define LIMIT 10
+int armaFilas(int a[][M], int r[]) {
     int c=0;
     for(int i=0; i<N; i++) {
         int flag=0;
         r[c] = 0;
         for(int k=0; k<M && flag==0; k++) {
-            if ( a[i][k] < 10 && a[i][k] >= 0) {
-                r[c] += (pow(10, M-1-k) * a[i][k]);
+            if ( a[i][k] < LIMIT && a[i][k] >= 0) {
+                r[c] += (pow(LIMIT, M-1-k) * a[i][k]);
             }
             else {
                 r[c] = 0;
@@ -23,6 +23,9 @@ int armaFilas(int a[][M], int r[N]) {
     }
     return c;
 }
+
+
+
 
 /*
 int main() {

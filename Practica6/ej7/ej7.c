@@ -34,15 +34,7 @@ void unirArreglos (int a[], int b[], int r[]) {
 
 }
 
-int main() {
-    int v1[] = {1, 2, 9, -1};
-    int v2[] = {3, 4, -1};
-    int r[8] = {0};
-    unirArreglos(v1, v2, r);
-    for(int i =0; r[i] != END; i++)
-        printf("%d", r[i]);
-}
-/*
+
 
 void check(const int v1[], const int v2[]) {
     int i;
@@ -51,7 +43,7 @@ void check(const int v1[], const int v2[]) {
     assert(v1[i]==-1);
     assert(v2[i]==-1);
 }
-/*
+
 int main(void) {
     int v1[] = { 1, 5, 15, 30, 35, 45, 55, -1};
     int v2[] = {-1};
@@ -78,4 +70,4 @@ int main(void) {
 
     printf("OK!\n");
     return 0;
-}*/
+}

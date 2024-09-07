@@ -183,6 +183,7 @@ add_executable(Taller1 Taller/Taller1.c)
 add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
 add_executable(Taller3 Taller/Taller3.c Lib/getnum.c)
 add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
+add_executable(Taller5 Taller/Taller5.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------

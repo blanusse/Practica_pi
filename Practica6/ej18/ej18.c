@@ -3,7 +3,7 @@
 #define COLS 4
 
 int vectorAmigo (const int a[], const int b[]) {
-    int contador1=0, contador2=0;
+    int acum=0;
     for( int i=0; i< COLS; i++) {
         int itIs = 0;
         for(int k =0; k<COLS && itIs == 0; k++) {
@@ -11,10 +11,10 @@ int vectorAmigo (const int a[], const int b[]) {
                 itIs = 1;
         }
         if (itIs == 1)
-            contador1++;
+            acum++;
     }
-
-    if(contador1 == COLS)
+    //return acum/COLS;
+    if(acum == COLS)
         return 1;
     return 0;
 }
@@ -63,7 +63,7 @@ main(void)
     int res = sonAmigas(m1,3,m1,3);
     assert(res==1 || res==2);
 
-    printf("OK !\n");
+    printf("OK!\n");
 
     return 0;
 }

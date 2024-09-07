@@ -143,17 +143,33 @@ main(void) {
 
 //EJERCICIO 4 TALLER 4
 int interseccion (const int a[], int dimA,const int b[], int dimB, int r[]) {
-    int c=0;
-    for(int i=0; i<dimA; i++)
-
-        for(int k=0; k<dimB; k++) {
-
-            if(a[i] == b[k]) {
-                r[c] = a[i];
-                c++;
-            }
+    //int c=0;
+    //for(int i=0; i<dimA; i++) {
+    //    int encontrado=0;
+    //    for(int k=0; k<dimB && encontrado == 0; k++) {
+    //        if(a[i] == b[k]) {
+    //            encontrado = 1;
+    //            r[c] = a[i];
+    //            c++;
+    //        }
+    //    }
+    //}
+    //return c;
+    int i = 0, j = 0, k=0;
+    while (i < dimA && j < dimB) {
+        if (a[i] > b[j]) {
+            j++;
         }
-    return c;
+        else if (a[i] < b[j])
+            i++;
+        else {
+            r[k] = a[i];
+            k++;
+            i++;
+            j++;
+        }
+    }
+    return k;
 }
 int
 main(void) {

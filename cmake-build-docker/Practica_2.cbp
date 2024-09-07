@@ -27,6 +27,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Taller5">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller5/fast">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Taller3">
 				<Option output="/tmp/Practica/cmake-build-docker/Taller3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
@@ -2167,6 +2205,7 @@
 			</Target>
 		</Build>
 		<Unit filename="/tmp/Practica/Lib/getnum.c">
+			<Option target="Taller5"/>
 			<Option target="Taller3"/>
 			<Option target="Taller2"/>
 			<Option target="Prac6.33"/>
@@ -2211,6 +2250,7 @@
 			<Option target="Prac6.12"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Lib/getnum.h">
+			<Option target="Taller5"/>
 			<Option target="Taller3"/>
 			<Option target="Taller2"/>
 			<Option target="Prac6.33"/>
@@ -2255,6 +2295,7 @@
 			<Option target="Prac6.12"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Lib/random.c">
+			<Option target="Taller5"/>
 			<Option target="Prac6.33"/>
 			<Option target="Prac6.32"/>
 			<Option target="Prac6.31"/>
@@ -2295,6 +2336,7 @@
 			<Option target="Prac6.12"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Lib/random.h">
+			<Option target="Taller5"/>
 			<Option target="Prac6.33"/>
 			<Option target="Prac6.32"/>
 			<Option target="Prac6.31"/>
@@ -2507,6 +2549,9 @@
 		</Unit>
 		<Unit filename="/tmp/Practica/Taller/Taller4.c">
 			<Option target="Taller4"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller5.c">
+			<Option target="Taller5"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Taller/clase02_09.c">
 			<Option target="claseTeorica"/>

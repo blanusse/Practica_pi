@@ -25,6 +25,9 @@ int eliminaRepetidos (const int v[], int dim, int r[]) {
 }
 
 
+
+
+
 int main(void) {
     int v[] = { 3, 5, 1, 3, -3, 3, 5, 1};
     int res[20];
