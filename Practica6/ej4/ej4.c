@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include <ctype.h>
 
 //Funcion que recibe un numero, la posciion de ese numero en el vector y el vector
 // y se fija si se repite antes y devuelve 0 en caso de que no y 1 en caso de que si
@@ -10,6 +11,7 @@ int seRepite (int a, int posicion, int v[]) {
             contador++;
     }
     return (contador!=1);
+    isal
 }
 
 
@@ -23,7 +25,6 @@ int eliminaRepetidos (const int v[], int dim, int r[]) {
     }
     return c;
 }
-
 
 
 

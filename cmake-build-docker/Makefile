@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /tmp/Practica/cmake-build-docker
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,654 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Taller5
+# Target rules for targets named Prac6.12
 
 # Build rule for target.
-Taller5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller5
-.PHONY : Taller5
+Prac6.12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.12
+.PHONY : Prac6.12
 
 # fast build rule for target.
-Taller5/fast:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/build
-.PHONY : Taller5/fast
-
-#=============================================================================
-# Target rules for targets named Taller3
-
-# Build rule for target.
-Taller3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller3
-.PHONY : Taller3
-
-# fast build rule for target.
-Taller3/fast:
-	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/build
-.PHONY : Taller3/fast
-
-#=============================================================================
-# Target rules for targets named Taller2
-
-# Build rule for target.
-Taller2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller2
-.PHONY : Taller2
-
-# fast build rule for target.
-Taller2/fast:
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/build
-.PHONY : Taller2/fast
-
-#=============================================================================
-# Target rules for targets named Taller1
-
-# Build rule for target.
-Taller1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller1
-.PHONY : Taller1
-
-# fast build rule for target.
-Taller1/fast:
-	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/build
-.PHONY : Taller1/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.33
-
-# Build rule for target.
-Prac6.33: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.33
-.PHONY : Prac6.33
-
-# fast build rule for target.
-Prac6.33/fast:
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/build
-.PHONY : Prac6.33/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.32
-
-# Build rule for target.
-Prac6.32: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.32
-.PHONY : Prac6.32
-
-# fast build rule for target.
-Prac6.32/fast:
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/build
-.PHONY : Prac6.32/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.31
-
-# Build rule for target.
-Prac6.31: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.31
-.PHONY : Prac6.31
-
-# fast build rule for target.
-Prac6.31/fast:
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/build
-.PHONY : Prac6.31/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.30
-
-# Build rule for target.
-Prac6.30: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.30
-.PHONY : Prac6.30
-
-# fast build rule for target.
-Prac6.30/fast:
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/build
-.PHONY : Prac6.30/fast
-
-#=============================================================================
-# Target rules for targets named Lib
-
-# Build rule for target.
-Lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lib
-.PHONY : Lib
-
-# fast build rule for target.
-Lib/fast:
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/build
-.PHONY : Lib/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.29
-
-# Build rule for target.
-Prac6.29: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.29
-.PHONY : Prac6.29
-
-# fast build rule for target.
-Prac6.29/fast:
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/build
-.PHONY : Prac6.29/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.28
-
-# Build rule for target.
-Prac6.28: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.28
-.PHONY : Prac6.28
-
-# fast build rule for target.
-Prac6.28/fast:
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/build
-.PHONY : Prac6.28/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.25
-
-# Build rule for target.
-Prac6.25: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.25
-.PHONY : Prac6.25
-
-# fast build rule for target.
-Prac6.25/fast:
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/build
-.PHONY : Prac6.25/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.24
-
-# Build rule for target.
-Prac6.24: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.24
-.PHONY : Prac6.24
-
-# fast build rule for target.
-Prac6.24/fast:
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/build
-.PHONY : Prac6.24/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.26
-
-# Build rule for target.
-Prac6.26: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.26
-.PHONY : Prac6.26
-
-# fast build rule for target.
-Prac6.26/fast:
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/build
-.PHONY : Prac6.26/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.21
-
-# Build rule for target.
-Prac6.21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.21
-.PHONY : Prac6.21
-
-# fast build rule for target.
-Prac6.21/fast:
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/build
-.PHONY : Prac6.21/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.18
-
-# Build rule for target.
-Prac6.18: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.18
-.PHONY : Prac6.18
-
-# fast build rule for target.
-Prac6.18/fast:
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/build
-.PHONY : Prac6.18/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.17
-
-# Build rule for target.
-Prac6.17: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.17
-.PHONY : Prac6.17
-
-# fast build rule for target.
-Prac6.17/fast:
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/build
-.PHONY : Prac6.17/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.16
-
-# Build rule for target.
-Prac6.16: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.16
-.PHONY : Prac6.16
-
-# fast build rule for target.
-Prac6.16/fast:
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/build
-.PHONY : Prac6.16/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.15
-
-# Build rule for target.
-Prac6.15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.15
-.PHONY : Prac6.15
-
-# fast build rule for target.
-Prac6.15/fast:
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/build
-.PHONY : Prac6.15/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.8
-
-# Build rule for target.
-Prac5.8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.8
-.PHONY : Prac5.8
-
-# fast build rule for target.
-Prac5.8/fast:
-	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/build
-.PHONY : Prac5.8/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.2
-
-# Build rule for target.
-Prac6.2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.2
-.PHONY : Prac6.2
-
-# fast build rule for target.
-Prac6.2/fast:
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/build
-.PHONY : Prac6.2/fast
-
-#=============================================================================
-# Target rules for targets named Pracej5
-
-# Build rule for target.
-Pracej5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pracej5
-.PHONY : Pracej5
-
-# fast build rule for target.
-Pracej5/fast:
-	$(MAKE) -f CMakeFiles/Pracej5.dir/build.make CMakeFiles/Pracej5.dir/build
-.PHONY : Pracej5/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.27
-
-# Build rule for target.
-Prac6.27: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.27
-.PHONY : Prac6.27
-
-# fast build rule for target.
-Prac6.27/fast:
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/build
-.PHONY : Prac6.27/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.9
-
-# Build rule for target.
-Prac5.9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.9
-.PHONY : Prac5.9
-
-# fast build rule for target.
-Prac5.9/fast:
-	$(MAKE) -f CMakeFiles/Prac5.9.dir/build.make CMakeFiles/Prac5.9.dir/build
-.PHONY : Prac5.9/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.9
-
-# Build rule for target.
-Prac6.9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.9
-.PHONY : Prac6.9
-
-# fast build rule for target.
-Prac6.9/fast:
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/build
-.PHONY : Prac6.9/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.6
-
-# Build rule for target.
-Prac5.6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.6
-.PHONY : Prac5.6
-
-# fast build rule for target.
-Prac5.6/fast:
-	$(MAKE) -f CMakeFiles/Prac5.6.dir/build.make CMakeFiles/Prac5.6.dir/build
-.PHONY : Prac5.6/fast
-
-#=============================================================================
-# Target rules for targets named testrandom
-
-# Build rule for target.
-testrandom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testrandom
-.PHONY : testrandom
-
-# fast build rule for target.
-testrandom/fast:
-	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/build
-.PHONY : testrandom/fast
-
-#=============================================================================
-# Target rules for targets named Pracej3
-
-# Build rule for target.
-Pracej3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pracej3
-.PHONY : Pracej3
-
-# fast build rule for target.
-Pracej3/fast:
-	$(MAKE) -f CMakeFiles/Pracej3.dir/build.make CMakeFiles/Pracej3.dir/build
-.PHONY : Pracej3/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.20
-
-# Build rule for target.
-Prac6.20: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.20
-.PHONY : Prac6.20
-
-# fast build rule for target.
-Prac6.20/fast:
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/build
-.PHONY : Prac6.20/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.7
-
-# Build rule for target.
-Prac6.7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.7
-.PHONY : Prac6.7
-
-# fast build rule for target.
-Prac6.7/fast:
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/build
-.PHONY : Prac6.7/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.11
-
-# Build rule for target.
-Prac5.11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.11
-.PHONY : Prac5.11
-
-# fast build rule for target.
-Prac5.11/fast:
-	$(MAKE) -f CMakeFiles/Prac5.11.dir/build.make CMakeFiles/Prac5.11.dir/build
-.PHONY : Prac5.11/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.23
-
-# Build rule for target.
-Prac6.23: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.23
-.PHONY : Prac6.23
-
-# fast build rule for target.
-Prac6.23/fast:
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/build
-.PHONY : Prac6.23/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.12
-
-# Build rule for target.
-Prac5.12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.12
-.PHONY : Prac5.12
-
-# fast build rule for target.
-Prac5.12/fast:
-	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/build
-.PHONY : Prac5.12/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.13
-
-# Build rule for target.
-Prac6.13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.13
-.PHONY : Prac6.13
-
-# fast build rule for target.
-Prac6.13/fast:
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/build
-.PHONY : Prac6.13/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.10
-
-# Build rule for target.
-Prac5.10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.10
-.PHONY : Prac5.10
-
-# fast build rule for target.
-Prac5.10/fast:
-	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/build
-.PHONY : Prac5.10/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.6
-
-# Build rule for target.
-Prac6.6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.6
-.PHONY : Prac6.6
-
-# fast build rule for target.
-Prac6.6/fast:
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/build
-.PHONY : Prac6.6/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.1
-
-# Build rule for target.
-Prac5.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.1
-.PHONY : Prac5.1
-
-# fast build rule for target.
-Prac5.1/fast:
-	$(MAKE) -f CMakeFiles/Prac5.1.dir/build.make CMakeFiles/Prac5.1.dir/build
-.PHONY : Prac5.1/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.14
-
-# Build rule for target.
-Prac6.14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.14
-.PHONY : Prac6.14
-
-# fast build rule for target.
-Prac6.14/fast:
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/build
-.PHONY : Prac6.14/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.14
-
-# Build rule for target.
-Prac5.14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.14
-.PHONY : Prac5.14
-
-# fast build rule for target.
-Prac5.14/fast:
-	$(MAKE) -f CMakeFiles/Prac5.14.dir/build.make CMakeFiles/Prac5.14.dir/build
-.PHONY : Prac5.14/fast
-
-#=============================================================================
-# Target rules for targets named Pracej4
-
-# Build rule for target.
-Pracej4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pracej4
-.PHONY : Pracej4
-
-# fast build rule for target.
-Pracej4/fast:
-	$(MAKE) -f CMakeFiles/Pracej4.dir/build.make CMakeFiles/Pracej4.dir/build
-.PHONY : Pracej4/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.15
-
-# Build rule for target.
-Prac5.15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.15
-.PHONY : Prac5.15
-
-# fast build rule for target.
-Prac5.15/fast:
-	$(MAKE) -f CMakeFiles/Prac5.15.dir/build.make CMakeFiles/Prac5.15.dir/build
-.PHONY : Prac5.15/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.3
-
-# Build rule for target.
-Prac6.3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.3
-.PHONY : Prac6.3
-
-# fast build rule for target.
-Prac6.3/fast:
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/build
-.PHONY : Prac6.3/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.22
-
-# Build rule for target.
-Prac6.22: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.22
-.PHONY : Prac6.22
-
-# fast build rule for target.
-Prac6.22/fast:
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/build
-.PHONY : Prac6.22/fast
-
-#=============================================================================
-# Target rules for targets named Prac5.13
-
-# Build rule for target.
-Prac5.13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.13
-.PHONY : Prac5.13
-
-# fast build rule for target.
-Prac5.13/fast:
-	$(MAKE) -f CMakeFiles/Prac5.13.dir/build.make CMakeFiles/Prac5.13.dir/build
-.PHONY : Prac5.13/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.1
-
-# Build rule for target.
-Prac6.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.1
-.PHONY : Prac6.1
-
-# fast build rule for target.
-Prac6.1/fast:
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/build
-.PHONY : Prac6.1/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.4
-
-# Build rule for target.
-Prac6.4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.4
-.PHONY : Prac6.4
-
-# fast build rule for target.
-Prac6.4/fast:
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/build
-.PHONY : Prac6.4/fast
-
-#=============================================================================
-# Target rules for targets named claseTeorica
-
-# Build rule for target.
-claseTeorica: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 claseTeorica
-.PHONY : claseTeorica
-
-# fast build rule for target.
-claseTeorica/fast:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/build
-.PHONY : claseTeorica/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.5
-
-# Build rule for target.
-Prac6.5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.5
-.PHONY : Prac6.5
-
-# fast build rule for target.
-Prac6.5/fast:
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/build
-.PHONY : Prac6.5/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.34
-
-# Build rule for target.
-Prac6.34: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.34
-.PHONY : Prac6.34
-
-# fast build rule for target.
-Prac6.34/fast:
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/build
-.PHONY : Prac6.34/fast
-
-#=============================================================================
-# Target rules for targets named Prac6.10
-
-# Build rule for target.
-Prac6.10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.10
-.PHONY : Prac6.10
-
-# fast build rule for target.
-Prac6.10/fast:
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/build
-.PHONY : Prac6.10/fast
+Prac6.12/fast:
+	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/build
+.PHONY : Prac6.12/fast
 
 #=============================================================================
 # Target rules for targets named Prac6.8
@@ -774,17 +137,134 @@ Prac6.8/fast:
 .PHONY : Prac6.8/fast
 
 #=============================================================================
-# Target rules for targets named Taller4
+# Target rules for targets named Prac6.34
 
 # Build rule for target.
-Taller4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller4
-.PHONY : Taller4
+Prac6.34: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.34
+.PHONY : Prac6.34
 
 # fast build rule for target.
-Taller4/fast:
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/build
-.PHONY : Taller4/fast
+Prac6.34/fast:
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/build
+.PHONY : Prac6.34/fast
+
+#=============================================================================
+# Target rules for targets named claseTeorica
+
+# Build rule for target.
+claseTeorica: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeorica
+.PHONY : claseTeorica
+
+# fast build rule for target.
+claseTeorica/fast:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/build
+.PHONY : claseTeorica/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.4
+
+# Build rule for target.
+Prac6.4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.4
+.PHONY : Prac6.4
+
+# fast build rule for target.
+Prac6.4/fast:
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/build
+.PHONY : Prac6.4/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.1
+
+# Build rule for target.
+Prac6.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.1
+.PHONY : Prac6.1
+
+# fast build rule for target.
+Prac6.1/fast:
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/build
+.PHONY : Prac6.1/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.13
+
+# Build rule for target.
+Prac5.13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.13
+.PHONY : Prac5.13
+
+# fast build rule for target.
+Prac5.13/fast:
+	$(MAKE) -f CMakeFiles/Prac5.13.dir/build.make CMakeFiles/Prac5.13.dir/build
+.PHONY : Prac5.13/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.10
+
+# Build rule for target.
+Prac6.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.10
+.PHONY : Prac6.10
+
+# fast build rule for target.
+Prac6.10/fast:
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/build
+.PHONY : Prac6.10/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.22
+
+# Build rule for target.
+Prac6.22: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.22
+.PHONY : Prac6.22
+
+# fast build rule for target.
+Prac6.22/fast:
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/build
+.PHONY : Prac6.22/fast
+
+#=============================================================================
+# Target rules for targets named Pracej4
+
+# Build rule for target.
+Pracej4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pracej4
+.PHONY : Pracej4
+
+# fast build rule for target.
+Pracej4/fast:
+	$(MAKE) -f CMakeFiles/Pracej4.dir/build.make CMakeFiles/Pracej4.dir/build
+.PHONY : Pracej4/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.3
+
+# Build rule for target.
+Prac6.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.3
+.PHONY : Prac6.3
+
+# fast build rule for target.
+Prac6.3/fast:
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/build
+.PHONY : Prac6.3/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.14
+
+# Build rule for target.
+Prac5.14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.14
+.PHONY : Prac5.14
+
+# fast build rule for target.
+Prac5.14/fast:
+	$(MAKE) -f CMakeFiles/Prac5.14.dir/build.make CMakeFiles/Prac5.14.dir/build
+.PHONY : Prac5.14/fast
 
 #=============================================================================
 # Target rules for targets named Prac6.19
@@ -800,6 +280,58 @@ Prac6.19/fast:
 .PHONY : Prac6.19/fast
 
 #=============================================================================
+# Target rules for targets named Prac6.14
+
+# Build rule for target.
+Prac6.14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.14
+.PHONY : Prac6.14
+
+# fast build rule for target.
+Prac6.14/fast:
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/build
+.PHONY : Prac6.14/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.6
+
+# Build rule for target.
+Prac6.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.6
+.PHONY : Prac6.6
+
+# fast build rule for target.
+Prac6.6/fast:
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/build
+.PHONY : Prac6.6/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.10
+
+# Build rule for target.
+Prac5.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.10
+.PHONY : Prac5.10
+
+# fast build rule for target.
+Prac5.10/fast:
+	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/build
+.PHONY : Prac5.10/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.13
+
+# Build rule for target.
+Prac6.13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.13
+.PHONY : Prac6.13
+
+# fast build rule for target.
+Prac6.13/fast:
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/build
+.PHONY : Prac6.13/fast
+
+#=============================================================================
 # Target rules for targets named Prac6.11
 
 # Build rule for target.
@@ -813,17 +345,186 @@ Prac6.11/fast:
 .PHONY : Prac6.11/fast
 
 #=============================================================================
-# Target rules for targets named Prac5.7
+# Target rules for targets named Prac5.12
 
 # Build rule for target.
-Prac5.7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac5.7
-.PHONY : Prac5.7
+Prac5.12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.12
+.PHONY : Prac5.12
 
 # fast build rule for target.
-Prac5.7/fast:
-	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/build
-.PHONY : Prac5.7/fast
+Prac5.12/fast:
+	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/build
+.PHONY : Prac5.12/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.11
+
+# Build rule for target.
+Prac5.11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.11
+.PHONY : Prac5.11
+
+# fast build rule for target.
+Prac5.11/fast:
+	$(MAKE) -f CMakeFiles/Prac5.11.dir/build.make CMakeFiles/Prac5.11.dir/build
+.PHONY : Prac5.11/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.7
+
+# Build rule for target.
+Prac6.7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.7
+.PHONY : Prac6.7
+
+# fast build rule for target.
+Prac6.7/fast:
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/build
+.PHONY : Prac6.7/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.20
+
+# Build rule for target.
+Prac6.20: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.20
+.PHONY : Prac6.20
+
+# fast build rule for target.
+Prac6.20/fast:
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/build
+.PHONY : Prac6.20/fast
+
+#=============================================================================
+# Target rules for targets named Taller4
+
+# Build rule for target.
+Taller4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller4
+.PHONY : Taller4
+
+# fast build rule for target.
+Taller4/fast:
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/build
+.PHONY : Taller4/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.6
+
+# Build rule for target.
+Prac5.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.6
+.PHONY : Prac5.6
+
+# fast build rule for target.
+Prac5.6/fast:
+	$(MAKE) -f CMakeFiles/Prac5.6.dir/build.make CMakeFiles/Prac5.6.dir/build
+.PHONY : Prac5.6/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.9
+
+# Build rule for target.
+Prac5.9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.9
+.PHONY : Prac5.9
+
+# fast build rule for target.
+Prac5.9/fast:
+	$(MAKE) -f CMakeFiles/Prac5.9.dir/build.make CMakeFiles/Prac5.9.dir/build
+.PHONY : Prac5.9/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.5
+
+# Build rule for target.
+Prac6.5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.5
+.PHONY : Prac6.5
+
+# fast build rule for target.
+Prac6.5/fast:
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/build
+.PHONY : Prac6.5/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.23
+
+# Build rule for target.
+Prac6.23: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.23
+.PHONY : Prac6.23
+
+# fast build rule for target.
+Prac6.23/fast:
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/build
+.PHONY : Prac6.23/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.9
+
+# Build rule for target.
+Prac6.9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.9
+.PHONY : Prac6.9
+
+# fast build rule for target.
+Prac6.9/fast:
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/build
+.PHONY : Prac6.9/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.27
+
+# Build rule for target.
+Prac6.27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.27
+.PHONY : Prac6.27
+
+# fast build rule for target.
+Prac6.27/fast:
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/build
+.PHONY : Prac6.27/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.1
+
+# Build rule for target.
+Prac5.1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.1
+.PHONY : Prac5.1
+
+# fast build rule for target.
+Prac5.1/fast:
+	$(MAKE) -f CMakeFiles/Prac5.1.dir/build.make CMakeFiles/Prac5.1.dir/build
+.PHONY : Prac5.1/fast
+
+#=============================================================================
+# Target rules for targets named Pracej5
+
+# Build rule for target.
+Pracej5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pracej5
+.PHONY : Pracej5
+
+# fast build rule for target.
+Pracej5/fast:
+	$(MAKE) -f CMakeFiles/Pracej5.dir/build.make CMakeFiles/Pracej5.dir/build
+.PHONY : Pracej5/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.2
+
+# Build rule for target.
+Prac6.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.2
+.PHONY : Prac6.2
+
+# fast build rule for target.
+Prac6.2/fast:
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/build
+.PHONY : Prac6.2/fast
 
 #=============================================================================
 # Target rules for targets named Prac5.2
@@ -839,17 +540,342 @@ Prac5.2/fast:
 .PHONY : Prac5.2/fast
 
 #=============================================================================
-# Target rules for targets named Prac6.12
+# Target rules for targets named Prac6.15
 
 # Build rule for target.
-Prac6.12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac6.12
-.PHONY : Prac6.12
+Prac6.15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.15
+.PHONY : Prac6.15
 
 # fast build rule for target.
-Prac6.12/fast:
-	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/build
-.PHONY : Prac6.12/fast
+Prac6.15/fast:
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/build
+.PHONY : Prac6.15/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.7
+
+# Build rule for target.
+Prac5.7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.7
+.PHONY : Prac5.7
+
+# fast build rule for target.
+Prac5.7/fast:
+	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/build
+.PHONY : Prac5.7/fast
+
+#=============================================================================
+# Target rules for targets named Pracej3
+
+# Build rule for target.
+Pracej3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pracej3
+.PHONY : Pracej3
+
+# fast build rule for target.
+Pracej3/fast:
+	$(MAKE) -f CMakeFiles/Pracej3.dir/build.make CMakeFiles/Pracej3.dir/build
+.PHONY : Pracej3/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.16
+
+# Build rule for target.
+Prac6.16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.16
+.PHONY : Prac6.16
+
+# fast build rule for target.
+Prac6.16/fast:
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/build
+.PHONY : Prac6.16/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.17
+
+# Build rule for target.
+Prac6.17: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.17
+.PHONY : Prac6.17
+
+# fast build rule for target.
+Prac6.17/fast:
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/build
+.PHONY : Prac6.17/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.21
+
+# Build rule for target.
+Prac6.21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.21
+.PHONY : Prac6.21
+
+# fast build rule for target.
+Prac6.21/fast:
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/build
+.PHONY : Prac6.21/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.26
+
+# Build rule for target.
+Prac6.26: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.26
+.PHONY : Prac6.26
+
+# fast build rule for target.
+Prac6.26/fast:
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/build
+.PHONY : Prac6.26/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.24
+
+# Build rule for target.
+Prac6.24: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.24
+.PHONY : Prac6.24
+
+# fast build rule for target.
+Prac6.24/fast:
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/build
+.PHONY : Prac6.24/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.25
+
+# Build rule for target.
+Prac6.25: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.25
+.PHONY : Prac6.25
+
+# fast build rule for target.
+Prac6.25/fast:
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/build
+.PHONY : Prac6.25/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.28
+
+# Build rule for target.
+Prac6.28: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.28
+.PHONY : Prac6.28
+
+# fast build rule for target.
+Prac6.28/fast:
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/build
+.PHONY : Prac6.28/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.29
+
+# Build rule for target.
+Prac6.29: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.29
+.PHONY : Prac6.29
+
+# fast build rule for target.
+Prac6.29/fast:
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/build
+.PHONY : Prac6.29/fast
+
+#=============================================================================
+# Target rules for targets named Lib
+
+# Build rule for target.
+Lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lib
+.PHONY : Lib
+
+# fast build rule for target.
+Lib/fast:
+	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/build
+.PHONY : Lib/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.30
+
+# Build rule for target.
+Prac6.30: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.30
+.PHONY : Prac6.30
+
+# fast build rule for target.
+Prac6.30/fast:
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/build
+.PHONY : Prac6.30/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.15
+
+# Build rule for target.
+Prac5.15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.15
+.PHONY : Prac5.15
+
+# fast build rule for target.
+Prac5.15/fast:
+	$(MAKE) -f CMakeFiles/Prac5.15.dir/build.make CMakeFiles/Prac5.15.dir/build
+.PHONY : Prac5.15/fast
+
+#=============================================================================
+# Target rules for targets named Prac5.8
+
+# Build rule for target.
+Prac5.8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac5.8
+.PHONY : Prac5.8
+
+# fast build rule for target.
+Prac5.8/fast:
+	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/build
+.PHONY : Prac5.8/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.31
+
+# Build rule for target.
+Prac6.31: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.31
+.PHONY : Prac6.31
+
+# fast build rule for target.
+Prac6.31/fast:
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/build
+.PHONY : Prac6.31/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.32
+
+# Build rule for target.
+Prac6.32: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.32
+.PHONY : Prac6.32
+
+# fast build rule for target.
+Prac6.32/fast:
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/build
+.PHONY : Prac6.32/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.33
+
+# Build rule for target.
+Prac6.33: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.33
+.PHONY : Prac6.33
+
+# fast build rule for target.
+Prac6.33/fast:
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/build
+.PHONY : Prac6.33/fast
+
+#=============================================================================
+# Target rules for targets named Parcial1
+
+# Build rule for target.
+Parcial1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Parcial1
+.PHONY : Parcial1
+
+# fast build rule for target.
+Parcial1/fast:
+	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/build
+.PHONY : Parcial1/fast
+
+#=============================================================================
+# Target rules for targets named Taller1
+
+# Build rule for target.
+Taller1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller1
+.PHONY : Taller1
+
+# fast build rule for target.
+Taller1/fast:
+	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/build
+.PHONY : Taller1/fast
+
+#=============================================================================
+# Target rules for targets named testrandom
+
+# Build rule for target.
+testrandom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testrandom
+.PHONY : testrandom
+
+# fast build rule for target.
+testrandom/fast:
+	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/build
+.PHONY : testrandom/fast
+
+#=============================================================================
+# Target rules for targets named Taller2
+
+# Build rule for target.
+Taller2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller2
+.PHONY : Taller2
+
+# fast build rule for target.
+Taller2/fast:
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/build
+.PHONY : Taller2/fast
+
+#=============================================================================
+# Target rules for targets named Taller3
+
+# Build rule for target.
+Taller3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller3
+.PHONY : Taller3
+
+# fast build rule for target.
+Taller3/fast:
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/build
+.PHONY : Taller3/fast
+
+#=============================================================================
+# Target rules for targets named Taller5
+
+# Build rule for target.
+Taller5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller5
+.PHONY : Taller5
+
+# fast build rule for target.
+Taller5/fast:
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/build
+.PHONY : Taller5/fast
+
+#=============================================================================
+# Target rules for targets named Prac6.18
+
+# Build rule for target.
+Prac6.18: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac6.18
+.PHONY : Prac6.18
+
+# fast build rule for target.
+Prac6.18/fast:
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/build
+.PHONY : Prac6.18/fast
+
+#=============================================================================
+# Target rules for targets named Taller6
+
+# Build rule for target.
+Taller6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller6
+.PHONY : Taller6
+
+# fast build rule for target.
+Taller6/fast:
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/build
+.PHONY : Taller6/fast
 
 Lib/getnum.o: Lib/getnum.c.o
 
@@ -857,49 +883,50 @@ Lib/getnum.o: Lib/getnum.c.o
 
 # target to build an object file
 Lib/getnum.c.o:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/getnum.c.o
 .PHONY : Lib/getnum.c.o
 
 Lib/getnum.i: Lib/getnum.c.i
@@ -908,49 +935,50 @@ Lib/getnum.i: Lib/getnum.c.i
 
 # target to preprocess a source file
 Lib/getnum.c.i:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/getnum.c.i
 .PHONY : Lib/getnum.c.i
 
 Lib/getnum.s: Lib/getnum.c.s
@@ -959,49 +987,50 @@ Lib/getnum.s: Lib/getnum.c.s
 
 # target to generate assembly for a file
 Lib/getnum.c.s:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac5.10.dir/build.make CMakeFiles/Prac5.10.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac5.12.dir/build.make CMakeFiles/Prac5.12.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac5.7.dir/build.make CMakeFiles/Prac5.7.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac5.8.dir/build.make CMakeFiles/Prac5.8.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/getnum.c.s
 .PHONY : Lib/getnum.c.s
 
 Lib/random.o: Lib/random.c.o
@@ -1010,45 +1039,46 @@ Lib/random.o: Lib/random.c.o
 
 # target to build an object file
 Lib/random.c.o:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.o
 .PHONY : Lib/random.c.o
 
 Lib/random.i: Lib/random.c.i
@@ -1057,45 +1087,46 @@ Lib/random.i: Lib/random.c.i
 
 # target to preprocess a source file
 Lib/random.c.i:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.i
 .PHONY : Lib/random.c.i
 
 Lib/random.s: Lib/random.c.s
@@ -1104,46 +1135,74 @@ Lib/random.s: Lib/random.c.s
 
 # target to generate assembly for a file
 Lib/random.c.s:
-	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac6.12.dir/build.make CMakeFiles/Prac6.12.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.8.dir/build.make CMakeFiles/Prac6.8.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.34.dir/build.make CMakeFiles/Prac6.34.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.4.dir/build.make CMakeFiles/Prac6.4.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.1.dir/build.make CMakeFiles/Prac6.1.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.10.dir/build.make CMakeFiles/Prac6.10.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.22.dir/build.make CMakeFiles/Prac6.22.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.3.dir/build.make CMakeFiles/Prac6.3.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.19.dir/build.make CMakeFiles/Prac6.19.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.14.dir/build.make CMakeFiles/Prac6.14.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.6.dir/build.make CMakeFiles/Prac6.6.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.13.dir/build.make CMakeFiles/Prac6.13.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.11.dir/build.make CMakeFiles/Prac6.11.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.7.dir/build.make CMakeFiles/Prac6.7.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.20.dir/build.make CMakeFiles/Prac6.20.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.5.dir/build.make CMakeFiles/Prac6.5.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.23.dir/build.make CMakeFiles/Prac6.23.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.9.dir/build.make CMakeFiles/Prac6.9.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.27.dir/build.make CMakeFiles/Prac6.27.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.2.dir/build.make CMakeFiles/Prac6.2.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.15.dir/build.make CMakeFiles/Prac6.15.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.16.dir/build.make CMakeFiles/Prac6.16.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.17.dir/build.make CMakeFiles/Prac6.17.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.21.dir/build.make CMakeFiles/Prac6.21.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.26.dir/build.make CMakeFiles/Prac6.26.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.24.dir/build.make CMakeFiles/Prac6.24.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.25.dir/build.make CMakeFiles/Prac6.25.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.28.dir/build.make CMakeFiles/Prac6.28.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.29.dir/build.make CMakeFiles/Prac6.29.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.30.dir/build.make CMakeFiles/Prac6.30.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.31.dir/build.make CMakeFiles/Prac6.31.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.32.dir/build.make CMakeFiles/Prac6.32.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.33.dir/build.make CMakeFiles/Prac6.33.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/testrandom.dir/build.make CMakeFiles/testrandom.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac6.18.dir/build.make CMakeFiles/Prac6.18.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.s
 .PHONY : Lib/random.c.s
+
+Parciales_Viejos/Primeros_Parciales/parcial1.o: Parciales_Viejos/Primeros_Parciales/parcial1.c.o
+
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.o
+
+# target to build an object file
+Parciales_Viejos/Primeros_Parciales/parcial1.c.o:
+	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.o
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.c.o
+
+Parciales_Viejos/Primeros_Parciales/parcial1.i: Parciales_Viejos/Primeros_Parciales/parcial1.c.i
+
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.i
+
+# target to preprocess a source file
+Parciales_Viejos/Primeros_Parciales/parcial1.c.i:
+	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.i
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.c.i
+
+Parciales_Viejos/Primeros_Parciales/parcial1.s: Parciales_Viejos/Primeros_Parciales/parcial1.c.s
+
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.s
+
+# target to generate assembly for a file
+Parciales_Viejos/Primeros_Parciales/parcial1.c.s:
+	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.s
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.c.s
 
 Practica5/ej1/ej1.o: Practica5/ej1/ej1.c.o
 
@@ -2684,6 +2743,33 @@ Taller/Taller5.c.s:
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Taller/Taller5.c.s
 .PHONY : Taller/Taller5.c.s
 
+Taller/Taller6.o: Taller/Taller6.c.o
+
+.PHONY : Taller/Taller6.o
+
+# target to build an object file
+Taller/Taller6.c.o:
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Taller/Taller6.c.o
+.PHONY : Taller/Taller6.c.o
+
+Taller/Taller6.i: Taller/Taller6.c.i
+
+.PHONY : Taller/Taller6.i
+
+# target to preprocess a source file
+Taller/Taller6.c.i:
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Taller/Taller6.c.i
+.PHONY : Taller/Taller6.c.i
+
+Taller/Taller6.s: Taller/Taller6.c.s
+
+.PHONY : Taller/Taller6.s
+
+# target to generate assembly for a file
+Taller/Taller6.c.s:
+	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Taller/Taller6.c.s
+.PHONY : Taller/Taller6.c.s
+
 Taller/clase02_09.o: Taller/clase02_09.c.o
 
 .PHONY : Taller/clase02_09.o
@@ -2717,71 +2803,76 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... Taller5"
-	@echo "... Taller3"
-	@echo "... Taller2"
-	@echo "... Taller1"
-	@echo "... Prac6.33"
-	@echo "... Prac6.32"
-	@echo "... Prac6.31"
-	@echo "... Prac6.30"
-	@echo "... Lib"
-	@echo "... Prac6.29"
-	@echo "... Prac6.28"
-	@echo "... Prac6.25"
-	@echo "... Prac6.24"
 	@echo "... rebuild_cache"
-	@echo "... Prac6.26"
-	@echo "... Prac6.21"
-	@echo "... Prac6.18"
-	@echo "... Prac6.17"
-	@echo "... Prac6.16"
-	@echo "... Prac6.15"
-	@echo "... Prac5.8"
-	@echo "... Prac6.2"
-	@echo "... Pracej5"
-	@echo "... Prac6.27"
-	@echo "... Prac5.9"
-	@echo "... Prac6.9"
-	@echo "... Prac5.6"
-	@echo "... testrandom"
-	@echo "... Pracej3"
-	@echo "... Prac6.20"
-	@echo "... Prac6.7"
-	@echo "... Prac5.11"
-	@echo "... Prac6.23"
-	@echo "... Prac5.12"
-	@echo "... Prac6.13"
-	@echo "... Prac5.10"
-	@echo "... Prac6.6"
-	@echo "... Prac5.1"
-	@echo "... Prac6.14"
-	@echo "... Prac5.14"
-	@echo "... Pracej4"
-	@echo "... Prac5.15"
-	@echo "... Prac6.3"
-	@echo "... Prac6.22"
-	@echo "... Prac5.13"
-	@echo "... Prac6.1"
-	@echo "... Prac6.4"
-	@echo "... claseTeorica"
-	@echo "... Prac6.5"
-	@echo "... Prac6.34"
-	@echo "... Prac6.10"
-	@echo "... Prac6.8"
-	@echo "... Taller4"
-	@echo "... Prac6.19"
-	@echo "... Prac6.11"
-	@echo "... Prac5.7"
-	@echo "... Prac5.2"
 	@echo "... Prac6.12"
+	@echo "... edit_cache"
+	@echo "... Prac6.8"
+	@echo "... Prac6.34"
+	@echo "... claseTeorica"
+	@echo "... Prac6.4"
+	@echo "... Prac6.1"
+	@echo "... Prac5.13"
+	@echo "... Prac6.10"
+	@echo "... Prac6.22"
+	@echo "... Pracej4"
+	@echo "... Prac6.3"
+	@echo "... Prac5.14"
+	@echo "... Prac6.19"
+	@echo "... Prac6.14"
+	@echo "... Prac6.6"
+	@echo "... Prac5.10"
+	@echo "... Prac6.13"
+	@echo "... Prac6.11"
+	@echo "... Prac5.12"
+	@echo "... Prac5.11"
+	@echo "... Prac6.7"
+	@echo "... Prac6.20"
+	@echo "... Taller4"
+	@echo "... Prac5.6"
+	@echo "... Prac5.9"
+	@echo "... Prac6.5"
+	@echo "... Prac6.23"
+	@echo "... Prac6.9"
+	@echo "... Prac6.27"
+	@echo "... Prac5.1"
+	@echo "... Pracej5"
+	@echo "... Prac6.2"
+	@echo "... Prac5.2"
+	@echo "... Prac6.15"
+	@echo "... Prac5.7"
+	@echo "... Pracej3"
+	@echo "... Prac6.16"
+	@echo "... Prac6.17"
+	@echo "... Prac6.21"
+	@echo "... Prac6.26"
+	@echo "... Prac6.24"
+	@echo "... Prac6.25"
+	@echo "... Prac6.28"
+	@echo "... Prac6.29"
+	@echo "... Lib"
+	@echo "... Prac6.30"
+	@echo "... Prac5.15"
+	@echo "... Prac5.8"
+	@echo "... Prac6.31"
+	@echo "... Prac6.32"
+	@echo "... Prac6.33"
+	@echo "... Parcial1"
+	@echo "... Taller1"
+	@echo "... testrandom"
+	@echo "... Taller2"
+	@echo "... Taller3"
+	@echo "... Taller5"
+	@echo "... Prac6.18"
+	@echo "... Taller6"
 	@echo "... Lib/getnum.o"
 	@echo "... Lib/getnum.i"
 	@echo "... Lib/getnum.s"
 	@echo "... Lib/random.o"
 	@echo "... Lib/random.i"
 	@echo "... Lib/random.s"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial1.o"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial1.i"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial1.s"
 	@echo "... Practica5/ej1/ej1.o"
 	@echo "... Practica5/ej1/ej1.i"
 	@echo "... Practica5/ej1/ej1.s"
@@ -2953,6 +3044,9 @@ help:
 	@echo "... Taller/Taller5.o"
 	@echo "... Taller/Taller5.i"
 	@echo "... Taller/Taller5.s"
+	@echo "... Taller/Taller6.o"
+	@echo "... Taller/Taller6.i"
+	@echo "... Taller/Taller6.s"
 	@echo "... Taller/clase02_09.o"
 	@echo "... Taller/clase02_09.i"
 	@echo "... Taller/clase02_09.s"

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial1.c
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+

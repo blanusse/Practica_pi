@@ -23,9 +23,9 @@ int blockCheck (int a[][DIM] ,int dirX, int dirY) {
 int sudokuSolver(int a[][DIM]) {
     //Me fijo si se repite en las filas
     int error = 0;
-    for(int i=0; i<DIM && error == 0; i++) {
+    for(int i=0; i<DIM && !error; i++) {
         int aux[DIM] = {0};
-        for(int k=0; k<DIM && error == 0; k++) {
+        for(int k=0; k<DIM && !error; k++) {
             if (!validNum(a[i][k]))
                 error = 1;
             else {

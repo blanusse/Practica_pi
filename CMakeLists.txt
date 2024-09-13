@@ -172,7 +172,7 @@ add_executable(Prac6.33 Practica6/ej33/ej33.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.34 Practica6/ej34/ej34.c Lib/getnum.c Lib/random.c)
 
 
-
+add_executable(Parcial1 Parciales_Viejos/Primeros_Parciales/parcial1.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
@@ -184,6 +184,7 @@ add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
 add_executable(Taller3 Taller/Taller3.c Lib/getnum.c)
 add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
 add_executable(Taller5 Taller/Taller5.c Lib/getnum.c Lib/random.c)
+add_executable(Taller6 Taller/Taller6.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------

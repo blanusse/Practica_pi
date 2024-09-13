@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.o  -o Parcial1 
