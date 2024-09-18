@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/asdn.dir/Parciales_Viejos/Primeros_Parciales/parcialEnunciado_EJ2.c.o  -o asdn 

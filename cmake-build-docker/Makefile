@@ -358,6 +358,19 @@ Prac5.12/fast:
 .PHONY : Prac5.12/fast
 
 #=============================================================================
+# Target rules for targets named fmlskdfm
+
+# Build rule for target.
+fmlskdfm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fmlskdfm
+.PHONY : fmlskdfm
+
+# fast build rule for target.
+fmlskdfm/fast:
+	$(MAKE) -f CMakeFiles/fmlskdfm.dir/build.make CMakeFiles/fmlskdfm.dir/build
+.PHONY : fmlskdfm/fast
+
+#=============================================================================
 # Target rules for targets named Prac5.11
 
 # Build rule for target.
@@ -774,17 +787,17 @@ Prac6.33/fast:
 .PHONY : Prac6.33/fast
 
 #=============================================================================
-# Target rules for targets named Parcial1
+# Target rules for targets named sdfli
 
 # Build rule for target.
-Parcial1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Parcial1
-.PHONY : Parcial1
+sdfli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdfli
+.PHONY : sdfli
 
 # fast build rule for target.
-Parcial1/fast:
-	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/build
-.PHONY : Parcial1/fast
+sdfli/fast:
+	$(MAKE) -f CMakeFiles/sdfli.dir/build.make CMakeFiles/sdfli.dir/build
+.PHONY : sdfli/fast
 
 #=============================================================================
 # Target rules for targets named Taller1
@@ -1177,32 +1190,59 @@ Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.s
 .PHONY : Lib/random.c.s
 
-Parciales_Viejos/Primeros_Parciales/parcial1.o: Parciales_Viejos/Primeros_Parciales/parcial1.c.o
+Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.o: Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.o
 
-.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.o
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.o
 
 # target to build an object file
-Parciales_Viejos/Primeros_Parciales/parcial1.c.o:
-	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.o
-.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.c.o
+Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.o:
+	$(MAKE) -f CMakeFiles/fmlskdfm.dir/build.make CMakeFiles/fmlskdfm.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.o
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.o
 
-Parciales_Viejos/Primeros_Parciales/parcial1.i: Parciales_Viejos/Primeros_Parciales/parcial1.c.i
+Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.i: Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.i
 
-.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.i
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.i
 
 # target to preprocess a source file
-Parciales_Viejos/Primeros_Parciales/parcial1.c.i:
-	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.i
-.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.c.i
+Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.i:
+	$(MAKE) -f CMakeFiles/fmlskdfm.dir/build.make CMakeFiles/fmlskdfm.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.i
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.i
 
-Parciales_Viejos/Primeros_Parciales/parcial1.s: Parciales_Viejos/Primeros_Parciales/parcial1.c.s
+Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.s: Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.s
 
-.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.s
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.s
 
 # target to generate assembly for a file
-Parciales_Viejos/Primeros_Parciales/parcial1.c.s:
-	$(MAKE) -f CMakeFiles/Parcial1.dir/build.make CMakeFiles/Parcial1.dir/Parciales_Viejos/Primeros_Parciales/parcial1.c.s
-.PHONY : Parciales_Viejos/Primeros_Parciales/parcial1.c.s
+Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.s:
+	$(MAKE) -f CMakeFiles/fmlskdfm.dir/build.make CMakeFiles/fmlskdfm.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.s
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c.s
+
+Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.o: Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.o
+
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.o
+
+# target to build an object file
+Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.o:
+	$(MAKE) -f CMakeFiles/sdfli.dir/build.make CMakeFiles/sdfli.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.o
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.o
+
+Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.i: Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.i
+
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.i
+
+# target to preprocess a source file
+Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.i:
+	$(MAKE) -f CMakeFiles/sdfli.dir/build.make CMakeFiles/sdfli.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.i
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.i
+
+Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.s: Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.s
+
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.s
+
+# target to generate assembly for a file
+Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.s:
+	$(MAKE) -f CMakeFiles/sdfli.dir/build.make CMakeFiles/sdfli.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.s
+.PHONY : Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c.s
 
 Practica5/ej1/ej1.o: Practica5/ej1/ej1.c.o
 
@@ -2824,6 +2864,7 @@ help:
 	@echo "... Prac6.13"
 	@echo "... Prac6.11"
 	@echo "... Prac5.12"
+	@echo "... fmlskdfm"
 	@echo "... Prac5.11"
 	@echo "... Prac6.7"
 	@echo "... Prac6.20"
@@ -2856,7 +2897,7 @@ help:
 	@echo "... Prac6.31"
 	@echo "... Prac6.32"
 	@echo "... Prac6.33"
-	@echo "... Parcial1"
+	@echo "... sdfli"
 	@echo "... Taller1"
 	@echo "... testrandom"
 	@echo "... Taller2"
@@ -2870,9 +2911,12 @@ help:
 	@echo "... Lib/random.o"
 	@echo "... Lib/random.i"
 	@echo "... Lib/random.s"
-	@echo "... Parciales_Viejos/Primeros_Parciales/parcial1.o"
-	@echo "... Parciales_Viejos/Primeros_Parciales/parcial1.i"
-	@echo "... Parciales_Viejos/Primeros_Parciales/parcial1.s"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.o"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.i"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.s"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.o"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.i"
+	@echo "... Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.s"
 	@echo "... Practica5/ej1/ej1.o"
 	@echo "... Practica5/ej1/ej1.i"
 	@echo "... Practica5/ej1/ej1.s"

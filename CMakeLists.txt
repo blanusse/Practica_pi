@@ -172,7 +172,11 @@ add_executable(Prac6.33 Practica6/ej33/ej33.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.34 Practica6/ej34/ej34.c Lib/getnum.c Lib/random.c)
 
 
-add_executable(Parcial1 Parciales_Viejos/Primeros_Parciales/parcial1.c)
+#add_executable(Parcial1 Parciales_Viejos/Primeros_Parciales/parcial1.c)
+#add_executable(Parcial2023 Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c)
+#add_executable(asdn Parciales_Viejos/Primeros_Parciales/parcialEnunciado_EJ2.c)
+add_executable(fmlskdfm Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c)
+add_executable(sdfli Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------

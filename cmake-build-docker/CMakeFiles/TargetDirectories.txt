@@ -19,6 +19,7 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.13.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.11.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac5.12.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/fmlskdfm.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac5.11.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.7.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.20.dir
@@ -51,7 +52,7 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.31.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.32.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac6.33.dir
-/tmp/Practica/cmake-build-docker/CMakeFiles/Parcial1.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/sdfli.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller1.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/testrandom.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir

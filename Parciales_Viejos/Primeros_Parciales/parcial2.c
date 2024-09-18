@@ -115,6 +115,18 @@ void interseccion (const int m1[][COLS], const int m2[][COLS], int res[][COLS]){
 }
 
 
+void sonIguales(int expected[][COLS], int actual[][COLS])
+{
+    for (int i = 0; i < FILS; i++)
+    {
+        for (int j = 0; j < COLS; j++)
+        {
+            assert(expected[i][j] == actual[i][j]);
+        }
+    }
+}
+
+
 int main()
 {
     int m1[FILS][COLS] = {{1, 2, 3, 4, 5, 6},
@@ -138,10 +150,10 @@ int main()
                           {1, 19, 7, 4, 1, 15}};
     int m6[FILS][COLS];
     interseccion(m4, m5, m6);
-    int expected[FILS][COLS] = {{1, 2, 4, 6, 0, 0},
+    int expected2[FILS][COLS] = {{1, 2, 4, 6, 0, 0},
                                 {1, 3, 0, 0, 0, 0},
                                 {4, 0, 0, 0, 0, 0}};
-    sonIguales(expected, m6);
+    sonIguales(expected2, m6);
 
     int m7[FILS][COLS] = {{1, 1, 1, 1, 1, 1},
                           {3, 2, 25, 4, 9, 10},
@@ -151,10 +163,10 @@ int main()
                           {5, 4, 9, 10, 3, 112}};
     int m9[FILS][COLS];
     interseccion(m7, m8, m9);
-    int expected[FILS][COLS] = {{1, 0, 0, 0, 0, 0},
+    int expected3[FILS][COLS] = {{1, 0, 0, 0, 0, 0},
                                 {3, 25, 10, 0, 0, 0},
                                 {10, 9, 4, 3, 5, 0}};
-    sonIguales(expected, m9);
+    sonIguales(expected3, m9);
 
     puts("OK!");
 }
