@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/fasdfsdf.dir/Parciales_Viejos/Primeros_Parciales/parcial2022_1C_EJ3.c.o  -o fasdfsdf 

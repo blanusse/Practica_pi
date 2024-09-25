@@ -170,13 +170,15 @@ add_executable(Prac6.31 Practica6/ej31/ej31.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.32 Practica6/ej32/ej32.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.33 Practica6/ej33/ej33.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.34 Practica6/ej34/ej34.c Lib/getnum.c Lib/random.c)
+add_executable(Prac6.35 Practica6/ej35/ej35.c Lib/getnum.c Lib/random.c)
 
 
 #add_executable(Parcial1 Parciales_Viejos/Primeros_Parciales/parcial1.c)
-#add_executable(Parcial2023 Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c)
+add_executable(Parcial2023 Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c)
 #add_executable(asdn Parciales_Viejos/Primeros_Parciales/parcialEnunciado_EJ2.c)
 add_executable(fmlskdfm Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c)
 add_executable(sdfli Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c)
+add_executable(fasdfsdf Parciales_Viejos/Primeros_Parciales/parcial2022_1C_EJ3.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
@@ -190,6 +192,7 @@ add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
 add_executable(Taller5 Taller/Taller5.c Lib/getnum.c Lib/random.c)
 add_executable(Taller6 Taller/Taller6.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
+add_executable(claseTeorica2 Taller/claseTeo24_09.c Lib/getnum.c Lib/random.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 

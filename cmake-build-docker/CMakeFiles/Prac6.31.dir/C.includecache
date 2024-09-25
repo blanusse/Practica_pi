@@ -9,4 +9,8 @@
 /tmp/Practica/Practica6/ej31/ej31.c
 stdio.h
 -
+string.h
+-
+assert.h
+-
 

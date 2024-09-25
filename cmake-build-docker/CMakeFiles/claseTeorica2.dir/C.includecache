@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/getnum.h
+stdarg.h
+-
+
+/tmp/Practica/Taller/claseTeo24_09.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+../Lib/getnum.h
+/tmp/Practica/Lib/getnum.h
+

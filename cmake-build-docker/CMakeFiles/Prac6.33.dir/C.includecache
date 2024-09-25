@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/random.h
+stdlib.h
+-
+time.h
+-
+
+/tmp/Practica/Practica6/ej33/ej33.c
+ctype.h
+-
+stdio.h
+-
+string.h
+-
+assert.h
+-
+../../Lib/random.h
+/tmp/Practica/Lib/random.h
+time.h
+-
+

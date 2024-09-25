@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o"
+  "/tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

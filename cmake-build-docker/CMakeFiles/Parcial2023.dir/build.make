@@ -57,27 +57,27 @@ include CMakeFiles/Parcial2023.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Parcial2023.dir/flags.make
 
-CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o: CMakeFiles/Parcial2023.dir/flags.make
-CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o: ../Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o   -c /tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c
+CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o: CMakeFiles/Parcial2023.dir/flags.make
+CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o: ../Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o   -c /tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c
 
-CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c > CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.i
+CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c > CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.i
 
-CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c -o CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.s
+CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c -o CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.s
 
 # Object files for target Parcial2023
 Parcial2023_OBJECTS = \
-"CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o"
+"CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o"
 
 # External object files for target Parcial2023
 Parcial2023_EXTERNAL_OBJECTS =
 
-Parcial2023: CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_EJ2.c.o
+Parcial2023: CMakeFiles/Parcial2023.dir/Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c.o
 Parcial2023: CMakeFiles/Parcial2023.dir/build.make
 Parcial2023: CMakeFiles/Parcial2023.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Parcial2023"

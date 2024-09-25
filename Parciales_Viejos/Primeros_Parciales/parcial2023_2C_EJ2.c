@@ -1,6 +1,5 @@
 #include <stdio.h>
-#define N	4
-#define M	4
+#define M	2
 
 int sumBorde(const int m[][M], int dirX, int dirY){
 	int suma = 0;
@@ -30,9 +29,23 @@ void bordes(const int m[][M], int *v){
 }
 
 
+int main() {
+//	int m[][M] = {{1, 1, 1, 1, 1, 1},
+//{1, 2, 2, 2, 2, 1},
+//{1, 2, 3, 3, 2, 1},
+//{1, 2, 3, 3, 2, 1},
+//{1, 2, 2, 2, 2, 1},
+//{1, 1, 1, 1, 1, 1}
+//	};
+	int m2[][2] = {{1, 3}, {3, 3}
+};
 
+int v[M/2] = {0};
+bordes(m2, &v);
+	for(int i=0; i<M/2; i++ )
+		printf("%d\t", v[i]);
 
-
+}
 
 
 
