@@ -4,21 +4,26 @@
 
 
 
+// void insertaDesde(char a[], char b[], char letter) {
+//     int appear = 0, i=0;
+//     for(; !appear && a[i] != '\0'; i++) {
+//         if (a[i] == letter) {
+//             appear = 1;
+//             i--;
+//         }
+//     }
+//     for(int k=0;appear && b[k] != '\0'; k++) {
+//         a[i++] = b[k];
+//     }
+//     a[i] = '\0';
+// }
+
 void insertaDesde(char a[], char b[], char letter) {
-    int appear = 0, i=0;
-    for(; !appear && a[i] != '\0'; i++) {
-        if (a[i] == letter) {
-            appear = 1;
-            i--;
-        }
+    char *appear = strchr(a, letter);
+    if(appear != NULL) {
+        strcpy(appear, b);
     }
-    for(int k=0;appear && b[k] != '\0'; k++) {
-        a[i++] = b[k];
-    }
-    a[i] = '\0';
 }
-
-
 
 
 

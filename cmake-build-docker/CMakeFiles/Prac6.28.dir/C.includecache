@@ -7,9 +7,9 @@
 #IncludeRegexTransform: 
 
 /tmp/Practica/Practica6/ej28/ej28.c
-ctype.h
--
 stdio.h
+-
+ctype.h
 -
 assert.h
 -

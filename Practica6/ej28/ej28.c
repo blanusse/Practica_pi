@@ -1,61 +1,72 @@
-#include <ctype.h>
 #include <stdio.h>
+#include <ctype.h>
 #include <assert.h>
 #include <string.h>
+
 #define EXITO 1
 #define ERROR 0
+#define CANT_VOC    5
 
-#define CANT_VOCAL  5
 
-int esVocal(char c) {
+
+int whichVocal(char c) {
     c = toupper(c);
-    return (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+    char *aux = "AEIOU";
+    char *p = strchr(aux, c);
+    if(p == NULL)
+        return 0;
+    return p-aux +1;
 }
 
 
-int elimVocales(char text[], unsigned int m[][CANT_VOCAL], int n) {
+
+int elimVocales(char text[], unsigned int m[][CANT_VOC], unsigned int n) {
     int error = 0;
     int j=0;
-    int indexA = 0, indexE = 0, indexI = 0, indexO = 0, indexU = 0;
-    for(int i=0; text[i];i++) {
-        if(!esVocal(text[i])) {
+    int vocCount[CANT_VOC] = {0};
+    for(int i=0; text[i]; i++) {
+        int voc = whichVocal(text[i]);
+        if( voc && n-1 > vocCount[voc-1]){
+            m[vocCount[voc-1]][voc-1] = i;
+            vocCount[voc-1]++;
+        }
+        else {
+            if(voc) {
+                error = 1;
+            }
             text[j++] = text[i];
         }
-        else if(indexA < n && indexE < n && indexI < n && indexO < n && indexU < n) {
-            if(toupper(text[i]) == 'A') {
-                m[indexA++][0] = i;
-            }
-            else if(toupper(text[i]) == 'E') {
-                m[indexE++][1] = i;
-            }
-            else if(toupper(text[i]) == 'I') {
-                m[indexI++][2] = i;
-            }
-            else if(toupper(text[i]) == 'O') {
-                m[indexO++][3] = i;
-            }
-            else if(toupper(text[i]) == 'U') {
-                m[indexU++][4] = i;
-            }
-        }
+
     }
-    if(indexA == n || indexE==n || indexI == n || indexO==n || indexU == n) {
-        error = 1;
-    }
-    else {
-        m[indexA][0] = -1;
-        m[indexE][1] = -1;
-        m[indexI][2] = -1;
-        m[indexO][3] = -1;
-        m[indexU][4] = -1;
-    }
+    for(int i=0; i<CANT_VOC; i++)
+        m[vocCount[i]][i] = -1;
+
     text[j] = 0;
     return !error;
+
 }
+
+
+// int main() {
+//     char s[] = "las buenas ideas escasean, si";
+//     int m[1][CANT_VOC];
+//     elimVocales(s, m, 1);
+//     printf("%s\n", s);
+//     for(int i=0; i<1; i++) {
+//         for(int k=0; k<CANT_VOC; k++) {
+//             printf("%d\t", m[i][k]);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+
+
 
 
 int main(void) {
-    int m[6][CANT_VOCAL];
+    int m[6][CANT_VOC];
     char s[] = "las buenas ideas escasean, si";
 
     assert(elimVocales(s, m, 6)==EXITO);

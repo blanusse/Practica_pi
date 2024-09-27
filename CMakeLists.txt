@@ -114,31 +114,28 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 
 #PRACTICA 5
 
-add_executable(Prac5.1 Practica5/ej1/ej1.c)
-add_executable(Prac5.2 Practica5/ej2/ej2.c)
-add_executable(Pracej3 Practica5/ej3/ej3.c)
-add_executable(Pracej4 Practica5/ej4/ej4.c)
-add_executable(Pracej5 Practica5/ej5/ej5.c)
-add_executable(Prac5.6 Practica5/ej6/ej6.c)
-add_executable(Prac5.7  Practica5/ej7/ej7tester.c Practica5/ej7/ej7.c Lib/getnum.c)
-add_executable(Prac5.8 Practica5/ej8/ej8tester.c Practica5/ej8/ej8.c Lib/getnum.c)
-add_executable(Prac5.9 Practica5/ej9/ej9.c)
-add_executable(Prac5.10 Practica5/ej10/ej10.c Lib/getnum.c)
-add_executable(Prac5.11 Practica5/ej11/ej11.c)
-add_executable(Prac5.12 Practica5/ej12/ej12.c Lib/getnum.c)
-add_executable(Prac5.13 Practica5/ej13/ej13.c)
-add_executable(Prac5.14 Practica5/ej14/ej14.c)
-add_executable(Prac5.15 Practica5/ej15/ej15.c)
+#add_executable(Prac5.1 Practica5/ej1/ej1.c)
+#add_executable(Prac5.2 Practica5/ej2/ej2.c)
+#add_executable(Pracej3 Practica5/ej3/ej3.c)
+#add_executable(Pracej4 Practica5/ej4/ej4.c)
+#add_executable(Pracej5 Practica5/ej5/ej5.c)
+#add_executable(Prac5.6 Practica5/ej6/ej6.c)
+#add_executable(Prac5.7  Practica5/ej7/ej7tester.c Practica5/ej7/ej7.c Lib/getnum.c)
+#add_executable(Prac5.8 Practica5/ej8/ej8tester.c Practica5/ej8/ej8.c Lib/getnum.c)
+#add_executable(Prac5.9 Practica5/ej9/ej9.c)
+#add_executable(Prac5.10 Practica5/ej10/ej10.c Lib/getnum.c)
+#add_executable(Prac5.11 Practica5/ej11/ej11.c)
+#add_executable(Prac5.12 Practica5/ej12/ej12.c Lib/getnum.c)
+#add_executable(Prac5.13 Practica5/ej13/ej13.c)
+#add_executable(Prac5.14 Practica5/ej14/ej14.c)
+#add_executable(Prac5.15 Practica5/ej15/ej15.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #PRACTICA 6
 
 add_executable(Prac6.1 Practica6/ej1/ej1.c Lib/getnum.c Lib/random.c)
-
 add_executable(Prac6.2 Practica6/ej2/ej2.c Lib/getnum.c Lib/random.c)
-
 add_executable(Prac6.3 Practica6/ej3/ej3.c Lib/getnum.c Lib/random.c)
-
 add_executable(Prac6.4 Practica6/ej4/ej4.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.5 Practica6/ej5/ej5.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.6 Practica6/ej6/ej6.c Lib/getnum.c Lib/random.c)
@@ -173,6 +170,10 @@ add_executable(Prac6.34 Practica6/ej34/ej34.c Lib/getnum.c Lib/random.c)
 add_executable(Prac6.35 Practica6/ej35/ej35.c Lib/getnum.c Lib/random.c)
 
 
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#PARCIALES VIEJOS
+
+
 #add_executable(Parcial1 Parciales_Viejos/Primeros_Parciales/parcial1.c)
 add_executable(Parcial2023 Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c)
 #add_executable(asdn Parciales_Viejos/Primeros_Parciales/parcialEnunciado_EJ2.c)
@@ -182,6 +183,35 @@ add_executable(fasdfsdf Parciales_Viejos/Primeros_Parciales/parcial2022_1C_EJ3.c
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#PRACTICA 7
+
+add_executable(Prac7.1 Practica7/ej1/ej1.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.2 Practica7/ej2/ej2.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.3 Practica7/ej3/ej3.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.4 Practica7/ej4/ej4.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.5 Practica7/ej5/ej5.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.6 Practica7/ej6/ej6.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.7 Practica7/ej7/ej7.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.8 Practica7/ej8/ej8.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.9 Practica7/ej9/ej9.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.10 Practica7/ej10/ej10.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.11 Practica7/ej11/ej11.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.12 Practica7/ej12/ej12.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.13 Practica7/ej13/ej13.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.14 Practica7/ej14/ej14.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.15 Practica7/ej15/ej15.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.16 Practica7/ej16/ej16.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.17 Practica7/ej17/ej17.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.18 Practica7/ej18/ej18.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.19 Practica7/ej19/ej19.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.20 Practica7/ej20/ej20.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.21 Practica7/ej21/ej21.c Lib/getnum.c Lib/random.c)
+
+
+
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+
+
 
 #TALLER
 
@@ -191,6 +221,7 @@ add_executable(Taller3 Taller/Taller3.c Lib/getnum.c)
 add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
 add_executable(Taller5 Taller/Taller5.c Lib/getnum.c Lib/random.c)
 add_executable(Taller6 Taller/Taller6.c Lib/getnum.c Lib/random.c)
+add_executable(Taller7 Taller/Taller7.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica2 Taller/claseTeo24_09.c Lib/getnum.c Lib/random.c)
 
@@ -203,15 +234,14 @@ add_executable(testrandom Practica5/randomTester.c Lib/random.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-#COMANDO PARA CREAR ARCHIVOS.c
-#for i in {1..17}; do
-#touch "ej$i.c"
-#done
 
-#COMANDO PARA CREAR CARPETAS
-#mkdir ej{1..15}
+#COMANDO QUE CREA CARPETAS CON ARCHIVOS .c ADENTRO
+
+# for i in {1..21}; do mkdir "ej$i"; touch "ej$i/ej$i.c"; done
+
 
 #CODIGO PARA ESCIRBIR LOS ADD_EXECUTABLE
+
 #include <stdio.h>
 #int main() {
 #for(int i = 1; i!=35; i++) {

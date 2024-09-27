@@ -1,12 +1,16 @@
+#include <ctype.h>
 #include <stdio.h>
 
-
-int notacionExp(char num[], char res[]) {
-    int i = 0, decimal=0;
-    for(;num[i]; i++) {
-        if(num[i] == '.') {
-            decimal = 1;
+int notacionExp(char text[], char ans[]) {
+    int error = 0;
+    for(int i=0; !error &&  text[i]; i++) {
+        if(!isdigit(text[i]) && text[i] != '.') {
+            error = 1;
         }
-        if()
+        if(text[i] != '0' && text[i] != '.') {
+
+        }
     }
+
+
 }
