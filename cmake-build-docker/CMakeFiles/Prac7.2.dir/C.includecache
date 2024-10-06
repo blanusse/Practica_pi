@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica7/ej2/ej2.c
+math.h
+-
+stdio.h
+-
+../../lib/getnum.h
+/tmp/Practica/lib/getnum.h
+
+/tmp/Practica/lib/getnum.h
+stdarg.h
+-
+

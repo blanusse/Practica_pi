@@ -193,7 +193,8 @@ add_executable(Prac7.5 Practica7/ej5/ej5.c Lib/getnum.c Lib/random.c)
 add_executable(Prac7.6 Practica7/ej6/ej6.c Lib/getnum.c Lib/random.c)
 add_executable(Prac7.7 Practica7/ej7/ej7.c Lib/getnum.c Lib/random.c)
 add_executable(Prac7.8 Practica7/ej8/ej8.c Lib/getnum.c Lib/random.c)
-add_executable(Prac7.9 Practica7/ej9/ej9.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.9_a Practica7/ej9/ej9_a.c Lib/getnum.c Lib/random.c)
+add_executable(Prac7.9_b Practica7/ej9/ej9_b.c Lib/getnum.c Lib/random.c)
 add_executable(Prac7.10 Practica7/ej10/ej10.c Lib/getnum.c Lib/random.c)
 add_executable(Prac7.11 Practica7/ej11/ej11.c Lib/getnum.c Lib/random.c)
 add_executable(Prac7.12 Practica7/ej12/ej12.c Lib/getnum.c Lib/random.c)
@@ -222,8 +223,11 @@ add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
 add_executable(Taller5 Taller/Taller5.c Lib/getnum.c Lib/random.c)
 add_executable(Taller6 Taller/Taller6.c Lib/getnum.c Lib/random.c)
 add_executable(Taller7 Taller/Taller7.c Lib/getnum.c Lib/random.c)
+add_executable(Taller8 Taller/Taller8.c Lib/getnum.c Lib/random.c)
+
 add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica2 Taller/claseTeo24_09.c Lib/getnum.c Lib/random.c)
+add_executable(claseTeorica3 Taller/claseTeo30_09.c Lib/getnum.c Lib/random.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
