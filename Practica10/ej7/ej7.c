@@ -6,7 +6,7 @@ tList listIntersec(tList l1, tList l2) {
     if(l1 == NULL || l2==NULL) {
         return NULL;
     }
-    tList newList = malloc(sizeof(tNode));
+    tList newList;
     if(l1->head > l2->head) {
         newList->tail = listIntersec(l1, l2->tail);
         return newList;
@@ -15,7 +15,9 @@ tList listIntersec(tList l1, tList l2) {
         newList->tail = listIntersec(l1->tail, l2);
         return newList;
     }
-    tList aux = malloc(sizeof(tNode));
+    newList = malloc(sizeof(tNode));
+
+    return newList;
 
 }
 

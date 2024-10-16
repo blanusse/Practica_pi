@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <assert.h>
 
-int apareados(char *text) {
-
-    if(*text == 0)
-        return 0;
-    if(*text == '(')
-        return 1 + apareados(++text);
-    if(*text == ')')
-        return -1 + apareados(++text);
-    return apareados(++text);
+int apareados(const char *texto)
+{
+    if(*texto==0) return 0;
+    int aux = apareados(texto+1);
+    if(aux>0)
+        return aux;
+    if(*texto=='(')
+        return aux + 1;
+    if(*texto==')')
+        return aux - 1;
 }
 
 
