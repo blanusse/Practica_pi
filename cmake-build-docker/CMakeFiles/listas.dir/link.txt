@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/listas.dir/Lib/list.c.o  -o listas 

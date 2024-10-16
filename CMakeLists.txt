@@ -4,7 +4,6 @@ project(Practica_2 C)
 set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-
 #PRACTICA 1
 
 #add_executable(Prac1 Practica1/ej1.c)
@@ -26,9 +25,7 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 #add_executable(Prac1.16 Practica1/ej16.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-
 #PRACTICA 2
-
 
 #add_executable(Prac2 Practica2/ej1.c)
 #add_executable(Prac2.2 Practica2/ej2.c)
@@ -54,7 +51,6 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 #add_executable(Prac2.22 Practica2/ej22.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-
 #PRACTICA 3
 
 #add_executable(Prac3 Practica3/ej1.c)
@@ -85,7 +81,6 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 #add_executable(Prac3.26 Practica3/ej26.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-
 #PRACTICA 4
 
 #add_executable(Prac4 Practica4/ej1.c)
@@ -111,7 +106,6 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 #add_executable(Prac4.17 Practica4/ej17.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-
 #PRACTICA 5
 
 #add_executable(Prac5.1 Practica5/ej1/ej1.c)
@@ -133,53 +127,52 @@ set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #PRACTICA 6
 
-add_executable(Prac6.1 Practica6/ej1/ej1.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.2 Practica6/ej2/ej2.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.3 Practica6/ej3/ej3.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.4 Practica6/ej4/ej4.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.5 Practica6/ej5/ej5.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.6 Practica6/ej6/ej6.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.7 Practica6/ej7/ej7.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.8 Practica6/ej8/ej8.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.9 Practica6/ej9/ej9.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.10 Practica6/ej10/ej10.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.11 Practica6/ej11/ej11.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.12 Practica6/ej12/ej12.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.13 Practica6/ej13/ej13.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.14 Practica6/ej14/ej14.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.15 Practica6/ej15/ej15.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.16 Practica6/ej16/ej16.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.17 Practica6/ej17/ej17.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.18 Practica6/ej18/ej18.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.19 Practica6/ej19/ej19.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.20 Practica6/ej20/ej20.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.21 Practica6/ej21/ej21.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.22 Practica6/ej22/ej22.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.23 Practica6/ej23/ej23.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.24 Practica6/ej24/ej24.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.25 Practica6/ej25/ej25.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.26 Practica6/ej26/ej26.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.27 Practica6/ej27/ej27.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.28 Practica6/ej28/ej28.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.29 Practica6/ej29/ej29.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.30 Practica6/ej30/ej30.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.31 Practica6/ej31/ej31.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.32 Practica6/ej32/ej32.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.33 Practica6/ej33/ej33.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.34 Practica6/ej34/ej34.c Lib/getnum.c Lib/random.c)
-add_executable(Prac6.35 Practica6/ej35/ej35.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.1 Practica6/ej1/ej1.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.2 Practica6/ej2/ej2.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.3 Practica6/ej3/ej3.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.4 Practica6/ej4/ej4.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.5 Practica6/ej5/ej5.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.6 Practica6/ej6/ej6.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.7 Practica6/ej7/ej7.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.8 Practica6/ej8/ej8.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.9 Practica6/ej9/ej9.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.10 Practica6/ej10/ej10.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.11 Practica6/ej11/ej11.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.12 Practica6/ej12/ej12.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.13 Practica6/ej13/ej13.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.14 Practica6/ej14/ej14.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.15 Practica6/ej15/ej15.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.16 Practica6/ej16/ej16.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.17 Practica6/ej17/ej17.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.18 Practica6/ej18/ej18.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.19 Practica6/ej19/ej19.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.20 Practica6/ej20/ej20.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.21 Practica6/ej21/ej21.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.22 Practica6/ej22/ej22.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.23 Practica6/ej23/ej23.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.24 Practica6/ej24/ej24.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.25 Practica6/ej25/ej25.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.26 Practica6/ej26/ej26.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.27 Practica6/ej27/ej27.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.28 Practica6/ej28/ej28.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.29 Practica6/ej29/ej29.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.30 Practica6/ej30/ej30.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.31 Practica6/ej31/ej31.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.32 Practica6/ej32/ej32.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.33 Practica6/ej33/ej33.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.34 Practica6/ej34/ej34.c Lib/getnum.c Lib/random.c)
+#add_executable(Prac6.35 Practica6/ej35/ej35.c Lib/getnum.c Lib/random.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #PARCIALES VIEJOS
 
-
 #add_executable(Parcial1 Parciales_Viejos/Primeros_Parciales/parcial1.c)
-add_executable(Parcial2023 Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c)
+#add_executable(Parcial2023 Parciales_Viejos/Primeros_Parciales/parcial2023_2C_EJ2.c)
 #add_executable(asdn Parciales_Viejos/Primeros_Parciales/parcialEnunciado_EJ2.c)
-add_executable(fmlskdfm Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c)
-add_executable(sdfli Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c)
-add_executable(fasdfsdf Parciales_Viejos/Primeros_Parciales/parcial2022_1C_EJ3.c)
+#add_executable(fmlskdfm Parciales_Viejos/Primeros_Parciales/parcial2023_1C_EJ2.c)
+#add_executable(sdfli Parciales_Viejos/Primeros_Parciales/parcial2023_REC_1C_EJ1.c)
+#add_executable(fasdfsdf Parciales_Viejos/Primeros_Parciales/parcial2022_1C_EJ3.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
@@ -211,7 +204,56 @@ add_executable(Prac7.21 Practica7/ej21/ej21.c Lib/getnum.c Lib/random.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#PRACTICA 8
 
+add_executable(Prac8.1 Practica8/ej1/ej1.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.2 Practica8/ej2/ej2.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.3 Practica8/ej3/ej3.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.4 Practica8/ej4/ej4.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.4B Practica8/ej4/ej4_b.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.5 Practica8/ej5/ej5.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.6 Practica8/ej6/ej6.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.7 Practica8/ej7/ej7.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.8 Practica8/ej8/ej8.c Lib/getnum.c Lib/random.c)
+add_executable(Prac8.9 Practica8/ej9/ej9.c Lib/getnum.c Lib/random.c)
+
+
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#PRACTICA 9
+add_executable(Prac9.0 Practica9/ej0/ej0.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.1 Practica9/ej1/ej1.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.2 Practica9/ej2/ej2.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.3 Practica9/ej3/ej3.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.4 Practica9/ej4/ej4.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.5 Practica9/ej5/ej5.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.6 Practica9/ej6/ej6.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.7 Practica9/ej7/ej7.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.8 Practica9/ej8/ej8.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.9 Practica9/ej9/ej9.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.10 Practica9/ej10/ej10.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.11 Practica9/ej11/ej11.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.12 Practica9/ej12/ej12.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.13 Practica9/ej13/ej13.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.14 Practica9/ej14/ej14.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.15 Practica9/ej15/ej15.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.16 Practica9/ej16/ej16.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.17 Practica9/ej17/ej17.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.18 Practica9/ej18/ej18.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.19 Practica9/ej19/ej19.c Lib/getnum.c Lib/random.c)
+add_executable(Prac9.20 Practica9/ej20/ej20.c Lib/getnum.c Lib/random.c)
+
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#PRACTICA 10
+
+add_executable(Prac10.1 Practica10/ej1/ej1.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.2 Practica10/ej2/ej2.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.3 Practica10/ej3/ej3.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.4 Practica10/ej4/ej4.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.5 Practica10/ej5/ej5.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.6 Practica10/ej6/ej6.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.7 Practica10/ej7/ej7.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.8 Practica10/ej8/ej8.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac10.9 Practica10/ej9/ej9.c Lib/getnum.c Lib/random.c Lib/list.c)
 
 
 #TALLER
@@ -224,25 +266,44 @@ add_executable(Taller5 Taller/Taller5.c Lib/getnum.c Lib/random.c)
 add_executable(Taller6 Taller/Taller6.c Lib/getnum.c Lib/random.c)
 add_executable(Taller7 Taller/Taller7.c Lib/getnum.c Lib/random.c)
 add_executable(Taller8 Taller/Taller8.c Lib/getnum.c Lib/random.c)
+add_executable(Taller9 Taller/Taller9.c Lib/getnum.c Lib/random.c)
 
-add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c)
+
+add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c Taller/ClaseTeo08_10/ej1.c)
 add_executable(claseTeorica2 Taller/claseTeo24_09.c Lib/getnum.c Lib/random.c)
 add_executable(claseTeorica3 Taller/claseTeo30_09.c Lib/getnum.c Lib/random.c)
+add_executable(claseTeo_1 Taller/ClaseTeo08_10/ej1.c)
+add_executable(claseTeo_2 Taller/ClaseTeo08_10/ej2.c)
+add_executable(claseTeo_3 Taller/ClaseTeo08_10/ej3.c)
+add_executable(claseTeo_4 Taller/ClaseTeo08_10/ej4.c)
+add_executable(claseTeo_5 Taller/ClaseTeo08_10/ej5.c)
+add_executable(claseTeo_6 Taller/ClaseTeo08_10/ej6.c)
+add_executable(claseTeo_7 Taller/ClaseTeo08_10/ej7.c)
+add_executable(claseTeo_8 Taller/ClaseTeo08_10/ej8.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
+
 #LIBRERIA
 
-add_executable(Lib Lib/random.c)
-add_executable(testrandom Practica5/randomTester.c Lib/random.c)
+add_executable(random Lib/random.c)
+add_executable(getnum Lib/getnum.c)
+add_executable(listas Lib/list.c)
+add_executable(utilist Lib/utillist.c)
 
 
+
+
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
 #COMANDO QUE CREA CARPETAS CON ARCHIVOS .c ADENTRO
 
 # for i in {1..21}; do mkdir "ej$i"; touch "ej$i/ej$i.c"; done
 
+
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
 #CODIGO PARA ESCIRBIR LOS ADD_EXECUTABLE
 
@@ -255,6 +316,9 @@ add_executable(testrandom Practica5/randomTester.c Lib/random.c)
 #}
 
 
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+
+
 #CODIGO SWAP
 
 #aux = a[i];
@@ -262,3 +326,5 @@ add_executable(testrandom Practica5/randomTester.c Lib/random.c)
 #a[random] = aux;
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+
+

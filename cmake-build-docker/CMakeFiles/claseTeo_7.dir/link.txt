@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/claseTeo_7.dir/Taller/ClaseTeo08_10/ej7.c.o  -o claseTeo_7 

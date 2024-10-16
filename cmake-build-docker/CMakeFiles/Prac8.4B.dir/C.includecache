@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/random.h
+stdlib.h
+-
+time.h
+-
+
+/tmp/Practica/Practica8/ej4/ej4_b.c
+inttypes.h
+-
+stdio.h
+-
+string.h
+-
+../../Lib/random.h
+/tmp/Practica/Lib/random.h
+

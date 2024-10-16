@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/TP09_18.dir/TP/TP09/TP09_18.c.o CMakeFiles/TP09_18.dir/lib/getnum.c.o CMakeFiles/TP09_18.dir/lib/random.c.o  -o TP09_18 

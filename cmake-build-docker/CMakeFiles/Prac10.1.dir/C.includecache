@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/utillist.h
+
+/tmp/Practica/Practica10/ej1/ej1.c
+stdio.h
+-
+assert.h
+-
+../../Lib/utillist.h
+/tmp/Practica/Lib/utillist.h
+

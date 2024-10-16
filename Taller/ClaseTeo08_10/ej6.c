@@ -1,8 +1,14 @@
 #include <stdio.h>
 
+void regla(int medio) {
+    if(medio == 0)
+        return;
 
-int esCapicua(char palabra[]) {
-    if(*palabra == '\0')
-        return 0;
-    if()
+    regla(medio/2);
+    printf("%d ", medio);
+    regla(medio/2);
+}
+
+int main() {
+    regla(8);
 }
