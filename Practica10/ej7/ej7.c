@@ -6,17 +6,18 @@ tList listIntersec(tList l1, tList l2) {
     if(l1 == NULL || l2==NULL) {
         return NULL;
     }
-    tList newList;
     if(l1->head > l2->head) {
-        newList->tail = listIntersec(l1, l2->tail);
-        return newList;
+        return listIntersec(l1, l2->tail);
     }
     if(l1->head < l2->head) {
-        newList->tail = listIntersec(l1->tail, l2);
-        return newList;
+        return listIntersec(l1->tail, l2);
     }
-    newList = malloc(sizeof(tNode));
-
+    //Si no pasa nada de lo anterior, significa que son iguales
+    //Entonces crea un elemento con el head de l1 (idem l2)
+    //Pone en el tail el siguiente elemento (si es que lo hay)
+    tList newList = malloc(sizeof(tNode));
+    newList->head = l1->head;
+    newList->tail = listIntersec(l1->tail, l2->tail);
     return newList;
 
 }
