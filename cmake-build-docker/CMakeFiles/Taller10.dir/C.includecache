@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/list.h
+stdio.h
+-
+stdlib.h
+-
+
+/tmp/Practica/Taller/Taller10.c
+stdio.h
+-
+string.h
+-
+assert.h
+-
+stdlib.h
+-
+ctype.h
+-
+../Lib/list.h
+/tmp/Practica/Lib/list.h
+

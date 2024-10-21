@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/claseTeo_9.dir/Taller/ClaseTeo21_10.c.o CMakeFiles/claseTeo_9.dir/Lib/list.c.o  -o claseTeo_9 

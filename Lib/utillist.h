@@ -6,7 +6,7 @@ typedef struct node * tList;
 typedef struct node {
 		int elem;
 		struct node * tail;
-} TNode;
+} tNode;
 
 
 /*
