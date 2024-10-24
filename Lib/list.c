@@ -126,3 +126,10 @@ int checkElems(const tList list, const int v[], int dim) {
 }
 
 
+void map(tList l, int (*pFunc)(int)) {
+    if(l==NULL)
+        return;
+    l->head = pFunc(l->head);
+    map(l->tail, pFunc);
+}
+

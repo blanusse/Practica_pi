@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica11/ej5/complejosADT.c
+complejosADT.h
+/tmp/Practica/Practica11/ej5/complejosADT.h
+stdlib.h
+-
+
+/tmp/Practica/Practica11/ej5/complejosADT.h
+

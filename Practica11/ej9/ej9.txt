@@ -1,0 +1,9 @@
+a) Si bien definir la estructura en el archivo fuente .c oculta la implementación del TAD, igualmente el usuario
+(si conoce cómo es realmente la estructura) puede modificar los datos de la misma desde el front-end. Explicar cómo.
+
+
+
+
+
+b) Explicar cómo puede hacer el desarrollador de un TAD para evitar que el usuario pueda modificar la estructura.
+Debe ser un metodo 100% efectivo. Pista: la función new… no debe retornar un puntero.

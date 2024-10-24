@@ -9,7 +9,7 @@
 tList fromArray(const int v[], unsigned int dim ) {
   tList ans = NULL;
   while (dim) {
-     tList aux = malloc(sizeof(TNode));
+     tList aux = malloc(sizeof(tNode));
      aux->elem = v[--dim];
      aux->tail = ans;
      ans = aux;

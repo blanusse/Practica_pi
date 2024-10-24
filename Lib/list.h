@@ -54,6 +54,8 @@ tList fromArray(const int v[], unsigned int dim);
 */
 int checkElems(const tList list, const int v[], int dim);
 
+//Realiza cierta funcion propuesta como puntero a todos los elementos
+void map(tList l, int (*pFunc)(int));
 
 
 #endif

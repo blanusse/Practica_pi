@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "../Lib/list.h"
+#include "../Lib/utillist.h"
 
 #define BLOCK   10
 
@@ -147,7 +147,7 @@ int checkElems(const tList list, const int v[], int dim) {
     int i;
     tList aux;
     for(i=0, aux=list; i<dim && aux != NULL; i++, aux = aux->tail) {
-        if ( aux->head != v[i])
+        if ( aux->elem != v[i])
             return 0;
     }
     return aux == NULL && i==dim;
@@ -158,7 +158,7 @@ tList fromArray(const int v[], unsigned int dim ) {
     tList ans = NULL;
     while (dim) {
         tList aux = malloc(sizeof(tNode));
-        aux->head = v[--dim];
+        aux->elem = v[--dim];
         aux->tail = ans;
         ans = aux;
     }
@@ -192,23 +192,39 @@ tList fromArray(const int v[], unsigned int dim ) {
 //EJ4
 
 
-tList deleteAll(tList l1, tList l2) {
-    if(l2 == NULL || l1 == NULL)
-        return l1;
+// tList deleteAll(tList l1, tList l2) {
+//     if(l2 == NULL || l1 == NULL)
+//         return l1;
+//
+//     if(l1->head < l2->head) {
+//         l1->tail = deleteAll(l1->tail, l2);
+//         return l1;
+//     }
+//     if(l1->head > l2->head) {
+//         return deleteAll(l1, l2->tail);
+//     }
+//     tList aux = l1->tail;
+//     free(l1);
+//     return deleteAll(aux, l2->tail);
+// }
 
-    if(l1->head < l2->head) {
-        l1->tail = deleteAll(l1->tail, l2);
+tList deleteAll(tList l1, const tList l2) { //estan ordenadas crecientemente
+    if (l2==NULL) {
         return l1;
     }
-    if(l1->head > l2->head) {
-        return deleteAll(l1, l2->tail);
+    if (l1!=NULL) {
+        if ( l1->elem == l2->elem ) {
+            tList aux = l1;
+            l1 = deleteAll(l1->tail, l2->tail);
+            free(aux);
+        } else if ( l1->elem < l2->elem ) {
+            l1->tail= deleteAll(l1->tail, l2);
+        } else {
+            l1 = deleteAll(l1, l2->tail);
+        }
     }
-    tList aux = l1->tail;
-    free(l1);
-    return deleteAll(aux, l2->tail);
+    return l1;
 }
-
-
 
 int main()
 {

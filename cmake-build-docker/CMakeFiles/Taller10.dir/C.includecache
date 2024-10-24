@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/Practica/Lib/list.h
-stdio.h
--
-stdlib.h
--
+/tmp/Practica/Lib/utillist.h
 
 /tmp/Practica/Taller/Taller10.c
 stdio.h
@@ -23,6 +19,6 @@ stdlib.h
 -
 ctype.h
 -
-../Lib/list.h
-/tmp/Practica/Lib/list.h
+../Lib/utillist.h
+/tmp/Practica/Lib/utillist.h
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej1.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o"
+  "/tmp/Practica/ClasesTeoricas/clase02_09.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o"
   "/tmp/Practica/Lib/getnum.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeorica.dir/Lib/getnum.c.o"
   "/tmp/Practica/Lib/random.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeorica.dir/Lib/random.c.o"
-  "/tmp/Practica/Taller/ClaseTeo08_10/ej1.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o"
-  "/tmp/Practica/Taller/clase02_09.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

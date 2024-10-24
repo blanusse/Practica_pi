@@ -8,15 +8,16 @@ int *pares(const int *conj, size_t dim, size_t *nuevaDim) {
     int *nuevoVec = NULL;
     *nuevaDim=0;
     for(int i=0; i<dim; i++) {
-        if(conj[i]%2 == 0) {
+        if(conj[i] % 2 == 0) {
             if(i%BLOCK == 0)
-                nuevoVec = realloc(nuevoVec, i*sizeof(int));
-            nuevoVec[(*nuevaDim)++] = *conj;
+                nuevoVec = realloc(nuevoVec, (i+BLOCK)*sizeof(int));
+            nuevoVec[(*nuevaDim)++] = conj[i];
         }
     }
-    nuevoVec = realloc(nuevoVec, *nuevaDim * sizeof(int));
+    nuevoVec = realloc(nuevoVec, *nuevaDim * sizeof(*nuevoVec));
     return nuevoVec;
 }
+
 
 int main() {
     int v1[] = {1, 2, 7, 6, 9, 2};

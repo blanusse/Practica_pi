@@ -1,0 +1,63 @@
+
+
+
+a)	int *(*p) (int (*a)[ ]);
+    Puntero a funcion que devuelve un puntero a int y recibe un puntero a un vector de int
+
+b)	int *p[10];
+    vector de punteros de 10 lugares
+
+c)	int (*p)[10];
+    puntero a vector de 10 lugares
+
+d)	int *p(void);
+    funcion que devuelve un puntero a int y recibe void
+
+e)	p (char *a);
+    funcion void que recibe un puntero a char
+
+f)	int *p(char *a);
+    funcion que devuelve un puntero a int y recibe un puntero a char
+
+g)	int (*p) (char *a);
+    puntero a funcion que devuelve un int y recibe un puntero a char
+
+h)	int (*p(char *a))[10];
+
+
+i)	int p(char (*a)[ ]);
+    funcion que devuelve un int y recibe un puntero a un vector de char
+
+j)	int p(char *a[ ]);
+    funcion que devuelve un int y recibe un vector de punteros a char
+
+k)	int *p(char a[ ]);
+    funcion que devuelve un puntero a int y recibe un vector de char
+
+l)	int *p(char (*a)[ ]);
+    funcion que devuelve un puntero a int y recibe un puntero a vector de char
+
+m)	int *p(char *a[ ]);
+    funcion que devuelve un puntero a int y recibe un vector de punteros a char
+
+n)	int (*p)(char(*a)[ ]);
+    puntero a funcion que devuelve un int y recibe un puntero a un vector de char
+
+o)	int *(*p)(char *a[ ]);
+    puntero a funcion que devuelve un puntero a int y recibe un vector de punteros a char
+
+p)	int (*p[10])(void);
+
+
+q)	int (*p[10])(char a);
+
+
+r)	int *(*p[10])(char a);
+
+
+s)	int *(*p[10])(char *a);
+
+
+t)	int (*p) (char *a[ ]);
+    puntero a funcion que devuelve un int y recibe un vector de punteros a char
+

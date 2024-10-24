@@ -57,27 +57,27 @@ include CMakeFiles/claseTeo_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/claseTeo_2.dir/flags.make
 
-CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o: CMakeFiles/claseTeo_2.dir/flags.make
-CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o: ../Taller/ClaseTeo08_10/ej2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o   -c /tmp/Practica/Taller/ClaseTeo08_10/ej2.c
+CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o: CMakeFiles/claseTeo_2.dir/flags.make
+CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o: ../ClasesTeoricas/ClaseTeo08_10/ej2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o   -c /tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej2.c
 
-CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/ClaseTeo08_10/ej2.c > CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.i
+CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej2.c > CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.i
 
-CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/ClaseTeo08_10/ej2.c -o CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.s
+CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej2.c -o CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.s
 
 # Object files for target claseTeo_2
 claseTeo_2_OBJECTS = \
-"CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o"
+"CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o"
 
 # External object files for target claseTeo_2
 claseTeo_2_EXTERNAL_OBJECTS =
 
-claseTeo_2: CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o
+claseTeo_2: CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o
 claseTeo_2: CMakeFiles/claseTeo_2.dir/build.make
 claseTeo_2: CMakeFiles/claseTeo_2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable claseTeo_2"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/claseTeo_7.dir/Taller/ClaseTeo08_10/ej7.c.o"
+  "CMakeFiles/claseTeo_7.dir/ClasesTeoricas/ClaseTeo08_10/ej7.c.o"
   "claseTeo_7"
   "claseTeo_7.pdb"
 )

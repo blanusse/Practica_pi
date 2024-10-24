@@ -137,6 +137,45 @@ getnum/fast:
 .PHONY : getnum/fast
 
 #=============================================================================
+# Target rules for targets named claseTeo_10.a2
+
+# Build rule for target.
+claseTeo_10.a2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeo_10.a2
+.PHONY : claseTeo_10.a2
+
+# fast build rule for target.
+claseTeo_10.a2/fast:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/build
+.PHONY : claseTeo_10.a2/fast
+
+#=============================================================================
+# Target rules for targets named claseTeo_10.2
+
+# Build rule for target.
+claseTeo_10.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeo_10.2
+.PHONY : claseTeo_10.2
+
+# fast build rule for target.
+claseTeo_10.2/fast:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/build
+.PHONY : claseTeo_10.2/fast
+
+#=============================================================================
+# Target rules for targets named claseTeo_10
+
+# Build rule for target.
+claseTeo_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeo_10
+.PHONY : claseTeo_10
+
+# fast build rule for target.
+claseTeo_10/fast:
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/build
+.PHONY : claseTeo_10/fast
+
+#=============================================================================
 # Target rules for targets named claseTeo_9
 
 # Build rule for target.
@@ -228,6 +267,19 @@ claseTeorica2/fast:
 .PHONY : claseTeorica2/fast
 
 #=============================================================================
+# Target rules for targets named Taller8
+
+# Build rule for target.
+Taller8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller8
+.PHONY : Taller8
+
+# fast build rule for target.
+Taller8/fast:
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/build
+.PHONY : Taller8/fast
+
+#=============================================================================
 # Target rules for targets named Prac10.7
 
 # Build rule for target.
@@ -267,6 +319,19 @@ Prac10.5/fast:
 .PHONY : Prac10.5/fast
 
 #=============================================================================
+# Target rules for targets named Prac11.82
+
+# Build rule for target.
+Prac11.82: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac11.82
+.PHONY : Prac11.82
+
+# fast build rule for target.
+Prac11.82/fast:
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/build
+.PHONY : Prac11.82/fast
+
+#=============================================================================
 # Target rules for targets named Prac10.4
 
 # Build rule for target.
@@ -304,19 +369,6 @@ Prac10.3: cmake_check_build_system
 Prac10.3/fast:
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/build
 .PHONY : Prac10.3/fast
-
-#=============================================================================
-# Target rules for targets named Prac9.10
-
-# Build rule for target.
-Prac9.10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac9.10
-.PHONY : Prac9.10
-
-# fast build rule for target.
-Prac9.10/fast:
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/build
-.PHONY : Prac9.10/fast
 
 #=============================================================================
 # Target rules for targets named Prac9.18
@@ -384,6 +436,45 @@ Prac9.3/fast:
 .PHONY : Prac9.3/fast
 
 #=============================================================================
+# Target rules for targets named claseTeorica
+
+# Build rule for target.
+claseTeorica: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeorica
+.PHONY : claseTeorica
+
+# fast build rule for target.
+claseTeorica/fast:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/build
+.PHONY : claseTeorica/fast
+
+#=============================================================================
+# Target rules for targets named Taller10
+
+# Build rule for target.
+Taller10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller10
+.PHONY : Taller10
+
+# fast build rule for target.
+Taller10/fast:
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/build
+.PHONY : Taller10/fast
+
+#=============================================================================
+# Target rules for targets named Taller7
+
+# Build rule for target.
+Taller7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller7
+.PHONY : Taller7
+
+# fast build rule for target.
+Taller7/fast:
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/build
+.PHONY : Taller7/fast
+
+#=============================================================================
 # Target rules for targets named Prac9.16
 
 # Build rule for target.
@@ -447,45 +538,6 @@ Prac9.11: cmake_check_build_system
 Prac9.11/fast:
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/build
 .PHONY : Prac9.11/fast
-
-#=============================================================================
-# Target rules for targets named claseTeorica
-
-# Build rule for target.
-claseTeorica: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 claseTeorica
-.PHONY : claseTeorica
-
-# fast build rule for target.
-claseTeorica/fast:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/build
-.PHONY : claseTeorica/fast
-
-#=============================================================================
-# Target rules for targets named Taller7
-
-# Build rule for target.
-Taller7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller7
-.PHONY : Taller7
-
-# fast build rule for target.
-Taller7/fast:
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/build
-.PHONY : Taller7/fast
-
-#=============================================================================
-# Target rules for targets named Taller10
-
-# Build rule for target.
-Taller10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller10
-.PHONY : Taller10
-
-# fast build rule for target.
-Taller10/fast:
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/build
-.PHONY : Taller10/fast
 
 #=============================================================================
 # Target rules for targets named Prac9.0
@@ -735,6 +787,32 @@ Prac9.12/fast:
 .PHONY : Prac9.12/fast
 
 #=============================================================================
+# Target rules for targets named Prac9.10
+
+# Build rule for target.
+Prac9.10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac9.10
+.PHONY : Prac9.10
+
+# fast build rule for target.
+Prac9.10/fast:
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/build
+.PHONY : Prac9.10/fast
+
+#=============================================================================
+# Target rules for targets named Prac11.52
+
+# Build rule for target.
+Prac11.52: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac11.52
+.PHONY : Prac11.52
+
+# fast build rule for target.
+Prac11.52/fast:
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/build
+.PHONY : Prac11.52/fast
+
+#=============================================================================
 # Target rules for targets named Prac11.14
 
 # Build rule for target.
@@ -826,6 +904,58 @@ Prac11.2/fast:
 .PHONY : Prac11.2/fast
 
 #=============================================================================
+# Target rules for targets named Taller9
+
+# Build rule for target.
+Taller9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller9
+.PHONY : Taller9
+
+# fast build rule for target.
+Taller9/fast:
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/build
+.PHONY : Taller9/fast
+
+#=============================================================================
+# Target rules for targets named Prac11.4
+
+# Build rule for target.
+Prac11.4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac11.4
+.PHONY : Prac11.4
+
+# fast build rule for target.
+Prac11.4/fast:
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/build
+.PHONY : Prac11.4/fast
+
+#=============================================================================
+# Target rules for targets named Prac9.17
+
+# Build rule for target.
+Prac9.17: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac9.17
+.PHONY : Prac9.17
+
+# fast build rule for target.
+Prac9.17/fast:
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/build
+.PHONY : Prac9.17/fast
+
+#=============================================================================
+# Target rules for targets named Prac11.3
+
+# Build rule for target.
+Prac11.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac11.3
+.PHONY : Prac11.3
+
+# fast build rule for target.
+Prac11.3/fast:
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/build
+.PHONY : Prac11.3/fast
+
+#=============================================================================
 # Target rules for targets named Prac11.6
 
 # Build rule for target.
@@ -850,6 +980,19 @@ Prac11.8: cmake_check_build_system
 Prac11.8/fast:
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/build
 .PHONY : Prac11.8/fast
+
+#=============================================================================
+# Target rules for targets named Prac11.102
+
+# Build rule for target.
+Prac11.102: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prac11.102
+.PHONY : Prac11.102
+
+# fast build rule for target.
+Prac11.102/fast:
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/build
+.PHONY : Prac11.102/fast
 
 #=============================================================================
 # Target rules for targets named random
@@ -995,58 +1138,6 @@ Taller1/fast:
 .PHONY : Taller1/fast
 
 #=============================================================================
-# Target rules for targets named Prac11.4
-
-# Build rule for target.
-Prac11.4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac11.4
-.PHONY : Prac11.4
-
-# fast build rule for target.
-Prac11.4/fast:
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/build
-.PHONY : Prac11.4/fast
-
-#=============================================================================
-# Target rules for targets named Prac9.17
-
-# Build rule for target.
-Prac9.17: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac9.17
-.PHONY : Prac9.17
-
-# fast build rule for target.
-Prac9.17/fast:
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/build
-.PHONY : Prac9.17/fast
-
-#=============================================================================
-# Target rules for targets named Prac11.3
-
-# Build rule for target.
-Prac11.3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Prac11.3
-.PHONY : Prac11.3
-
-# fast build rule for target.
-Prac11.3/fast:
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/build
-.PHONY : Prac11.3/fast
-
-#=============================================================================
-# Target rules for targets named Taller9
-
-# Build rule for target.
-Taller9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller9
-.PHONY : Taller9
-
-# fast build rule for target.
-Taller9/fast:
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/build
-.PHONY : Taller9/fast
-
-#=============================================================================
 # Target rules for targets named Taller3
 
 # Build rule for target.
@@ -1072,18 +1163,440 @@ Taller4/fast:
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/build
 .PHONY : Taller4/fast
 
-#=============================================================================
-# Target rules for targets named Taller8
+ClasesTeoricas/ClaseTeo08_10/ej1.o: ClasesTeoricas/ClaseTeo08_10/ej1.c.o
 
-# Build rule for target.
-Taller8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Taller8
-.PHONY : Taller8
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej1.o
 
-# fast build rule for target.
-Taller8/fast:
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/build
-.PHONY : Taller8/fast
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej1.c.o:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o
+	$(MAKE) -f CMakeFiles/claseTeo_1.dir/build.make CMakeFiles/claseTeo_1.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej1.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej1.i: ClasesTeoricas/ClaseTeo08_10/ej1.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej1.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej1.c.i:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.i
+	$(MAKE) -f CMakeFiles/claseTeo_1.dir/build.make CMakeFiles/claseTeo_1.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej1.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej1.s: ClasesTeoricas/ClaseTeo08_10/ej1.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej1.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej1.c.s:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.s
+	$(MAKE) -f CMakeFiles/claseTeo_1.dir/build.make CMakeFiles/claseTeo_1.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej1.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej2.o: ClasesTeoricas/ClaseTeo08_10/ej2.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej2.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej2.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_2.dir/build.make CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej2.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej2.i: ClasesTeoricas/ClaseTeo08_10/ej2.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej2.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej2.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_2.dir/build.make CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej2.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej2.s: ClasesTeoricas/ClaseTeo08_10/ej2.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej2.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej2.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_2.dir/build.make CMakeFiles/claseTeo_2.dir/ClasesTeoricas/ClaseTeo08_10/ej2.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej2.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej3.o: ClasesTeoricas/ClaseTeo08_10/ej3.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej3.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej3.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_3.dir/build.make CMakeFiles/claseTeo_3.dir/ClasesTeoricas/ClaseTeo08_10/ej3.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej3.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej3.i: ClasesTeoricas/ClaseTeo08_10/ej3.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej3.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej3.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_3.dir/build.make CMakeFiles/claseTeo_3.dir/ClasesTeoricas/ClaseTeo08_10/ej3.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej3.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej3.s: ClasesTeoricas/ClaseTeo08_10/ej3.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej3.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej3.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_3.dir/build.make CMakeFiles/claseTeo_3.dir/ClasesTeoricas/ClaseTeo08_10/ej3.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej3.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej4.o: ClasesTeoricas/ClaseTeo08_10/ej4.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej4.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej4.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_4.dir/build.make CMakeFiles/claseTeo_4.dir/ClasesTeoricas/ClaseTeo08_10/ej4.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej4.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej4.i: ClasesTeoricas/ClaseTeo08_10/ej4.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej4.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej4.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_4.dir/build.make CMakeFiles/claseTeo_4.dir/ClasesTeoricas/ClaseTeo08_10/ej4.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej4.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej4.s: ClasesTeoricas/ClaseTeo08_10/ej4.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej4.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej4.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_4.dir/build.make CMakeFiles/claseTeo_4.dir/ClasesTeoricas/ClaseTeo08_10/ej4.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej4.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej5.o: ClasesTeoricas/ClaseTeo08_10/ej5.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej5.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej5.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_5.dir/build.make CMakeFiles/claseTeo_5.dir/ClasesTeoricas/ClaseTeo08_10/ej5.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej5.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej5.i: ClasesTeoricas/ClaseTeo08_10/ej5.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej5.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej5.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_5.dir/build.make CMakeFiles/claseTeo_5.dir/ClasesTeoricas/ClaseTeo08_10/ej5.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej5.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej5.s: ClasesTeoricas/ClaseTeo08_10/ej5.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej5.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej5.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_5.dir/build.make CMakeFiles/claseTeo_5.dir/ClasesTeoricas/ClaseTeo08_10/ej5.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej5.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej6.o: ClasesTeoricas/ClaseTeo08_10/ej6.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej6.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej6.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_6.dir/build.make CMakeFiles/claseTeo_6.dir/ClasesTeoricas/ClaseTeo08_10/ej6.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej6.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej6.i: ClasesTeoricas/ClaseTeo08_10/ej6.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej6.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej6.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_6.dir/build.make CMakeFiles/claseTeo_6.dir/ClasesTeoricas/ClaseTeo08_10/ej6.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej6.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej6.s: ClasesTeoricas/ClaseTeo08_10/ej6.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej6.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej6.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_6.dir/build.make CMakeFiles/claseTeo_6.dir/ClasesTeoricas/ClaseTeo08_10/ej6.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej6.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej7.o: ClasesTeoricas/ClaseTeo08_10/ej7.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej7.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej7.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_7.dir/build.make CMakeFiles/claseTeo_7.dir/ClasesTeoricas/ClaseTeo08_10/ej7.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej7.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej7.i: ClasesTeoricas/ClaseTeo08_10/ej7.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej7.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej7.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_7.dir/build.make CMakeFiles/claseTeo_7.dir/ClasesTeoricas/ClaseTeo08_10/ej7.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej7.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej7.s: ClasesTeoricas/ClaseTeo08_10/ej7.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej7.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej7.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_7.dir/build.make CMakeFiles/claseTeo_7.dir/ClasesTeoricas/ClaseTeo08_10/ej7.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej7.c.s
+
+ClasesTeoricas/ClaseTeo08_10/ej8.o: ClasesTeoricas/ClaseTeo08_10/ej8.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej8.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo08_10/ej8.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/ClasesTeoricas/ClaseTeo08_10/ej8.c.o
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej8.c.o
+
+ClasesTeoricas/ClaseTeo08_10/ej8.i: ClasesTeoricas/ClaseTeo08_10/ej8.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej8.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo08_10/ej8.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/ClasesTeoricas/ClaseTeo08_10/ej8.c.i
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej8.c.i
+
+ClasesTeoricas/ClaseTeo08_10/ej8.s: ClasesTeoricas/ClaseTeo08_10/ej8.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej8.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo08_10/ej8.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/ClasesTeoricas/ClaseTeo08_10/ej8.c.s
+.PHONY : ClasesTeoricas/ClaseTeo08_10/ej8.c.s
+
+ClasesTeoricas/ClaseTeo21_10.o: ClasesTeoricas/ClaseTeo21_10.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo21_10.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo21_10.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/ClasesTeoricas/ClaseTeo21_10.c.o
+.PHONY : ClasesTeoricas/ClaseTeo21_10.c.o
+
+ClasesTeoricas/ClaseTeo21_10.i: ClasesTeoricas/ClaseTeo21_10.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo21_10.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo21_10.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/ClasesTeoricas/ClaseTeo21_10.c.i
+.PHONY : ClasesTeoricas/ClaseTeo21_10.c.i
+
+ClasesTeoricas/ClaseTeo21_10.s: ClasesTeoricas/ClaseTeo21_10.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo21_10.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo21_10.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/ClasesTeoricas/ClaseTeo21_10.c.s
+.PHONY : ClasesTeoricas/ClaseTeo21_10.c.s
+
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.o: ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.o
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.o
+
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.i: ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.i
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.i
+
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.s: ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.s
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c.s
+
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.o: ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.o
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.o
+
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.i: ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.i
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.i
+
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.s: ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.s
+.PHONY : ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.s
+
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.o: ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.o
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.o
+
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.i: ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.i
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.i
+
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.s: ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.s
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.s
+
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.o: ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.o
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.o
+
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.i: ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.i
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.i
+
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.s: ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_10.a2.dir/build.make CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.s
+.PHONY : ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.s
+
+ClasesTeoricas/clase02_09.o: ClasesTeoricas/clase02_09.c.o
+
+.PHONY : ClasesTeoricas/clase02_09.o
+
+# target to build an object file
+ClasesTeoricas/clase02_09.c.o:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o
+.PHONY : ClasesTeoricas/clase02_09.c.o
+
+ClasesTeoricas/clase02_09.i: ClasesTeoricas/clase02_09.c.i
+
+.PHONY : ClasesTeoricas/clase02_09.i
+
+# target to preprocess a source file
+ClasesTeoricas/clase02_09.c.i:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.i
+.PHONY : ClasesTeoricas/clase02_09.c.i
+
+ClasesTeoricas/clase02_09.s: ClasesTeoricas/clase02_09.c.s
+
+.PHONY : ClasesTeoricas/clase02_09.s
+
+# target to generate assembly for a file
+ClasesTeoricas/clase02_09.c.s:
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.s
+.PHONY : ClasesTeoricas/clase02_09.c.s
+
+ClasesTeoricas/claseTeo24_09.o: ClasesTeoricas/claseTeo24_09.c.o
+
+.PHONY : ClasesTeoricas/claseTeo24_09.o
+
+# target to build an object file
+ClasesTeoricas/claseTeo24_09.c.o:
+	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/ClasesTeoricas/claseTeo24_09.c.o
+.PHONY : ClasesTeoricas/claseTeo24_09.c.o
+
+ClasesTeoricas/claseTeo24_09.i: ClasesTeoricas/claseTeo24_09.c.i
+
+.PHONY : ClasesTeoricas/claseTeo24_09.i
+
+# target to preprocess a source file
+ClasesTeoricas/claseTeo24_09.c.i:
+	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/ClasesTeoricas/claseTeo24_09.c.i
+.PHONY : ClasesTeoricas/claseTeo24_09.c.i
+
+ClasesTeoricas/claseTeo24_09.s: ClasesTeoricas/claseTeo24_09.c.s
+
+.PHONY : ClasesTeoricas/claseTeo24_09.s
+
+# target to generate assembly for a file
+ClasesTeoricas/claseTeo24_09.c.s:
+	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/ClasesTeoricas/claseTeo24_09.c.s
+.PHONY : ClasesTeoricas/claseTeo24_09.c.s
+
+ClasesTeoricas/claseTeo30_09.o: ClasesTeoricas/claseTeo30_09.c.o
+
+.PHONY : ClasesTeoricas/claseTeo30_09.o
+
+# target to build an object file
+ClasesTeoricas/claseTeo30_09.c.o:
+	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/ClasesTeoricas/claseTeo30_09.c.o
+.PHONY : ClasesTeoricas/claseTeo30_09.c.o
+
+ClasesTeoricas/claseTeo30_09.i: ClasesTeoricas/claseTeo30_09.c.i
+
+.PHONY : ClasesTeoricas/claseTeo30_09.i
+
+# target to preprocess a source file
+ClasesTeoricas/claseTeo30_09.c.i:
+	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/ClasesTeoricas/claseTeo30_09.c.i
+.PHONY : ClasesTeoricas/claseTeo30_09.c.i
+
+ClasesTeoricas/claseTeo30_09.s: ClasesTeoricas/claseTeo30_09.c.s
+
+.PHONY : ClasesTeoricas/claseTeo30_09.s
+
+# target to generate assembly for a file
+ClasesTeoricas/claseTeo30_09.c.s:
+	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/ClasesTeoricas/claseTeo30_09.c.s
+.PHONY : ClasesTeoricas/claseTeo30_09.c.s
 
 Lib/getnum.o: Lib/getnum.c.o
 
@@ -1093,29 +1606,29 @@ Lib/getnum.o: Lib/getnum.c.o
 Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/getnum.dir/build.make CMakeFiles/getnum.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.18.dir/build.make CMakeFiles/Prac9.18.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.20.dir/build.make CMakeFiles/Prac9.20.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.15.dir/build.make CMakeFiles/Prac9.15.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.0.dir/build.make CMakeFiles/Prac9.0.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/getnum.c.o
@@ -1128,6 +1641,7 @@ Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/Prac9.19.dir/build.make CMakeFiles/Prac9.19.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.12.dir/build.make CMakeFiles/Prac9.12.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.14.dir/build.make CMakeFiles/Prac9.14.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.o
@@ -1135,8 +1649,13 @@ Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/getnum.c.o
@@ -1146,13 +1665,8 @@ Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.o
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/getnum.c.o
 .PHONY : Lib/getnum.c.o
 
 Lib/getnum.i: Lib/getnum.c.i
@@ -1163,29 +1677,29 @@ Lib/getnum.i: Lib/getnum.c.i
 Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/getnum.dir/build.make CMakeFiles/getnum.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.18.dir/build.make CMakeFiles/Prac9.18.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.20.dir/build.make CMakeFiles/Prac9.20.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.15.dir/build.make CMakeFiles/Prac9.15.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.0.dir/build.make CMakeFiles/Prac9.0.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/getnum.c.i
@@ -1198,6 +1712,7 @@ Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/Prac9.19.dir/build.make CMakeFiles/Prac9.19.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.12.dir/build.make CMakeFiles/Prac9.12.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.14.dir/build.make CMakeFiles/Prac9.14.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.i
@@ -1205,8 +1720,13 @@ Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/getnum.c.i
@@ -1216,13 +1736,8 @@ Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.i
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/getnum.c.i
 .PHONY : Lib/getnum.c.i
 
 Lib/getnum.s: Lib/getnum.c.s
@@ -1233,29 +1748,29 @@ Lib/getnum.s: Lib/getnum.c.s
 Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/getnum.dir/build.make CMakeFiles/getnum.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.18.dir/build.make CMakeFiles/Prac9.18.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.20.dir/build.make CMakeFiles/Prac9.20.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.15.dir/build.make CMakeFiles/Prac9.15.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.0.dir/build.make CMakeFiles/Prac9.0.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/getnum.c.s
@@ -1268,6 +1783,7 @@ Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.19.dir/build.make CMakeFiles/Prac9.19.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.12.dir/build.make CMakeFiles/Prac9.12.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.14.dir/build.make CMakeFiles/Prac9.14.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/getnum.c.s
@@ -1275,8 +1791,13 @@ Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/getnum.c.s
@@ -1286,13 +1807,8 @@ Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Taller3.dir/build.make CMakeFiles/Taller3.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/getnum.c.s
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/getnum.c.s
 .PHONY : Lib/getnum.c.s
 
 Lib/list.o: Lib/list.c.o
@@ -1301,18 +1817,40 @@ Lib/list.o: Lib/list.c.o
 
 # target to build an object file
 Lib/list.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/listas.dir/build.make CMakeFiles/listas.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.19.dir/build.make CMakeFiles/Prac11.19.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.8.dir/build.make CMakeFiles/Prac10.8.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.9.dir/build.make CMakeFiles/Prac10.9.dir/Lib/list.c.o
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.15.dir/build.make CMakeFiles/Prac11.15.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.9.dir/build.make CMakeFiles/Prac11.9.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.16.dir/build.make CMakeFiles/Prac11.16.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/list.c.o
+	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/list.c.o
 .PHONY : Lib/list.c.o
 
 Lib/list.i: Lib/list.c.i
@@ -1321,18 +1859,40 @@ Lib/list.i: Lib/list.c.i
 
 # target to preprocess a source file
 Lib/list.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/listas.dir/build.make CMakeFiles/listas.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.19.dir/build.make CMakeFiles/Prac11.19.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.8.dir/build.make CMakeFiles/Prac10.8.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.9.dir/build.make CMakeFiles/Prac10.9.dir/Lib/list.c.i
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.15.dir/build.make CMakeFiles/Prac11.15.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.9.dir/build.make CMakeFiles/Prac11.9.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.16.dir/build.make CMakeFiles/Prac11.16.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/list.c.i
+	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/list.c.i
 .PHONY : Lib/list.c.i
 
 Lib/list.s: Lib/list.c.s
@@ -1341,18 +1901,40 @@ Lib/list.s: Lib/list.c.s
 
 # target to generate assembly for a file
 Lib/list.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_10.2.dir/build.make CMakeFiles/claseTeo_10.2.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/claseTeo_10.dir/build.make CMakeFiles/claseTeo_10.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/listas.dir/build.make CMakeFiles/listas.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.19.dir/build.make CMakeFiles/Prac11.19.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.8.dir/build.make CMakeFiles/Prac10.8.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.9.dir/build.make CMakeFiles/Prac10.9.dir/Lib/list.c.s
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.15.dir/build.make CMakeFiles/Prac11.15.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.9.dir/build.make CMakeFiles/Prac11.9.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.16.dir/build.make CMakeFiles/Prac11.16.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/list.c.s
+	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/list.c.s
 .PHONY : Lib/list.c.s
 
 Lib/random.o: Lib/random.c.o
@@ -1362,29 +1944,29 @@ Lib/random.o: Lib/random.c.o
 # target to build an object file
 Lib/random.c.o:
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.18.dir/build.make CMakeFiles/Prac9.18.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.20.dir/build.make CMakeFiles/Prac9.20.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.15.dir/build.make CMakeFiles/Prac9.15.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.0.dir/build.make CMakeFiles/Prac9.0.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/random.c.o
@@ -1397,6 +1979,7 @@ Lib/random.c.o:
 	$(MAKE) -f CMakeFiles/Prac9.19.dir/build.make CMakeFiles/Prac9.19.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.12.dir/build.make CMakeFiles/Prac9.12.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.14.dir/build.make CMakeFiles/Prac9.14.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.o
@@ -1404,8 +1987,13 @@ Lib/random.c.o:
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/random.c.o
@@ -1415,12 +2003,7 @@ Lib/random.c.o:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.o
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/random.c.o
 .PHONY : Lib/random.c.o
 
 Lib/random.i: Lib/random.c.i
@@ -1430,29 +2013,29 @@ Lib/random.i: Lib/random.c.i
 # target to preprocess a source file
 Lib/random.c.i:
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.18.dir/build.make CMakeFiles/Prac9.18.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.20.dir/build.make CMakeFiles/Prac9.20.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.15.dir/build.make CMakeFiles/Prac9.15.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.0.dir/build.make CMakeFiles/Prac9.0.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/random.c.i
@@ -1465,6 +2048,7 @@ Lib/random.c.i:
 	$(MAKE) -f CMakeFiles/Prac9.19.dir/build.make CMakeFiles/Prac9.19.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.12.dir/build.make CMakeFiles/Prac9.12.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.14.dir/build.make CMakeFiles/Prac9.14.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.i
@@ -1472,8 +2056,13 @@ Lib/random.c.i:
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/random.c.i
@@ -1483,12 +2072,7 @@ Lib/random.c.i:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.i
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/random.c.i
 .PHONY : Lib/random.c.i
 
 Lib/random.s: Lib/random.c.s
@@ -1498,29 +2082,29 @@ Lib/random.s: Lib/random.c.s
 # target to generate assembly for a file
 Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.18.dir/build.make CMakeFiles/Prac9.18.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.20.dir/build.make CMakeFiles/Prac9.20.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.15.dir/build.make CMakeFiles/Prac9.15.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Taller7.dir/build.make CMakeFiles/Taller7.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Taller10.dir/build.make CMakeFiles/Taller10.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.0.dir/build.make CMakeFiles/Prac9.0.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/random.c.s
@@ -1533,6 +2117,7 @@ Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.19.dir/build.make CMakeFiles/Prac9.19.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.12.dir/build.make CMakeFiles/Prac9.12.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac9.10.dir/build.make CMakeFiles/Prac9.10.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.14.dir/build.make CMakeFiles/Prac11.14.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.14.dir/build.make CMakeFiles/Prac9.14.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Taller5.dir/build.make CMakeFiles/Taller5.dir/Lib/random.c.s
@@ -1540,8 +2125,13 @@ Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.6.dir/build.make CMakeFiles/Prac11.6.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.12.dir/build.make CMakeFiles/Prac11.12.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.13.dir/build.make CMakeFiles/Prac11.13.dir/Lib/random.c.s
@@ -1551,12 +2141,7 @@ Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.18.dir/build.make CMakeFiles/Prac11.18.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Taller6.dir/build.make CMakeFiles/Taller6.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac9.17.dir/build.make CMakeFiles/Prac9.17.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Taller4.dir/build.make CMakeFiles/Taller4.dir/Lib/random.c.s
-	$(MAKE) -f CMakeFiles/Taller8.dir/build.make CMakeFiles/Taller8.dir/Lib/random.c.s
 .PHONY : Lib/random.c.s
 
 Lib/utillist.o: Lib/utillist.c.o
@@ -1566,6 +2151,7 @@ Lib/utillist.o: Lib/utillist.c.o
 # target to build an object file
 Lib/utillist.c.o:
 	$(MAKE) -f CMakeFiles/utilist.dir/build.make CMakeFiles/utilist.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/Lib/utillist.c.o
 .PHONY : Lib/utillist.c.o
 
 Lib/utillist.i: Lib/utillist.c.i
@@ -1575,6 +2161,7 @@ Lib/utillist.i: Lib/utillist.c.i
 # target to preprocess a source file
 Lib/utillist.c.i:
 	$(MAKE) -f CMakeFiles/utilist.dir/build.make CMakeFiles/utilist.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/Lib/utillist.c.i
 .PHONY : Lib/utillist.c.i
 
 Lib/utillist.s: Lib/utillist.c.s
@@ -1584,6 +2171,7 @@ Lib/utillist.s: Lib/utillist.c.s
 # target to generate assembly for a file
 Lib/utillist.c.s:
 	$(MAKE) -f CMakeFiles/utilist.dir/build.make CMakeFiles/utilist.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/Lib/utillist.c.s
 .PHONY : Lib/utillist.c.s
 
 Practica10/ej1/ej1.o: Practica10/ej1/ej1.c.o
@@ -1856,32 +2444,62 @@ Practica11/ej1/ej1.c.s:
 	$(MAKE) -f CMakeFiles/Prac11.1.dir/build.make CMakeFiles/Prac11.1.dir/Practica11/ej1/ej1.c.s
 .PHONY : Practica11/ej1/ej1.c.s
 
-Practica11/ej10/ej10.o: Practica11/ej10/ej10.c.o
+Practica11/ej10/bagADT.o: Practica11/ej10/bagADT.c.o
 
-.PHONY : Practica11/ej10/ej10.o
+.PHONY : Practica11/ej10/bagADT.o
 
 # target to build an object file
-Practica11/ej10/ej10.c.o:
-	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Practica11/ej10/ej10.c.o
-.PHONY : Practica11/ej10/ej10.c.o
+Practica11/ej10/bagADT.c.o:
+	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Practica11/ej10/bagADT.c.o
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Practica11/ej10/bagADT.c.o
+.PHONY : Practica11/ej10/bagADT.c.o
 
-Practica11/ej10/ej10.i: Practica11/ej10/ej10.c.i
+Practica11/ej10/bagADT.i: Practica11/ej10/bagADT.c.i
 
-.PHONY : Practica11/ej10/ej10.i
+.PHONY : Practica11/ej10/bagADT.i
 
 # target to preprocess a source file
-Practica11/ej10/ej10.c.i:
-	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Practica11/ej10/ej10.c.i
-.PHONY : Practica11/ej10/ej10.c.i
+Practica11/ej10/bagADT.c.i:
+	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Practica11/ej10/bagADT.c.i
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Practica11/ej10/bagADT.c.i
+.PHONY : Practica11/ej10/bagADT.c.i
 
-Practica11/ej10/ej10.s: Practica11/ej10/ej10.c.s
+Practica11/ej10/bagADT.s: Practica11/ej10/bagADT.c.s
 
-.PHONY : Practica11/ej10/ej10.s
+.PHONY : Practica11/ej10/bagADT.s
 
 # target to generate assembly for a file
-Practica11/ej10/ej10.c.s:
-	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Practica11/ej10/ej10.c.s
-.PHONY : Practica11/ej10/ej10.c.s
+Practica11/ej10/bagADT.c.s:
+	$(MAKE) -f CMakeFiles/Prac11.10.dir/build.make CMakeFiles/Prac11.10.dir/Practica11/ej10/bagADT.c.s
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Practica11/ej10/bagADT.c.s
+.PHONY : Practica11/ej10/bagADT.c.s
+
+Practica11/ej10/bagADTTester.o: Practica11/ej10/bagADTTester.c.o
+
+.PHONY : Practica11/ej10/bagADTTester.o
+
+# target to build an object file
+Practica11/ej10/bagADTTester.c.o:
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Practica11/ej10/bagADTTester.c.o
+.PHONY : Practica11/ej10/bagADTTester.c.o
+
+Practica11/ej10/bagADTTester.i: Practica11/ej10/bagADTTester.c.i
+
+.PHONY : Practica11/ej10/bagADTTester.i
+
+# target to preprocess a source file
+Practica11/ej10/bagADTTester.c.i:
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Practica11/ej10/bagADTTester.c.i
+.PHONY : Practica11/ej10/bagADTTester.c.i
+
+Practica11/ej10/bagADTTester.s: Practica11/ej10/bagADTTester.c.s
+
+.PHONY : Practica11/ej10/bagADTTester.s
+
+# target to generate assembly for a file
+Practica11/ej10/bagADTTester.c.s:
+	$(MAKE) -f CMakeFiles/Prac11.102.dir/build.make CMakeFiles/Prac11.102.dir/Practica11/ej10/bagADTTester.c.s
+.PHONY : Practica11/ej10/bagADTTester.c.s
 
 Practica11/ej11/ej11.o: Practica11/ej11/ej11.c.o
 
@@ -2153,33 +2771,6 @@ Practica11/ej2/ej2.c.s:
 	$(MAKE) -f CMakeFiles/Prac11.2.dir/build.make CMakeFiles/Prac11.2.dir/Practica11/ej2/ej2.c.s
 .PHONY : Practica11/ej2/ej2.c.s
 
-Practica11/ej3/ej3.o: Practica11/ej3/ej3.c.o
-
-.PHONY : Practica11/ej3/ej3.o
-
-# target to build an object file
-Practica11/ej3/ej3.c.o:
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Practica11/ej3/ej3.c.o
-.PHONY : Practica11/ej3/ej3.c.o
-
-Practica11/ej3/ej3.i: Practica11/ej3/ej3.c.i
-
-.PHONY : Practica11/ej3/ej3.i
-
-# target to preprocess a source file
-Practica11/ej3/ej3.c.i:
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Practica11/ej3/ej3.c.i
-.PHONY : Practica11/ej3/ej3.c.i
-
-Practica11/ej3/ej3.s: Practica11/ej3/ej3.c.s
-
-.PHONY : Practica11/ej3/ej3.s
-
-# target to generate assembly for a file
-Practica11/ej3/ej3.c.s:
-	$(MAKE) -f CMakeFiles/Prac11.3.dir/build.make CMakeFiles/Prac11.3.dir/Practica11/ej3/ej3.c.s
-.PHONY : Practica11/ej3/ej3.c.s
-
 Practica11/ej4/ej4.o: Practica11/ej4/ej4.c.o
 
 .PHONY : Practica11/ej4/ej4.o
@@ -2207,32 +2798,65 @@ Practica11/ej4/ej4.c.s:
 	$(MAKE) -f CMakeFiles/Prac11.4.dir/build.make CMakeFiles/Prac11.4.dir/Practica11/ej4/ej4.c.s
 .PHONY : Practica11/ej4/ej4.c.s
 
-Practica11/ej5/ej5.o: Practica11/ej5/ej5.c.o
+Practica11/ej5/complejosADT.o: Practica11/ej5/complejosADT.c.o
 
-.PHONY : Practica11/ej5/ej5.o
+.PHONY : Practica11/ej5/complejosADT.o
 
 # target to build an object file
-Practica11/ej5/ej5.c.o:
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Practica11/ej5/ej5.c.o
-.PHONY : Practica11/ej5/ej5.c.o
+Practica11/ej5/complejosADT.c.o:
+	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Practica11/ej5/complejosADT.c.o
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/Practica11/ej5/complejosADT.c.o
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o
+.PHONY : Practica11/ej5/complejosADT.c.o
 
-Practica11/ej5/ej5.i: Practica11/ej5/ej5.c.i
+Practica11/ej5/complejosADT.i: Practica11/ej5/complejosADT.c.i
 
-.PHONY : Practica11/ej5/ej5.i
+.PHONY : Practica11/ej5/complejosADT.i
 
 # target to preprocess a source file
-Practica11/ej5/ej5.c.i:
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Practica11/ej5/ej5.c.i
-.PHONY : Practica11/ej5/ej5.c.i
+Practica11/ej5/complejosADT.c.i:
+	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Practica11/ej5/complejosADT.c.i
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/Practica11/ej5/complejosADT.c.i
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.i
+.PHONY : Practica11/ej5/complejosADT.c.i
 
-Practica11/ej5/ej5.s: Practica11/ej5/ej5.c.s
+Practica11/ej5/complejosADT.s: Practica11/ej5/complejosADT.c.s
 
-.PHONY : Practica11/ej5/ej5.s
+.PHONY : Practica11/ej5/complejosADT.s
 
 # target to generate assembly for a file
-Practica11/ej5/ej5.c.s:
-	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Practica11/ej5/ej5.c.s
-.PHONY : Practica11/ej5/ej5.c.s
+Practica11/ej5/complejosADT.c.s:
+	$(MAKE) -f CMakeFiles/Prac11.5.dir/build.make CMakeFiles/Prac11.5.dir/Practica11/ej5/complejosADT.c.s
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/Practica11/ej5/complejosADT.c.s
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.s
+.PHONY : Practica11/ej5/complejosADT.c.s
+
+Practica11/ej5/complejosADTTester.o: Practica11/ej5/complejosADTTester.c.o
+
+.PHONY : Practica11/ej5/complejosADTTester.o
+
+# target to build an object file
+Practica11/ej5/complejosADTTester.c.o:
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/Practica11/ej5/complejosADTTester.c.o
+.PHONY : Practica11/ej5/complejosADTTester.c.o
+
+Practica11/ej5/complejosADTTester.i: Practica11/ej5/complejosADTTester.c.i
+
+.PHONY : Practica11/ej5/complejosADTTester.i
+
+# target to preprocess a source file
+Practica11/ej5/complejosADTTester.c.i:
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/Practica11/ej5/complejosADTTester.c.i
+.PHONY : Practica11/ej5/complejosADTTester.c.i
+
+Practica11/ej5/complejosADTTester.s: Practica11/ej5/complejosADTTester.c.s
+
+.PHONY : Practica11/ej5/complejosADTTester.s
+
+# target to generate assembly for a file
+Practica11/ej5/complejosADTTester.c.s:
+	$(MAKE) -f CMakeFiles/Prac11.52.dir/build.make CMakeFiles/Prac11.52.dir/Practica11/ej5/complejosADTTester.c.s
+.PHONY : Practica11/ej5/complejosADTTester.c.s
 
 Practica11/ej6/ej6.o: Practica11/ej6/ej6.c.o
 
@@ -2288,59 +2912,59 @@ Practica11/ej7/ej7.c.s:
 	$(MAKE) -f CMakeFiles/Prac11.7.dir/build.make CMakeFiles/Prac11.7.dir/Practica11/ej7/ej7.c.s
 .PHONY : Practica11/ej7/ej7.c.s
 
-Practica11/ej8/ej8.o: Practica11/ej8/ej8.c.o
+Practica11/ej8/setADT.o: Practica11/ej8/setADT.c.o
 
-.PHONY : Practica11/ej8/ej8.o
-
-# target to build an object file
-Practica11/ej8/ej8.c.o:
-	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej8/ej8.c.o
-.PHONY : Practica11/ej8/ej8.c.o
-
-Practica11/ej8/ej8.i: Practica11/ej8/ej8.c.i
-
-.PHONY : Practica11/ej8/ej8.i
-
-# target to preprocess a source file
-Practica11/ej8/ej8.c.i:
-	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej8/ej8.c.i
-.PHONY : Practica11/ej8/ej8.c.i
-
-Practica11/ej8/ej8.s: Practica11/ej8/ej8.c.s
-
-.PHONY : Practica11/ej8/ej8.s
-
-# target to generate assembly for a file
-Practica11/ej8/ej8.c.s:
-	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej8/ej8.c.s
-.PHONY : Practica11/ej8/ej8.c.s
-
-Practica11/ej9/ej9.o: Practica11/ej9/ej9.c.o
-
-.PHONY : Practica11/ej9/ej9.o
+.PHONY : Practica11/ej8/setADT.o
 
 # target to build an object file
-Practica11/ej9/ej9.c.o:
-	$(MAKE) -f CMakeFiles/Prac11.9.dir/build.make CMakeFiles/Prac11.9.dir/Practica11/ej9/ej9.c.o
-.PHONY : Practica11/ej9/ej9.c.o
+Practica11/ej8/setADT.c.o:
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Practica11/ej8/setADT.c.o
+.PHONY : Practica11/ej8/setADT.c.o
 
-Practica11/ej9/ej9.i: Practica11/ej9/ej9.c.i
+Practica11/ej8/setADT.i: Practica11/ej8/setADT.c.i
 
-.PHONY : Practica11/ej9/ej9.i
+.PHONY : Practica11/ej8/setADT.i
 
 # target to preprocess a source file
-Practica11/ej9/ej9.c.i:
-	$(MAKE) -f CMakeFiles/Prac11.9.dir/build.make CMakeFiles/Prac11.9.dir/Practica11/ej9/ej9.c.i
-.PHONY : Practica11/ej9/ej9.c.i
+Practica11/ej8/setADT.c.i:
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Practica11/ej8/setADT.c.i
+.PHONY : Practica11/ej8/setADT.c.i
 
-Practica11/ej9/ej9.s: Practica11/ej9/ej9.c.s
+Practica11/ej8/setADT.s: Practica11/ej8/setADT.c.s
 
-.PHONY : Practica11/ej9/ej9.s
+.PHONY : Practica11/ej8/setADT.s
 
 # target to generate assembly for a file
-Practica11/ej9/ej9.c.s:
-	$(MAKE) -f CMakeFiles/Prac11.9.dir/build.make CMakeFiles/Prac11.9.dir/Practica11/ej9/ej9.c.s
-.PHONY : Practica11/ej9/ej9.c.s
+Practica11/ej8/setADT.c.s:
+	$(MAKE) -f CMakeFiles/Prac11.82.dir/build.make CMakeFiles/Prac11.82.dir/Practica11/ej8/setADT.c.s
+.PHONY : Practica11/ej8/setADT.c.s
+
+Practica11/ej8/setADTTester.o: Practica11/ej8/setADTTester.c.o
+
+.PHONY : Practica11/ej8/setADTTester.o
+
+# target to build an object file
+Practica11/ej8/setADTTester.c.o:
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej8/setADTTester.c.o
+.PHONY : Practica11/ej8/setADTTester.c.o
+
+Practica11/ej8/setADTTester.i: Practica11/ej8/setADTTester.c.i
+
+.PHONY : Practica11/ej8/setADTTester.i
+
+# target to preprocess a source file
+Practica11/ej8/setADTTester.c.i:
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej8/setADTTester.c.i
+.PHONY : Practica11/ej8/setADTTester.c.i
+
+Practica11/ej8/setADTTester.s: Practica11/ej8/setADTTester.c.s
+
+.PHONY : Practica11/ej8/setADTTester.s
+
+# target to generate assembly for a file
+Practica11/ej8/setADTTester.c.s:
+	$(MAKE) -f CMakeFiles/Prac11.8.dir/build.make CMakeFiles/Prac11.8.dir/Practica11/ej8/setADTTester.c.s
+.PHONY : Practica11/ej8/setADTTester.c.s
 
 Practica9/ej0/ej0.o: Practica9/ej0/ej0.c.o
 
@@ -2909,252 +3533,6 @@ Practica9/ej9/ej9.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.9.dir/build.make CMakeFiles/Prac9.9.dir/Practica9/ej9/ej9.c.s
 .PHONY : Practica9/ej9/ej9.c.s
 
-Taller/ClaseTeo08_10/ej1.o: Taller/ClaseTeo08_10/ej1.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej1.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej1.c.o:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o
-	$(MAKE) -f CMakeFiles/claseTeo_1.dir/build.make CMakeFiles/claseTeo_1.dir/Taller/ClaseTeo08_10/ej1.c.o
-.PHONY : Taller/ClaseTeo08_10/ej1.c.o
-
-Taller/ClaseTeo08_10/ej1.i: Taller/ClaseTeo08_10/ej1.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej1.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej1.c.i:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.i
-	$(MAKE) -f CMakeFiles/claseTeo_1.dir/build.make CMakeFiles/claseTeo_1.dir/Taller/ClaseTeo08_10/ej1.c.i
-.PHONY : Taller/ClaseTeo08_10/ej1.c.i
-
-Taller/ClaseTeo08_10/ej1.s: Taller/ClaseTeo08_10/ej1.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej1.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej1.c.s:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.s
-	$(MAKE) -f CMakeFiles/claseTeo_1.dir/build.make CMakeFiles/claseTeo_1.dir/Taller/ClaseTeo08_10/ej1.c.s
-.PHONY : Taller/ClaseTeo08_10/ej1.c.s
-
-Taller/ClaseTeo08_10/ej2.o: Taller/ClaseTeo08_10/ej2.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej2.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej2.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_2.dir/build.make CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.o
-.PHONY : Taller/ClaseTeo08_10/ej2.c.o
-
-Taller/ClaseTeo08_10/ej2.i: Taller/ClaseTeo08_10/ej2.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej2.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej2.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_2.dir/build.make CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.i
-.PHONY : Taller/ClaseTeo08_10/ej2.c.i
-
-Taller/ClaseTeo08_10/ej2.s: Taller/ClaseTeo08_10/ej2.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej2.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej2.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_2.dir/build.make CMakeFiles/claseTeo_2.dir/Taller/ClaseTeo08_10/ej2.c.s
-.PHONY : Taller/ClaseTeo08_10/ej2.c.s
-
-Taller/ClaseTeo08_10/ej3.o: Taller/ClaseTeo08_10/ej3.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej3.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej3.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_3.dir/build.make CMakeFiles/claseTeo_3.dir/Taller/ClaseTeo08_10/ej3.c.o
-.PHONY : Taller/ClaseTeo08_10/ej3.c.o
-
-Taller/ClaseTeo08_10/ej3.i: Taller/ClaseTeo08_10/ej3.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej3.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej3.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_3.dir/build.make CMakeFiles/claseTeo_3.dir/Taller/ClaseTeo08_10/ej3.c.i
-.PHONY : Taller/ClaseTeo08_10/ej3.c.i
-
-Taller/ClaseTeo08_10/ej3.s: Taller/ClaseTeo08_10/ej3.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej3.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej3.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_3.dir/build.make CMakeFiles/claseTeo_3.dir/Taller/ClaseTeo08_10/ej3.c.s
-.PHONY : Taller/ClaseTeo08_10/ej3.c.s
-
-Taller/ClaseTeo08_10/ej4.o: Taller/ClaseTeo08_10/ej4.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej4.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej4.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_4.dir/build.make CMakeFiles/claseTeo_4.dir/Taller/ClaseTeo08_10/ej4.c.o
-.PHONY : Taller/ClaseTeo08_10/ej4.c.o
-
-Taller/ClaseTeo08_10/ej4.i: Taller/ClaseTeo08_10/ej4.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej4.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej4.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_4.dir/build.make CMakeFiles/claseTeo_4.dir/Taller/ClaseTeo08_10/ej4.c.i
-.PHONY : Taller/ClaseTeo08_10/ej4.c.i
-
-Taller/ClaseTeo08_10/ej4.s: Taller/ClaseTeo08_10/ej4.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej4.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej4.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_4.dir/build.make CMakeFiles/claseTeo_4.dir/Taller/ClaseTeo08_10/ej4.c.s
-.PHONY : Taller/ClaseTeo08_10/ej4.c.s
-
-Taller/ClaseTeo08_10/ej5.o: Taller/ClaseTeo08_10/ej5.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej5.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej5.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_5.dir/build.make CMakeFiles/claseTeo_5.dir/Taller/ClaseTeo08_10/ej5.c.o
-.PHONY : Taller/ClaseTeo08_10/ej5.c.o
-
-Taller/ClaseTeo08_10/ej5.i: Taller/ClaseTeo08_10/ej5.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej5.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej5.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_5.dir/build.make CMakeFiles/claseTeo_5.dir/Taller/ClaseTeo08_10/ej5.c.i
-.PHONY : Taller/ClaseTeo08_10/ej5.c.i
-
-Taller/ClaseTeo08_10/ej5.s: Taller/ClaseTeo08_10/ej5.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej5.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej5.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_5.dir/build.make CMakeFiles/claseTeo_5.dir/Taller/ClaseTeo08_10/ej5.c.s
-.PHONY : Taller/ClaseTeo08_10/ej5.c.s
-
-Taller/ClaseTeo08_10/ej6.o: Taller/ClaseTeo08_10/ej6.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej6.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej6.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_6.dir/build.make CMakeFiles/claseTeo_6.dir/Taller/ClaseTeo08_10/ej6.c.o
-.PHONY : Taller/ClaseTeo08_10/ej6.c.o
-
-Taller/ClaseTeo08_10/ej6.i: Taller/ClaseTeo08_10/ej6.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej6.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej6.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_6.dir/build.make CMakeFiles/claseTeo_6.dir/Taller/ClaseTeo08_10/ej6.c.i
-.PHONY : Taller/ClaseTeo08_10/ej6.c.i
-
-Taller/ClaseTeo08_10/ej6.s: Taller/ClaseTeo08_10/ej6.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej6.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej6.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_6.dir/build.make CMakeFiles/claseTeo_6.dir/Taller/ClaseTeo08_10/ej6.c.s
-.PHONY : Taller/ClaseTeo08_10/ej6.c.s
-
-Taller/ClaseTeo08_10/ej7.o: Taller/ClaseTeo08_10/ej7.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej7.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej7.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_7.dir/build.make CMakeFiles/claseTeo_7.dir/Taller/ClaseTeo08_10/ej7.c.o
-.PHONY : Taller/ClaseTeo08_10/ej7.c.o
-
-Taller/ClaseTeo08_10/ej7.i: Taller/ClaseTeo08_10/ej7.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej7.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej7.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_7.dir/build.make CMakeFiles/claseTeo_7.dir/Taller/ClaseTeo08_10/ej7.c.i
-.PHONY : Taller/ClaseTeo08_10/ej7.c.i
-
-Taller/ClaseTeo08_10/ej7.s: Taller/ClaseTeo08_10/ej7.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej7.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej7.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_7.dir/build.make CMakeFiles/claseTeo_7.dir/Taller/ClaseTeo08_10/ej7.c.s
-.PHONY : Taller/ClaseTeo08_10/ej7.c.s
-
-Taller/ClaseTeo08_10/ej8.o: Taller/ClaseTeo08_10/ej8.c.o
-
-.PHONY : Taller/ClaseTeo08_10/ej8.o
-
-# target to build an object file
-Taller/ClaseTeo08_10/ej8.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/Taller/ClaseTeo08_10/ej8.c.o
-.PHONY : Taller/ClaseTeo08_10/ej8.c.o
-
-Taller/ClaseTeo08_10/ej8.i: Taller/ClaseTeo08_10/ej8.c.i
-
-.PHONY : Taller/ClaseTeo08_10/ej8.i
-
-# target to preprocess a source file
-Taller/ClaseTeo08_10/ej8.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/Taller/ClaseTeo08_10/ej8.c.i
-.PHONY : Taller/ClaseTeo08_10/ej8.c.i
-
-Taller/ClaseTeo08_10/ej8.s: Taller/ClaseTeo08_10/ej8.c.s
-
-.PHONY : Taller/ClaseTeo08_10/ej8.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo08_10/ej8.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_8.dir/build.make CMakeFiles/claseTeo_8.dir/Taller/ClaseTeo08_10/ej8.c.s
-.PHONY : Taller/ClaseTeo08_10/ej8.c.s
-
-Taller/ClaseTeo21_10.o: Taller/ClaseTeo21_10.c.o
-
-.PHONY : Taller/ClaseTeo21_10.o
-
-# target to build an object file
-Taller/ClaseTeo21_10.c.o:
-	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/Taller/ClaseTeo21_10.c.o
-.PHONY : Taller/ClaseTeo21_10.c.o
-
-Taller/ClaseTeo21_10.i: Taller/ClaseTeo21_10.c.i
-
-.PHONY : Taller/ClaseTeo21_10.i
-
-# target to preprocess a source file
-Taller/ClaseTeo21_10.c.i:
-	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/Taller/ClaseTeo21_10.c.i
-.PHONY : Taller/ClaseTeo21_10.c.i
-
-Taller/ClaseTeo21_10.s: Taller/ClaseTeo21_10.c.s
-
-.PHONY : Taller/ClaseTeo21_10.s
-
-# target to generate assembly for a file
-Taller/ClaseTeo21_10.c.s:
-	$(MAKE) -f CMakeFiles/claseTeo_9.dir/build.make CMakeFiles/claseTeo_9.dir/Taller/ClaseTeo21_10.c.s
-.PHONY : Taller/ClaseTeo21_10.c.s
-
 Taller/Taller1.o: Taller/Taller1.c.o
 
 .PHONY : Taller/Taller1.o
@@ -3425,87 +3803,6 @@ Taller/Taller9.c.s:
 	$(MAKE) -f CMakeFiles/Taller9.dir/build.make CMakeFiles/Taller9.dir/Taller/Taller9.c.s
 .PHONY : Taller/Taller9.c.s
 
-Taller/clase02_09.o: Taller/clase02_09.c.o
-
-.PHONY : Taller/clase02_09.o
-
-# target to build an object file
-Taller/clase02_09.c.o:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o
-.PHONY : Taller/clase02_09.c.o
-
-Taller/clase02_09.i: Taller/clase02_09.c.i
-
-.PHONY : Taller/clase02_09.i
-
-# target to preprocess a source file
-Taller/clase02_09.c.i:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.i
-.PHONY : Taller/clase02_09.c.i
-
-Taller/clase02_09.s: Taller/clase02_09.c.s
-
-.PHONY : Taller/clase02_09.s
-
-# target to generate assembly for a file
-Taller/clase02_09.c.s:
-	$(MAKE) -f CMakeFiles/claseTeorica.dir/build.make CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.s
-.PHONY : Taller/clase02_09.c.s
-
-Taller/claseTeo24_09.o: Taller/claseTeo24_09.c.o
-
-.PHONY : Taller/claseTeo24_09.o
-
-# target to build an object file
-Taller/claseTeo24_09.c.o:
-	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Taller/claseTeo24_09.c.o
-.PHONY : Taller/claseTeo24_09.c.o
-
-Taller/claseTeo24_09.i: Taller/claseTeo24_09.c.i
-
-.PHONY : Taller/claseTeo24_09.i
-
-# target to preprocess a source file
-Taller/claseTeo24_09.c.i:
-	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Taller/claseTeo24_09.c.i
-.PHONY : Taller/claseTeo24_09.c.i
-
-Taller/claseTeo24_09.s: Taller/claseTeo24_09.c.s
-
-.PHONY : Taller/claseTeo24_09.s
-
-# target to generate assembly for a file
-Taller/claseTeo24_09.c.s:
-	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/Taller/claseTeo24_09.c.s
-.PHONY : Taller/claseTeo24_09.c.s
-
-Taller/claseTeo30_09.o: Taller/claseTeo30_09.c.o
-
-.PHONY : Taller/claseTeo30_09.o
-
-# target to build an object file
-Taller/claseTeo30_09.c.o:
-	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Taller/claseTeo30_09.c.o
-.PHONY : Taller/claseTeo30_09.c.o
-
-Taller/claseTeo30_09.i: Taller/claseTeo30_09.c.i
-
-.PHONY : Taller/claseTeo30_09.i
-
-# target to preprocess a source file
-Taller/claseTeo30_09.c.i:
-	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Taller/claseTeo30_09.c.i
-.PHONY : Taller/claseTeo30_09.c.i
-
-Taller/claseTeo30_09.s: Taller/claseTeo30_09.c.s
-
-.PHONY : Taller/claseTeo30_09.s
-
-# target to generate assembly for a file
-Taller/claseTeo30_09.c.s:
-	$(MAKE) -f CMakeFiles/claseTeorica3.dir/build.make CMakeFiles/claseTeorica3.dir/Taller/claseTeo30_09.c.s
-.PHONY : Taller/claseTeo30_09.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3516,6 +3813,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... utilist"
 	@echo "... getnum"
+	@echo "... claseTeo_10.a2"
+	@echo "... claseTeo_10.2"
+	@echo "... claseTeo_10"
 	@echo "... claseTeo_9"
 	@echo "... claseTeo_8"
 	@echo "... claseTeo_7"
@@ -3523,26 +3823,27 @@ help:
 	@echo "... claseTeo_5"
 	@echo "... claseTeo_3"
 	@echo "... claseTeorica2"
+	@echo "... Taller8"
 	@echo "... Prac10.7"
 	@echo "... Prac10.6"
 	@echo "... Prac10.5"
+	@echo "... Prac11.82"
 	@echo "... Prac10.4"
 	@echo "... claseTeo_2"
 	@echo "... Prac10.3"
-	@echo "... Prac9.10"
 	@echo "... Prac9.18"
 	@echo "... Prac9.20"
 	@echo "... Prac9.9"
 	@echo "... Prac9.15"
 	@echo "... Prac9.3"
+	@echo "... claseTeorica"
+	@echo "... Taller10"
+	@echo "... Taller7"
 	@echo "... Prac9.16"
 	@echo "... Prac9.8"
 	@echo "... Prac11.17"
 	@echo "... Prac10.1"
 	@echo "... Prac9.11"
-	@echo "... claseTeorica"
-	@echo "... Taller7"
-	@echo "... Taller10"
 	@echo "... Prac9.0"
 	@echo "... Prac9.4"
 	@echo "... Prac9.1"
@@ -3562,6 +3863,8 @@ help:
 	@echo "... claseTeo_4"
 	@echo "... claseTeorica3"
 	@echo "... Prac9.12"
+	@echo "... Prac9.10"
+	@echo "... Prac11.52"
 	@echo "... Prac11.14"
 	@echo "... Prac9.14"
 	@echo "... Taller5"
@@ -3569,8 +3872,13 @@ help:
 	@echo "... Prac10.2"
 	@echo "... Prac11.1"
 	@echo "... Prac11.2"
+	@echo "... Taller9"
+	@echo "... Prac11.4"
+	@echo "... Prac9.17"
+	@echo "... Prac11.3"
 	@echo "... Prac11.6"
 	@echo "... Prac11.8"
+	@echo "... Prac11.102"
 	@echo "... random"
 	@echo "... Prac11.12"
 	@echo "... Taller2"
@@ -3582,13 +3890,56 @@ help:
 	@echo "... Prac11.18"
 	@echo "... Taller6"
 	@echo "... Taller1"
-	@echo "... Prac11.4"
-	@echo "... Prac9.17"
-	@echo "... Prac11.3"
-	@echo "... Taller9"
 	@echo "... Taller3"
 	@echo "... Taller4"
-	@echo "... Taller8"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej1.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej1.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej1.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej2.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej2.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej2.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej3.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej3.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej3.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej4.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej4.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej4.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej5.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej5.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej5.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej6.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej6.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej6.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej7.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej7.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej7.s"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej8.o"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej8.i"
+	@echo "... ClasesTeoricas/ClaseTeo08_10/ej8.s"
+	@echo "... ClasesTeoricas/ClaseTeo21_10.o"
+	@echo "... ClasesTeoricas/ClaseTeo21_10.i"
+	@echo "... ClasesTeoricas/ClaseTeo21_10.s"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.o"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.i"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.s"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.o"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.i"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.s"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.o"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.i"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.s"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.o"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.i"
+	@echo "... ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.s"
+	@echo "... ClasesTeoricas/clase02_09.o"
+	@echo "... ClasesTeoricas/clase02_09.i"
+	@echo "... ClasesTeoricas/clase02_09.s"
+	@echo "... ClasesTeoricas/claseTeo24_09.o"
+	@echo "... ClasesTeoricas/claseTeo24_09.i"
+	@echo "... ClasesTeoricas/claseTeo24_09.s"
+	@echo "... ClasesTeoricas/claseTeo30_09.o"
+	@echo "... ClasesTeoricas/claseTeo30_09.i"
+	@echo "... ClasesTeoricas/claseTeo30_09.s"
 	@echo "... Lib/getnum.o"
 	@echo "... Lib/getnum.i"
 	@echo "... Lib/getnum.s"
@@ -3631,9 +3982,12 @@ help:
 	@echo "... Practica11/ej1/ej1.o"
 	@echo "... Practica11/ej1/ej1.i"
 	@echo "... Practica11/ej1/ej1.s"
-	@echo "... Practica11/ej10/ej10.o"
-	@echo "... Practica11/ej10/ej10.i"
-	@echo "... Practica11/ej10/ej10.s"
+	@echo "... Practica11/ej10/bagADT.o"
+	@echo "... Practica11/ej10/bagADT.i"
+	@echo "... Practica11/ej10/bagADT.s"
+	@echo "... Practica11/ej10/bagADTTester.o"
+	@echo "... Practica11/ej10/bagADTTester.i"
+	@echo "... Practica11/ej10/bagADTTester.s"
 	@echo "... Practica11/ej11/ej11.o"
 	@echo "... Practica11/ej11/ej11.i"
 	@echo "... Practica11/ej11/ej11.s"
@@ -3664,27 +4018,27 @@ help:
 	@echo "... Practica11/ej2/ej2.o"
 	@echo "... Practica11/ej2/ej2.i"
 	@echo "... Practica11/ej2/ej2.s"
-	@echo "... Practica11/ej3/ej3.o"
-	@echo "... Practica11/ej3/ej3.i"
-	@echo "... Practica11/ej3/ej3.s"
 	@echo "... Practica11/ej4/ej4.o"
 	@echo "... Practica11/ej4/ej4.i"
 	@echo "... Practica11/ej4/ej4.s"
-	@echo "... Practica11/ej5/ej5.o"
-	@echo "... Practica11/ej5/ej5.i"
-	@echo "... Practica11/ej5/ej5.s"
+	@echo "... Practica11/ej5/complejosADT.o"
+	@echo "... Practica11/ej5/complejosADT.i"
+	@echo "... Practica11/ej5/complejosADT.s"
+	@echo "... Practica11/ej5/complejosADTTester.o"
+	@echo "... Practica11/ej5/complejosADTTester.i"
+	@echo "... Practica11/ej5/complejosADTTester.s"
 	@echo "... Practica11/ej6/ej6.o"
 	@echo "... Practica11/ej6/ej6.i"
 	@echo "... Practica11/ej6/ej6.s"
 	@echo "... Practica11/ej7/ej7.o"
 	@echo "... Practica11/ej7/ej7.i"
 	@echo "... Practica11/ej7/ej7.s"
-	@echo "... Practica11/ej8/ej8.o"
-	@echo "... Practica11/ej8/ej8.i"
-	@echo "... Practica11/ej8/ej8.s"
-	@echo "... Practica11/ej9/ej9.o"
-	@echo "... Practica11/ej9/ej9.i"
-	@echo "... Practica11/ej9/ej9.s"
+	@echo "... Practica11/ej8/setADT.o"
+	@echo "... Practica11/ej8/setADT.i"
+	@echo "... Practica11/ej8/setADT.s"
+	@echo "... Practica11/ej8/setADTTester.o"
+	@echo "... Practica11/ej8/setADTTester.i"
+	@echo "... Practica11/ej8/setADTTester.s"
 	@echo "... Practica9/ej0/ej0.o"
 	@echo "... Practica9/ej0/ej0.i"
 	@echo "... Practica9/ej0/ej0.s"
@@ -3748,33 +4102,6 @@ help:
 	@echo "... Practica9/ej9/ej9.o"
 	@echo "... Practica9/ej9/ej9.i"
 	@echo "... Practica9/ej9/ej9.s"
-	@echo "... Taller/ClaseTeo08_10/ej1.o"
-	@echo "... Taller/ClaseTeo08_10/ej1.i"
-	@echo "... Taller/ClaseTeo08_10/ej1.s"
-	@echo "... Taller/ClaseTeo08_10/ej2.o"
-	@echo "... Taller/ClaseTeo08_10/ej2.i"
-	@echo "... Taller/ClaseTeo08_10/ej2.s"
-	@echo "... Taller/ClaseTeo08_10/ej3.o"
-	@echo "... Taller/ClaseTeo08_10/ej3.i"
-	@echo "... Taller/ClaseTeo08_10/ej3.s"
-	@echo "... Taller/ClaseTeo08_10/ej4.o"
-	@echo "... Taller/ClaseTeo08_10/ej4.i"
-	@echo "... Taller/ClaseTeo08_10/ej4.s"
-	@echo "... Taller/ClaseTeo08_10/ej5.o"
-	@echo "... Taller/ClaseTeo08_10/ej5.i"
-	@echo "... Taller/ClaseTeo08_10/ej5.s"
-	@echo "... Taller/ClaseTeo08_10/ej6.o"
-	@echo "... Taller/ClaseTeo08_10/ej6.i"
-	@echo "... Taller/ClaseTeo08_10/ej6.s"
-	@echo "... Taller/ClaseTeo08_10/ej7.o"
-	@echo "... Taller/ClaseTeo08_10/ej7.i"
-	@echo "... Taller/ClaseTeo08_10/ej7.s"
-	@echo "... Taller/ClaseTeo08_10/ej8.o"
-	@echo "... Taller/ClaseTeo08_10/ej8.i"
-	@echo "... Taller/ClaseTeo08_10/ej8.s"
-	@echo "... Taller/ClaseTeo21_10.o"
-	@echo "... Taller/ClaseTeo21_10.i"
-	@echo "... Taller/ClaseTeo21_10.s"
 	@echo "... Taller/Taller1.o"
 	@echo "... Taller/Taller1.i"
 	@echo "... Taller/Taller1.s"
@@ -3805,15 +4132,6 @@ help:
 	@echo "... Taller/Taller9.o"
 	@echo "... Taller/Taller9.i"
 	@echo "... Taller/Taller9.s"
-	@echo "... Taller/clase02_09.o"
-	@echo "... Taller/clase02_09.i"
-	@echo "... Taller/clase02_09.s"
-	@echo "... Taller/claseTeo24_09.o"
-	@echo "... Taller/claseTeo24_09.i"
-	@echo "... Taller/claseTeo24_09.s"
-	@echo "... Taller/claseTeo30_09.o"
-	@echo "... Taller/claseTeo30_09.i"
-	@echo "... Taller/claseTeo30_09.s"
 .PHONY : help
 
 

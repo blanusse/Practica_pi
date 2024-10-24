@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/tmp/Practica/Lib/list.c
+list.h
+/tmp/Practica/Lib/list.h
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+/tmp/Practica/Lib/list.h
+stdio.h
+-
+stdlib.h
+-
+
 /tmp/Practica/Practica10/ej9/ej9.c
 stdio.h
 -

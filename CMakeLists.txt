@@ -257,31 +257,39 @@ add_executable(Prac10.9 Practica10/ej9/ej9.c Lib/getnum.c Lib/random.c Lib/list.
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #PRACTICA 11
-add_executable(Prac11.1 Practica11/ej1/ej1.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.2 Practica11/ej2/ej2.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.3 Practica11/ej3/ej3.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.4 Practica11/ej4/ej4.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.5 Practica11/ej5/ej5.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.6 Practica11/ej6/ej6.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.7 Practica11/ej7/ej7.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.8 Practica11/ej8/ej8.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.9 Practica11/ej9/ej9.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.10 Practica11/ej10/ej10.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.11 Practica11/ej11/ej11.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.12 Practica11/ej12/ej12.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.13 Practica11/ej13/ej13.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.14 Practica11/ej14/ej14.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.15 Practica11/ej15/ej15.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.16 Practica11/ej16/ej16.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.17 Practica11/ej17/ej17.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.18 Practica11/ej18/ej18.c Lib/getnum.c Lib/random.c)
-add_executable(Prac11.19 Practica11/ej19/ej19.c Lib/getnum.c Lib/random.c)
+add_executable(Prac11.1 Practica11/ej1/ej1.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.2 Practica11/ej2/ej2.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.3 Practica11/ej3/ej3.txt Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.4 Practica11/ej4/ej4.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.5 Practica11/ej5/complejosADT.c)
+add_executable(Prac11.52 Practica11/ej5/complejosADTTester.c Practica11/ej5/complejosADT.c)
+
+add_executable(Prac11.6 Practica11/ej6/ej6.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.7 Practica11/ej7/ej7.c Lib/getnum.c Lib/random.c Lib/list.c)
+
+add_executable(Prac11.8 Practica11/ej8/setADTTester.c Lib/getnum.c Lib/random.c Lib/list.c Practica11/ej5/complejosADT.c)
+add_executable(Prac11.82 Practica11/ej8/setADT.c Lib/getnum.c Lib/random.c Lib/list.c)
+
+add_executable(Prac11.9 Practica11/ej9/ej9.txt Lib/getnum.c Lib/random.c Lib/list.c)
+
+add_executable(Prac11.10 Practica11/ej10/bagADT.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.102 Practica11/ej10/bagADTTester.c Lib/getnum.c Lib/random.c Lib/list.c Practica11/ej10/bagADT.c)
+
+add_executable(Prac11.11 Practica11/ej11/ej11.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.12 Practica11/ej12/ej12.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.13 Practica11/ej13/ej13.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.14 Practica11/ej14/ej14.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.15 Practica11/ej15/ej15.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.16 Practica11/ej16/ej16.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.17 Practica11/ej17/ej17.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.18 Practica11/ej18/ej18.c Lib/getnum.c Lib/random.c Lib/list.c)
+add_executable(Prac11.19 Practica11/ej19/ej19.c Lib/getnum.c Lib/random.c Lib/list.c)
 
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #TALLER
 
-add_executable(Taller1 Taller/Taller1.c)
+add_executable(Taller1 Taller/Taller1.c Lib/utillist.c)
 add_executable(Taller2 Taller/Taller2.c Lib/getnum.c)
 add_executable(Taller3 Taller/Taller3.c Lib/getnum.c)
 add_executable(Taller4 Taller/Taller4.c Lib/getnum.c Lib/random.c)
@@ -295,18 +303,26 @@ add_executable(Taller10 Taller/Taller10.c Lib/getnum.c Lib/random.c)
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #CLASES TEORICAS
 
-add_executable(claseTeorica Taller/clase02_09.c Lib/getnum.c Lib/random.c Taller/ClaseTeo08_10/ej1.c)
-add_executable(claseTeorica2 Taller/claseTeo24_09.c Lib/getnum.c Lib/random.c)
-add_executable(claseTeorica3 Taller/claseTeo30_09.c Lib/getnum.c Lib/random.c)
-add_executable(claseTeo_1 Taller/ClaseTeo08_10/ej1.c)
-add_executable(claseTeo_2 Taller/ClaseTeo08_10/ej2.c)
-add_executable(claseTeo_3 Taller/ClaseTeo08_10/ej3.c)
-add_executable(claseTeo_4 Taller/ClaseTeo08_10/ej4.c)
-add_executable(claseTeo_5 Taller/ClaseTeo08_10/ej5.c)
-add_executable(claseTeo_6 Taller/ClaseTeo08_10/ej6.c)
-add_executable(claseTeo_7 Taller/ClaseTeo08_10/ej7.c)
-add_executable(claseTeo_8 Taller/ClaseTeo08_10/ej8.c Lib/list.c)
-add_executable(claseTeo_9 Taller/ClaseTeo21_10 Lib/list.c)
+add_executable(claseTeorica ClasesTeoricas/clase02_09.c Lib/getnum.c Lib/random.c ClasesTeoricas/ClaseTeo08_10/ej1.c)
+add_executable(claseTeorica2 ClasesTeoricas/claseTeo24_09.c Lib/getnum.c Lib/random.c)
+add_executable(claseTeorica3 ClasesTeoricas/claseTeo30_09.c Lib/getnum.c Lib/random.c)
+add_executable(claseTeo_1 ClasesTeoricas/ClaseTeo08_10/ej1.c)
+add_executable(claseTeo_2 ClasesTeoricas/ClaseTeo08_10/ej2.c)
+add_executable(claseTeo_3 ClasesTeoricas/ClaseTeo08_10/ej3.c)
+add_executable(claseTeo_4 ClasesTeoricas/ClaseTeo08_10/ej4.c)
+add_executable(claseTeo_5 ClasesTeoricas/ClaseTeo08_10/ej5.c)
+add_executable(claseTeo_6 ClasesTeoricas/ClaseTeo08_10/ej6.c)
+add_executable(claseTeo_7 ClasesTeoricas/ClaseTeo08_10/ej7.c)
+add_executable(claseTeo_8 ClasesTeoricas/ClaseTeo08_10/ej8.c Lib/list.c)
+add_executable(claseTeo_9 ClasesTeoricas/ClaseTeo21_10 Lib/list.c)
+add_executable(claseTeo_10 ClasesTeoricas/ClaseTeo22_10/dateADT/dateADT.c Lib/list.c)
+add_executable(claseTeo_10.2 ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c Lib/list.c)
+
+
+#add_executable(claseTeo_10.a ClasesTeoricas/ClaseTeo22_10/stackADT/stackADT.c Lib/list.c)
+add_executable(claseTeo_10.a2 ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c)
+#add_executable(claseTeo_10.a3 ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c ClasesTeoricas/ClaseTeo22_10/stackADT/stackADT.c)
+
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
@@ -342,6 +358,32 @@ add_executable(utilist Lib/utillist.c)
 #return 0;
 #}
 
+
+
+
+
+
+#include <stdio.h>
+#int main(void) {
+#int numTp=11;
+#int cantEjs=19;
+#char flags[] ="../lib/getnum.c ../lib/random.c";
+#for(int i=1; i<=cantEjs; i++) {
+#if ( i<=9 ) {
+#if (numTp<=9) {
+#printf("add_executable(TP0%d_0%d TP/TP0%d/TP0%d_0%d.c %s)\n", numTp, i, numTp, numTp, i, flags);
+#} else {
+#printf("add_executable(TP%d_0%d TP/TP%d/TP%d_0%d.c %s)\n", numTp, i, numTp, numTp, i, flags);
+#}
+#} else {
+#if (numTp<=9) {
+#printf("add_executable(TP0%d_%d TP/TP0%d/TP0%d_%d.c %s)\n", numTp, i, numTp, numTp, i, flags);
+#} else {
+#printf("add_executable(TP%d_%d TP/TP%d/TP%d_%d.c %s)\n", numTp, i, numTp, numTp, i, flags);
+#}
+#}
+#}
+#}
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 

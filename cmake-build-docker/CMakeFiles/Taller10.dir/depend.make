@@ -6,6 +6,6 @@ CMakeFiles/Taller10.dir/Lib/getnum.c.o: ../Lib/getnum.h
 
 CMakeFiles/Taller10.dir/Lib/random.c.o: ../Lib/random.c
 
-CMakeFiles/Taller10.dir/Taller/Taller10.c.o: ../Lib/list.h
+CMakeFiles/Taller10.dir/Taller/Taller10.c.o: ../Lib/utillist.h
 CMakeFiles/Taller10.dir/Taller/Taller10.c.o: ../Taller/Taller10.c
 

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADT.h
+
+/tmp/Practica/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c
+assert.h
+-
+stdio.h
+-
+stackADT.h
+/tmp/Practica/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADT.h
+stdlib.h
+-
+
+/tmp/Practica/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c
+stdio.h
+-
+assert.h
+-
+stackADT.h
+/tmp/Practica/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADT.h
+

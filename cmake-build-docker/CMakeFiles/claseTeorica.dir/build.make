@@ -57,18 +57,18 @@ include CMakeFiles/claseTeorica.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/claseTeorica.dir/flags.make
 
-CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o: CMakeFiles/claseTeorica.dir/flags.make
-CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o: ../Taller/clase02_09.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o   -c /tmp/Practica/Taller/clase02_09.c
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o: CMakeFiles/claseTeorica.dir/flags.make
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o: ../ClasesTeoricas/clase02_09.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o   -c /tmp/Practica/ClasesTeoricas/clase02_09.c
 
-CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/clase02_09.c > CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.i
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/ClasesTeoricas/clase02_09.c > CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.i
 
-CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/clase02_09.c -o CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.s
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/ClasesTeoricas/clase02_09.c -o CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.s
 
 CMakeFiles/claseTeorica.dir/Lib/getnum.c.o: CMakeFiles/claseTeorica.dir/flags.make
 CMakeFiles/claseTeorica.dir/Lib/getnum.c.o: ../Lib/getnum.c
@@ -96,33 +96,33 @@ CMakeFiles/claseTeorica.dir/Lib/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeorica.dir/Lib/random.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/random.c -o CMakeFiles/claseTeorica.dir/Lib/random.c.s
 
-CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o: CMakeFiles/claseTeorica.dir/flags.make
-CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o: ../Taller/ClaseTeo08_10/ej1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o   -c /tmp/Practica/Taller/ClaseTeo08_10/ej1.c
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o: CMakeFiles/claseTeorica.dir/flags.make
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o: ../ClasesTeoricas/ClaseTeo08_10/ej1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o   -c /tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej1.c
 
-CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/ClaseTeo08_10/ej1.c > CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.i
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej1.c > CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.i
 
-CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/ClaseTeo08_10/ej1.c -o CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.s
+CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/ClasesTeoricas/ClaseTeo08_10/ej1.c -o CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.s
 
 # Object files for target claseTeorica
 claseTeorica_OBJECTS = \
-"CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o" \
+"CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o" \
 "CMakeFiles/claseTeorica.dir/Lib/getnum.c.o" \
 "CMakeFiles/claseTeorica.dir/Lib/random.c.o" \
-"CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o"
+"CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o"
 
 # External object files for target claseTeorica
 claseTeorica_EXTERNAL_OBJECTS =
 
-claseTeorica: CMakeFiles/claseTeorica.dir/Taller/clase02_09.c.o
+claseTeorica: CMakeFiles/claseTeorica.dir/ClasesTeoricas/clase02_09.c.o
 claseTeorica: CMakeFiles/claseTeorica.dir/Lib/getnum.c.o
 claseTeorica: CMakeFiles/claseTeorica.dir/Lib/random.c.o
-claseTeorica: CMakeFiles/claseTeorica.dir/Taller/ClaseTeo08_10/ej1.c.o
+claseTeorica: CMakeFiles/claseTeorica.dir/ClasesTeoricas/ClaseTeo08_10/ej1.c.o
 claseTeorica: CMakeFiles/claseTeorica.dir/build.make
 claseTeorica: CMakeFiles/claseTeorica.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable claseTeorica"
