@@ -10,6 +10,7 @@ typedef const char * elemType;	// Tipo de elemento a insertar, cambiar al que se
 /**
 ** Retorna 0 si los elementos son iguales
 */
+
 typedef int (*compare) (elemType e1, elemType e2);
 
 /* Libera toda la memoria reservada por el TAD */

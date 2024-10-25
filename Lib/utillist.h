@@ -4,7 +4,7 @@
 typedef struct node * tList; 
 
 typedef struct node {
-		int elem;
+		int head;
 		struct node * tail;
 } tNode;
 

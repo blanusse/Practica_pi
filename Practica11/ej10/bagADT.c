@@ -15,16 +15,17 @@ struct bagCDT {
     unsigned int size;
 };
 
-static void freeList(tList l) {
-    if(l == NULL)
-        return;
-    freeList(l->tail);
-    free(l);
-}
+
 
 void freeBag( bagADT bag) {
-    freeList(bag->first);
-    free(bag);
+    if(bag->first == NULL) {
+        free(bag);
+        return;
+    }
+    tList aux = bag->first;
+    bag->first = bag->first->tail;
+    free(aux);
+    freeBag(bag);
 }
 
 bagADT newBag(compare cmp) {
@@ -34,12 +35,21 @@ bagADT newBag(compare cmp) {
     return toReturn;
 }
 
-unsigned int add(bagADT bag, elemType elem);
+unsigned int add(bagADT bag, elemType elem) {
 
-unsigned int delete(bagADT bag, elemType elem);
+}
 
-unsigned int count(const bagADT bag, elemType elem);
+unsigned int delete(bagADT bag, elemType elem){
+}
 
-unsigned int size(const bagADT bag);
+unsigned int count(const bagADT bag, elemType elem) {
 
-elemType mostPopular(bagADT bag);
+}
+
+unsigned int size(const bagADT bag) {
+
+}
+
+elemType mostPopular(bagADT bag) {
+
+}

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Taller/Taller11/queueADT/queueADT.c
+queueADT.h
+/tmp/Practica/Taller/Taller11/queueADT/queueADT.h
+stdlib.h
+-
+
+/tmp/Practica/Taller/Taller11/queueADT/queueADT.h
+

@@ -147,7 +147,7 @@ int checkElems(const tList list, const int v[], int dim) {
     int i;
     tList aux;
     for(i=0, aux=list; i<dim && aux != NULL; i++, aux = aux->tail) {
-        if ( aux->elem != v[i])
+        if ( aux->head != v[i])
             return 0;
     }
     return aux == NULL && i==dim;
@@ -158,7 +158,7 @@ tList fromArray(const int v[], unsigned int dim ) {
     tList ans = NULL;
     while (dim) {
         tList aux = malloc(sizeof(tNode));
-        aux->elem = v[--dim];
+        aux->head = v[--dim];
         aux->tail = ans;
         ans = aux;
     }
@@ -213,11 +213,11 @@ tList deleteAll(tList l1, const tList l2) { //estan ordenadas crecientemente
         return l1;
     }
     if (l1!=NULL) {
-        if ( l1->elem == l2->elem ) {
+        if ( l1->head == l2->head ) {
             tList aux = l1;
             l1 = deleteAll(l1->tail, l2->tail);
             free(aux);
-        } else if ( l1->elem < l2->elem ) {
+        } else if ( l1->head < l2->head ) {
             l1->tail= deleteAll(l1->tail, l2);
         } else {
             l1 = deleteAll(l1, l2->tail);

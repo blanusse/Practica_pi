@@ -13,13 +13,17 @@ typedef struct nodeBrief {
 
 tListBrief comprimeList(tList l) {
 	if(l==NULL)
-		return NULL;
-	tListBrief newList = malloc(sizeof(tNodeBrief));
+		return NULL; // si termina la lista retorna NULL
+
+	tListBrief newList = malloc(sizeof(tNodeBrief)); // crea una nueva lista ListBrief
+
 	newList->head = l->head;
+
 	if(l->tail == NULL || l->head != l->tail->head) { // si encontro el ultimo elemento o se deja de repetir
 		newList->count = 1;							// devuelve 1 en la cuenta y pone en tail el siguiente
 		newList->tail = comprimeList(l->tail);
 	}
+
 	else if(l->head == l->tail->head) {					//Si el siguiente es igual, crea nodos nuevos hasta que deje de pasar
 		tListBrief newList2 = comprimeList(l->tail);    //Si se sigue repitiendo, se aumenta la cuenta
 		newList->count = newList2->count + 1;			// y el tail se pausa hasta que deje de repetirse

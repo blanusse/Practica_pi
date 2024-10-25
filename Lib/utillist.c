@@ -10,7 +10,7 @@ tList fromArray(const int v[], unsigned int dim ) {
   tList ans = NULL;
   while (dim) {
      tList aux = malloc(sizeof(tNode));
-     aux->elem = v[--dim];
+     aux->head = v[--dim];
      aux->tail = ans;
      ans = aux;
   }
@@ -25,7 +25,7 @@ int checkElems(const tList list, const int v[], int dim) {
   int i;
   tList aux;
   for(i=0, aux=list; i<dim && aux != NULL; i++, aux = aux->tail) {
-    if ( aux->elem != v[i])
+    if ( aux->head != v[i])
        return 0;
   }
   return aux == NULL && i==dim;
