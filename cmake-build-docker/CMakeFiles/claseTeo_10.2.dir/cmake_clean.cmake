@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/claseTeo_10.2.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.o"
-  "CMakeFiles/claseTeo_10.2.dir/Lib/list.c.o"
   "claseTeo_10.2"
   "claseTeo_10.2.pdb"
 )

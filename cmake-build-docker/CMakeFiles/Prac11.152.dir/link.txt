@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac11.152.dir/Practica11/ej15/moveToFrontADTTester.c.o CMakeFiles/Prac11.152.dir/Practica11/ej15/moveToFrontADT.c.o  -o Prac11.152 

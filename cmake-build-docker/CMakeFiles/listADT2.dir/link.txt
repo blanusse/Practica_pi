@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/listADT2.dir/Lib/listADT/listADTTester.c.o CMakeFiles/listADT2.dir/Lib/listADT/listADT.c.o  -o listADT2 

@@ -1,31 +1,30 @@
-#include <stdio.h>
-#include "../../Lib/list.h"
+#include "../../Lib/listADT/listADT.h"
+#include <stdlib.h>
 
-// void map(tList l, int (*pFunc)(int)) {
-//     if(l==NULL)
-//         return;
-//     l->head = pFunc(l->head);
-//     map(l->tail, pFunc);
-// }
-//
-//
-int doble(int n) {
-    return 2*n;
+
+struct node {
+    elemType head;
+    struct node *tail;
+};
+typedef struct node *tList;
+
+struct listCDT {
+    tList first; //direccion del primer nodo de la lista
+    size_t dim; //elementos de la lista
+    cmp pFunc; //puntero a funcion que compara si dos elemType son iguales o no y retorna 1 o 0
+    tList current; // para funciones de iteracion
+};
+
+
+void mapRec(tList l, elemType (*funcion)(elemType)) {
+    if(l==NULL)
+        return;
+    l->head = funcion(l->head);
+    mapRec(l->tail, funcion);
 }
 
-int doble(int n) {
-    return 2*n;
+void map(listADT l, elemType (*funcion)(elemType)) {
+    if(l->dim == 0)
+        return;
+    mapRec(l->first, funcion);
 }
-
-   int main(void) {
-       tList myList = newList();  // Depende de la implementación
-       // habrá que pasarle la función
-       add(myList, 3);
-       add(myList, 4);
-       add(myList, 2);
-       map(myList, doble);
-       
-
-       return 0;
-   }
-

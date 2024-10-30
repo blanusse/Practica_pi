@@ -5,9 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/tmp/Practica/Lib/getnum.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.11.dir/Lib/getnum.c.o"
-  "/tmp/Practica/Lib/list.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.11.dir/Lib/list.c.o"
   "/tmp/Practica/Lib/random.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.11.dir/Lib/random.c.o"
-  "/tmp/Practica/Practica11/ej11/ej11.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.11.dir/Practica11/ej11/ej11.c.o"
+  "/tmp/Practica/Practica11/ej11/vectorADT.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.11.dir/Practica11/ej11/vectorADT.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

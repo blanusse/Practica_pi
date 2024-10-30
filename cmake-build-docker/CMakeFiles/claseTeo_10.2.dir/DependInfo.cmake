@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/tmp/Practica/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_10.2.dir/ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.c.o"
-  "/tmp/Practica/Lib/list.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_10.2.dir/Lib/list.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

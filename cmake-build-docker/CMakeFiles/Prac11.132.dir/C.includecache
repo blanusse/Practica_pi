@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica11/ej13/rankingADT.c
+rankingADT.h
+/tmp/Practica/Practica11/ej13/rankingADT.h
+
+/tmp/Practica/Practica11/ej13/rankingADT.h
+stdlib.h
+-
+

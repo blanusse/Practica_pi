@@ -9,25 +9,15 @@ struct tNode {
 };
 
 struct setCDT {
-    tList first;
-    int (*pFunc)(elemType, elemType); // elem type seria el tipo de variable que recibe la funcion
-    unsigned int size;
+    listADT first;
 };
 
 
-static void freeList(tList l) {
-    if(l == NULL)
-        return;
-    freeList(l->tail);
-    free(l);
-
-}
 setADT newSet(int (*compare)(elemType, elemType)) {
     setADT toReturn = malloc(sizeof(struct setCDT));
-    toReturn->first = NULL;
-    toReturn->pFunc = compare;
-    toReturn->size = 0;
+    toReturn->first = newList(*compare);
     return toReturn;
+
 }
 
 void freeSet(setADT set) {
@@ -36,29 +26,31 @@ void freeSet(setADT set) {
 }
 
 int isEmptySet(setADT set) {
-    return set->size == 0;
+    return isEmpty(set->first);
 }
 
 int setContains(const setADT set, elemType element) {
-    if(set->first == NULL)
-        return 0;
-    if(set->pFunc(element, set->first->head)) {
-        return 1;
-    }
-    return setContains(set->first->tail, element);
+    return belongs(set->first, element);
 }
 
 int addElement(setADT set, elemType element) {
-    set = realloc(set, set->size * sizeof(struct setCDT));
+    return add(set->first, element);
+}
+
+int deleteElement(setADT set, elemType element) {
+    return delete(set->first, element);
+}
+
+int sizeSet(const setADT set) {
+    return elemCount(set->first);
+}
+
+setADT unionSet(setADT set1, setADT set2) {
+    int newDim = elemCount(set1->first) + elemCount(set2->first);
+    setADT newSet = malloc(newDim * sizeof(struct setCDT));
 
 }
 
-int deleteElement(setADT set, elemType element);
-
-int sizeSet(const setADT set);
-
-setADT unionSet(setADT set1, setADT set2);
-
 setADT intersectionSet(setADT set1, setADT set2);
 
-setADT diffSet(setADT set1, setADT set2)
+setADT diffSet(setADT set1, setADT set2);

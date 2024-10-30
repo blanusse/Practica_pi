@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/listADT/listADT.h
+
+/tmp/Practica/Practica11/ej8/setADT.h
+../../Lib/listADT/listADT.h
+/tmp/Practica/Lib/listADT/listADT.h
+
+/tmp/Practica/Practica11/ej8/setADTTester.c
+stdio.h
+-
+assert.h
+-
+string.h
+-
+setADT.h
+/tmp/Practica/Practica11/ej8/setADT.h
+

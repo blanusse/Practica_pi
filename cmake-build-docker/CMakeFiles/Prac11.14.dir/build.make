@@ -57,75 +57,30 @@ include CMakeFiles/Prac11.14.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Prac11.14.dir/flags.make
 
-CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.o: CMakeFiles/Prac11.14.dir/flags.make
-CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.o: ../Practica11/ej14/ej14.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.o   -c /tmp/Practica/Practica11/ej14/ej14.c
+CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.o: CMakeFiles/Prac11.14.dir/flags.make
+CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.o: ../Practica11/ej14/listADT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.o   -c /tmp/Practica/Practica11/ej14/listADT.c
 
-CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica11/ej14/ej14.c > CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.i
+CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica11/ej14/listADT.c > CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.i
 
-CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica11/ej14/ej14.c -o CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.s
-
-CMakeFiles/Prac11.14.dir/Lib/getnum.c.o: CMakeFiles/Prac11.14.dir/flags.make
-CMakeFiles/Prac11.14.dir/Lib/getnum.c.o: ../Lib/getnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prac11.14.dir/Lib/getnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.14.dir/Lib/getnum.c.o   -c /tmp/Practica/Lib/getnum.c
-
-CMakeFiles/Prac11.14.dir/Lib/getnum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.14.dir/Lib/getnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/getnum.c > CMakeFiles/Prac11.14.dir/Lib/getnum.c.i
-
-CMakeFiles/Prac11.14.dir/Lib/getnum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.14.dir/Lib/getnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/getnum.c -o CMakeFiles/Prac11.14.dir/Lib/getnum.c.s
-
-CMakeFiles/Prac11.14.dir/Lib/random.c.o: CMakeFiles/Prac11.14.dir/flags.make
-CMakeFiles/Prac11.14.dir/Lib/random.c.o: ../Lib/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Prac11.14.dir/Lib/random.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.14.dir/Lib/random.c.o   -c /tmp/Practica/Lib/random.c
-
-CMakeFiles/Prac11.14.dir/Lib/random.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.14.dir/Lib/random.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/random.c > CMakeFiles/Prac11.14.dir/Lib/random.c.i
-
-CMakeFiles/Prac11.14.dir/Lib/random.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.14.dir/Lib/random.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/random.c -o CMakeFiles/Prac11.14.dir/Lib/random.c.s
-
-CMakeFiles/Prac11.14.dir/Lib/list.c.o: CMakeFiles/Prac11.14.dir/flags.make
-CMakeFiles/Prac11.14.dir/Lib/list.c.o: ../Lib/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Prac11.14.dir/Lib/list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.14.dir/Lib/list.c.o   -c /tmp/Practica/Lib/list.c
-
-CMakeFiles/Prac11.14.dir/Lib/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.14.dir/Lib/list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/list.c > CMakeFiles/Prac11.14.dir/Lib/list.c.i
-
-CMakeFiles/Prac11.14.dir/Lib/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.14.dir/Lib/list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/list.c -o CMakeFiles/Prac11.14.dir/Lib/list.c.s
+CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica11/ej14/listADT.c -o CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.s
 
 # Object files for target Prac11.14
 Prac11_14_OBJECTS = \
-"CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.o" \
-"CMakeFiles/Prac11.14.dir/Lib/getnum.c.o" \
-"CMakeFiles/Prac11.14.dir/Lib/random.c.o" \
-"CMakeFiles/Prac11.14.dir/Lib/list.c.o"
+"CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.o"
 
 # External object files for target Prac11.14
 Prac11_14_EXTERNAL_OBJECTS =
 
-Prac11.14: CMakeFiles/Prac11.14.dir/Practica11/ej14/ej14.c.o
-Prac11.14: CMakeFiles/Prac11.14.dir/Lib/getnum.c.o
-Prac11.14: CMakeFiles/Prac11.14.dir/Lib/random.c.o
-Prac11.14: CMakeFiles/Prac11.14.dir/Lib/list.c.o
+Prac11.14: CMakeFiles/Prac11.14.dir/Practica11/ej14/listADT.c.o
 Prac11.14: CMakeFiles/Prac11.14.dir/build.make
 Prac11.14: CMakeFiles/Prac11.14.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Prac11.14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Prac11.14"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Prac11.14.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

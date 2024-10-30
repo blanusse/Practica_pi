@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/vecADT/vecADT.h
+stdlib.h
+-
+
+/tmp/Practica/Lib/vecADT/vecADTTester.c
+vecADT.h
+/tmp/Practica/Lib/vecADT/vecADT.h
+stdio.h
+-
+assert.h
+-
+

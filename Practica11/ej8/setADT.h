@@ -2,7 +2,7 @@
 
 #define __SETADTH_
 
-typedef char * elemType;
+#include "../../Lib/listADT/listADT.h"		// incluye elemType (usamos la versión que recibe la función de comparación)
 
 typedef struct setCDT * setADT;
 

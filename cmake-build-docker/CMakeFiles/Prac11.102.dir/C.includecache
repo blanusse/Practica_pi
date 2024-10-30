@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica11/ej10/bagADT.h
+string.h
+-
+
+/tmp/Practica/Practica11/ej10/bagADTTester.c
+stdio.h
+-
+assert.h
+-
+bagADT.h
+/tmp/Practica/Practica11/ej10/bagADT.h
+strings.h
+-
+

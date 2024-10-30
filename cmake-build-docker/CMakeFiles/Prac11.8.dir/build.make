@@ -96,39 +96,39 @@ CMakeFiles/Prac11.8.dir/Lib/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.8.dir/Lib/random.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/random.c -o CMakeFiles/Prac11.8.dir/Lib/random.c.s
 
-CMakeFiles/Prac11.8.dir/Lib/list.c.o: CMakeFiles/Prac11.8.dir/flags.make
-CMakeFiles/Prac11.8.dir/Lib/list.c.o: ../Lib/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Prac11.8.dir/Lib/list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.8.dir/Lib/list.c.o   -c /tmp/Practica/Lib/list.c
+CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.o: CMakeFiles/Prac11.8.dir/flags.make
+CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.o: ../Lib/listADT/listADT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.o   -c /tmp/Practica/Lib/listADT/listADT.c
 
-CMakeFiles/Prac11.8.dir/Lib/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.8.dir/Lib/list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/list.c > CMakeFiles/Prac11.8.dir/Lib/list.c.i
+CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/listADT/listADT.c > CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.i
 
-CMakeFiles/Prac11.8.dir/Lib/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.8.dir/Lib/list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/list.c -o CMakeFiles/Prac11.8.dir/Lib/list.c.s
+CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/listADT/listADT.c -o CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.s
 
-CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o: CMakeFiles/Prac11.8.dir/flags.make
-CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o: ../Practica11/ej5/complejosADT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o   -c /tmp/Practica/Practica11/ej5/complejosADT.c
+CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.o: CMakeFiles/Prac11.8.dir/flags.make
+CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.o: ../Practica11/ej8/setADT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.o   -c /tmp/Practica/Practica11/ej8/setADT.c
 
-CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica11/ej5/complejosADT.c > CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.i
+CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica11/ej8/setADT.c > CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.i
 
-CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica11/ej5/complejosADT.c -o CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.s
+CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica11/ej8/setADT.c -o CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.s
 
 # Object files for target Prac11.8
 Prac11_8_OBJECTS = \
 "CMakeFiles/Prac11.8.dir/Practica11/ej8/setADTTester.c.o" \
 "CMakeFiles/Prac11.8.dir/Lib/getnum.c.o" \
 "CMakeFiles/Prac11.8.dir/Lib/random.c.o" \
-"CMakeFiles/Prac11.8.dir/Lib/list.c.o" \
-"CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o"
+"CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.o" \
+"CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.o"
 
 # External object files for target Prac11.8
 Prac11_8_EXTERNAL_OBJECTS =
@@ -136,8 +136,8 @@ Prac11_8_EXTERNAL_OBJECTS =
 Prac11.8: CMakeFiles/Prac11.8.dir/Practica11/ej8/setADTTester.c.o
 Prac11.8: CMakeFiles/Prac11.8.dir/Lib/getnum.c.o
 Prac11.8: CMakeFiles/Prac11.8.dir/Lib/random.c.o
-Prac11.8: CMakeFiles/Prac11.8.dir/Lib/list.c.o
-Prac11.8: CMakeFiles/Prac11.8.dir/Practica11/ej5/complejosADT.c.o
+Prac11.8: CMakeFiles/Prac11.8.dir/Lib/listADT/listADT.c.o
+Prac11.8: CMakeFiles/Prac11.8.dir/Practica11/ej8/setADT.c.o
 Prac11.8: CMakeFiles/Prac11.8.dir/build.make
 Prac11.8: CMakeFiles/Prac11.8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Prac11.8"

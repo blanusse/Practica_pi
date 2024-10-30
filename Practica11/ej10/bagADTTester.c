@@ -6,6 +6,8 @@
 // Utilizamos char * como elemType y strcasemp como compare
 // Recuerden recompilar tp11_ej10.c si cambian el elemType
 
+
+
 int main(void) {
     bagADT bag = newBag(strcasecmp);
     assert( count(bag, "amelia") == 0 );

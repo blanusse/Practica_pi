@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac11.132.dir/Practica11/ej13/rankingADTTester.c.o CMakeFiles/Prac11.132.dir/Practica11/ej13/rankingADT.c.o  -o Prac11.132 

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Prac11.7.dir/Lib/getnum.c.o"
-  "CMakeFiles/Prac11.7.dir/Lib/list.c.o"
   "CMakeFiles/Prac11.7.dir/Lib/random.c.o"
   "CMakeFiles/Prac11.7.dir/Practica11/ej7/ej7.c.o"
   "Prac11.7"

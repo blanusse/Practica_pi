@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica11/ej15/moveToFrontADT.c
+moveToFrontADT.h
+/tmp/Practica/Practica11/ej15/moveToFrontADT.h
+stdlib.h
+-
+
+/tmp/Practica/Practica11/ej15/moveToFrontADT.h
+
