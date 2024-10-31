@@ -294,7 +294,10 @@ add_executable(Prac11.152 Practica11/ej15/moveToFrontADTTester.c Practica11/ej15
 
 
 add_executable(Prac11.16 Practica11/ej16/ej16.c Lib/getnum.c Lib/random.c )
-add_executable(Prac11.17 Practica11/ej17/ej17.c Lib/getnum.c Lib/random.c )
+
+add_executable(Prac11.17 Practica11/ej17/phrasesADT.c Lib/getnum.c Lib/random.c )
+add_executable(Prac11.172 Practica11/ej17/phrasesADTTester.c Practica11/ej17/phrasesADT.c )
+
 add_executable(Prac11.18 Practica11/ej18/ej18.c Lib/getnum.c Lib/random.c )
 add_executable(Prac11.19 Practica11/ej19/ej19.c Lib/getnum.c Lib/random.c )
 

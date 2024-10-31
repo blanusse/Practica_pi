@@ -27,7 +27,7 @@ static void freeMoveToFrontRec(tList list) {
     if(list == NULL)
         return;
     tList aux = list->tail;
-    free(aux);
+    free(list);
     freeMoveToFrontRec(aux);
 }
 
@@ -72,7 +72,7 @@ void toBegin(moveToFrontADT moveToFront) {
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
 int hasNext(moveToFrontADT moveToFront) {
-    return moveToFront->current->tail != NULL;
+    return moveToFront->current != NULL;
 }
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
@@ -86,31 +86,32 @@ elemType next(moveToFrontADT moveToFront) {
 }
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
-static tList getRec(tList list, elemType elem, int *flag, compare pFunc, elemType found) {
+//funcion que busca el get y lo elimina
+static tList getRec(tList list, elemType elem,  compare pFunc, tList *found) {
     if(list == NULL) { //significa que no lo encontro
+        *found = NULL;
         return NULL;
     }
     if(pFunc(list->head, elem) == 0) { //lo encontro
-        (*flag)++;
-        tList aux = list->tail;
-        found = list->head;
-        return aux;
+        *found = list;
+        return list->tail;
     }
-    list->tail = getRec(list->tail, elem, flag, pFunc, found);
+    list->tail = getRec(list->tail, elem, pFunc, found);
+    return list;
 
 }
 
 elemType * get(moveToFrontADT moveToFront, elemType elem) {
-    int flag = 0;
-    elemType found = {0, 0};
-    getRec(moveToFront->first, elem, &flag, moveToFront->pFunc, found);
-    if(flag == 1) {
-        tList newF = malloc(sizeof(struct tNode));
-        newF->head = found;
-        newF->tail = moveToFront->first;
-        moveToFront->first = newF;
-        elemType *toReturn = malloc(sizeof(elemType));
-        *toReturn = moveToFront->first->head;
+
+    tList found; //almacenara si encuentra el elemento
+    moveToFront->first = getRec(moveToFront->first, elem, moveToFront->pFunc, &found); //nueva lista sin el elemento buscado si se encontro,
+                                                                                // sino es la misma lista
+
+    if(found != NULL) {
+        found->tail = moveToFront->first;
+        moveToFront->first = found;
+        elemType *toReturn = malloc((sizeof(elemType)));
+        *toReturn = found->head;
         return toReturn;
     }
     return NULL;

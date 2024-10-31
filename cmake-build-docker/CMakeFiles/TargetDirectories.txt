@@ -22,7 +22,7 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller6.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller4.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller3.dir
-/tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.7.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.6.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.5.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.82.dir
@@ -33,6 +33,8 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac9.18.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_3.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.132.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.7.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.172.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac9.20.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac9.9.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac9.15.dir
@@ -85,7 +87,6 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.18.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/random.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.12.dir
-/tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.122.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.9.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.16.dir

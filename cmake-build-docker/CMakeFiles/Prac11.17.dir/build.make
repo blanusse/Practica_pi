@@ -57,18 +57,18 @@ include CMakeFiles/Prac11.17.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Prac11.17.dir/flags.make
 
-CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.o: CMakeFiles/Prac11.17.dir/flags.make
-CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.o: ../Practica11/ej17/ej17.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.o   -c /tmp/Practica/Practica11/ej17/ej17.c
+CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.o: CMakeFiles/Prac11.17.dir/flags.make
+CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.o: ../Practica11/ej17/phrasesADT.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.o   -c /tmp/Practica/Practica11/ej17/phrasesADT.c
 
-CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica11/ej17/ej17.c > CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.i
+CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Practica11/ej17/phrasesADT.c > CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.i
 
-CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica11/ej17/ej17.c -o CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.s
+CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Practica11/ej17/phrasesADT.c -o CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.s
 
 CMakeFiles/Prac11.17.dir/Lib/getnum.c.o: CMakeFiles/Prac11.17.dir/flags.make
 CMakeFiles/Prac11.17.dir/Lib/getnum.c.o: ../Lib/getnum.c
@@ -98,14 +98,14 @@ CMakeFiles/Prac11.17.dir/Lib/random.c.s: cmake_force
 
 # Object files for target Prac11.17
 Prac11_17_OBJECTS = \
-"CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.o" \
+"CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.o" \
 "CMakeFiles/Prac11.17.dir/Lib/getnum.c.o" \
 "CMakeFiles/Prac11.17.dir/Lib/random.c.o"
 
 # External object files for target Prac11.17
 Prac11_17_EXTERNAL_OBJECTS =
 
-Prac11.17: CMakeFiles/Prac11.17.dir/Practica11/ej17/ej17.c.o
+Prac11.17: CMakeFiles/Prac11.17.dir/Practica11/ej17/phrasesADT.c.o
 Prac11.17: CMakeFiles/Prac11.17.dir/Lib/getnum.c.o
 Prac11.17: CMakeFiles/Prac11.17.dir/Lib/random.c.o
 Prac11.17: CMakeFiles/Prac11.17.dir/build.make
