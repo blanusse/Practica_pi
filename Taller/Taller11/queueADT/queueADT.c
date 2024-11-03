@@ -9,9 +9,12 @@ typedef struct node {
     struct node *next;
 } tNode;
 
+
+
 typedef struct queueCDT {
-    tNode *first;
-    tNode *last;
+    tList first;
+    tList last;
+    tList current;
 }queueCDT;
 
 queueADT newQueue(void) {
@@ -40,18 +43,38 @@ void dequeue(queueADT q, elementType *out) {
 
 }
 
-void freeQueue(queueADT q) {
-    if(q->first == NULL) {
-        free(q);
+void freeQueueRec(tList list) {
+    if(list == NULL)
         return;
-    }
-    tList aux = q->first;
-    q->first = q->first->next;
-    free(aux);
+    tList aux = list->next;
+    free(list);
+    freeQueueRec(aux);
+}
+
+void freeQueue(queueADT q) {
+    freeQueueRec(q->first);
+    free(q);
 }
 
 
 
 int isEmpty(queueADT q) {
     return q->first == NULL;
+}
+
+
+void toBegin(queueADT q) {
+    q->current = q->first;
+}
+int hasNext(queueADT q) {
+    if(q->current->next == NULL)
+        return 0;
+    return 1;
+}
+elementType next(queueADT q) {
+    if(hasNext(q)) {
+        elementType toReturn = q->current->value;
+        q->current = q->current->next;
+        return toReturn;
+    }
 }

@@ -20,6 +20,17 @@ main(void) {
     assert(aux == 1);
     assert(isEmpty(q) == 1);
     freeQueue(q);
+    queueADT t = newQueue();
+    queue(t, 5);
+    queue(t, 9);
+    queue(t, 3);
+    toBegin(t);
+    while (hasNext(t)) { // 5 9 3
+        printf("%d ", next(t));
+
+    }
+    freeQueue(t);
     printf("OK!\n");
     return 0;
+
 }

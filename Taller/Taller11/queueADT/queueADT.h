@@ -18,6 +18,12 @@ void freeQueue(queueADT q);
 
 int isEmpty(queueADT q);
 
+void toBegin(queueADT q);
+
+int hasNext(queueADT q);
+
+elementType next(queueADT q);
+
 
 
 #endif //QUEUEADT_H

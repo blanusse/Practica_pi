@@ -14,3 +14,11 @@ stdlib.h
 
 /tmp/Practica/Taller/Taller11/queueADT/queueADT.h
 
+/tmp/Practica/Taller/Taller11/queueADT/queueADTTester.c
+stdio.h
+-
+assert.h
+-
+queueADT.h
+/tmp/Practica/Taller/Taller11/queueADT/queueADT.h
+

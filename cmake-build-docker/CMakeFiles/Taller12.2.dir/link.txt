@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADTTester.c.o CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADT.c.o  -o Taller12.2 

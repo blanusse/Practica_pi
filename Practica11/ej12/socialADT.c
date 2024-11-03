@@ -21,7 +21,6 @@ typedef struct tPerson *tPeople;
 struct socialCDT {
     tPeople first;
     size_t dim;
-
 };
 
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
@@ -32,25 +31,27 @@ socialADT newSocial() {
 
 }
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
-
-static void freeSocialRelated(tPeopleRelated related ) {
-    if(related == NULL)
+void freeSocialRec2(tPeopleRelated relatedList) {
+    if(relatedList == NULL)
         return;
-    tPeopleRelated aux = related->tail;
-    free(related);
-    freeSocialRelated(aux);
+    tPeopleRelated aux = relatedList->tail;
+    free(relatedList);
+    freeSocialRec2(aux);
 }
 
-static void freeSocialNames(tPeople names ) {
-    if(names == NULL)
+void freeSocialRec(tPeople peopleList) {
+    if(peopleList == NULL) {
         return;
-    freeSocialRelated(names->related);
-    tPeople aux = names->tail;
-    freeSocialNames(aux);
+    }
+    freeSocialRec2(peopleList->related);
+    tPeople aux = peopleList->tail;
+    free(peopleList);
+    freeSocialRec(aux);
 }
 
 void freeSocial(socialADT soc) {
-    freeSocialNames(soc->first);
+    freeSocialRec(soc->first);
+
     free(soc);
 }
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------

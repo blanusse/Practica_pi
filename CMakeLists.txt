@@ -321,6 +321,12 @@ add_executable(Taller11.2 Taller/Taller11/ej2.c Lib/getnum.c Lib/random.c Lib/ut
 add_executable(Taller11.31 Taller/Taller11/queueADT/queueADTTester.c Lib/getnum.c Lib/random.c Lib/utillist.c Taller/Taller11/queueADT/queueADT.c)
 add_executable(Taller11.32 Taller/Taller11/queueADT/queueADT.c Lib/getnum.c Lib/random.c Lib/utillist.c)
 
+add_executable(Taller12 Taller/Taller12/bibleADT/bibleADT.c Lib/getnum.c Lib/random.c)
+add_executable(Taller12.2 Taller/Taller12/bibleADT/bibleADTTester.c Taller/Taller12/bibleADT/bibleADT.c)
+
+add_executable(Taller12.3 Taller/Taller12/adreesBookADT/adressBookADT.c Lib/getnum.c Lib/random.c)
+add_executable(Taller12.4 Taller/Taller12/adreesBookADT/adressBookADTTester.c Taller/Taller12/adreesBookADT/adressBookADT.c)
+
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #CLASES TEORICAS

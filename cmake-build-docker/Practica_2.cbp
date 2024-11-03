@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
 				<Option type="4"/>
@@ -526,6 +516,92 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 claseTeorica2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12.4">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12.4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12.4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12.4/fast">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12.4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12.4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12.2">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12.2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12.2/fast">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12.2/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1633,6 +1709,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Taller12.3">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12.3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12.3/fast">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12.3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12.3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Prac11.17">
 				<Option output="/tmp/Practica/cmake-build-docker/Prac11.17" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
@@ -2046,6 +2160,44 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 vecADT2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Taller12/fast">
+				<Option output="/tmp/Practica/cmake-build-docker/Taller12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Practica/cmake-build-docker"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 Taller12/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Practica/cmake-build-docker/Makefile&quot;  VERBOSE=1 clean"/>
@@ -3688,6 +3840,7 @@
 			<Option target="Prac9.3"/>
 			<Option target="Prac9.16"/>
 			<Option target="Prac9.8"/>
+			<Option target="Taller12.3"/>
 			<Option target="Prac11.17"/>
 			<Option target="Prac10.1"/>
 			<Option target="Prac9.11"/>
@@ -3697,6 +3850,7 @@
 			<Option target="Prac9.4"/>
 			<Option target="Prac9.1"/>
 			<Option target="Prac11.11"/>
+			<Option target="Taller12"/>
 			<Option target="Prac9.5"/>
 			<Option target="Prac9.6"/>
 			<Option target="Taller11"/>
@@ -3758,6 +3912,7 @@
 			<Option target="Prac9.3"/>
 			<Option target="Prac9.16"/>
 			<Option target="Prac9.8"/>
+			<Option target="Taller12.3"/>
 			<Option target="Prac11.17"/>
 			<Option target="Prac10.1"/>
 			<Option target="Prac9.11"/>
@@ -3767,6 +3922,7 @@
 			<Option target="Prac9.4"/>
 			<Option target="Prac9.1"/>
 			<Option target="Prac11.11"/>
+			<Option target="Taller12"/>
 			<Option target="Prac9.5"/>
 			<Option target="Prac9.6"/>
 			<Option target="Taller11"/>
@@ -3838,6 +3994,7 @@
 			<Option target="Prac9.3"/>
 			<Option target="Prac9.16"/>
 			<Option target="Prac9.8"/>
+			<Option target="Taller12.3"/>
 			<Option target="Prac11.17"/>
 			<Option target="Prac10.1"/>
 			<Option target="Prac9.11"/>
@@ -3847,6 +4004,7 @@
 			<Option target="Prac9.4"/>
 			<Option target="Prac9.1"/>
 			<Option target="Prac11.11"/>
+			<Option target="Taller12"/>
 			<Option target="Prac9.5"/>
 			<Option target="Prac9.6"/>
 			<Option target="Taller11"/>
@@ -3906,6 +4064,7 @@
 			<Option target="Prac9.3"/>
 			<Option target="Prac9.16"/>
 			<Option target="Prac9.8"/>
+			<Option target="Taller12.3"/>
 			<Option target="Prac11.17"/>
 			<Option target="Prac10.1"/>
 			<Option target="Prac9.11"/>
@@ -3915,6 +4074,7 @@
 			<Option target="Prac9.4"/>
 			<Option target="Prac9.1"/>
 			<Option target="Prac11.11"/>
+			<Option target="Taller12"/>
 			<Option target="Prac9.5"/>
 			<Option target="Prac9.6"/>
 			<Option target="Taller11"/>
@@ -4217,6 +4377,28 @@
 		</Unit>
 		<Unit filename="/tmp/Practica/Taller/Taller11/queueADT/queueADTTester.c">
 			<Option target="Taller11.31"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller12/adreesBookADT/adressBookADT.c">
+			<Option target="Taller12.4"/>
+			<Option target="Taller12.3"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller12/adreesBookADT/adressBookADT.h">
+			<Option target="Taller12.4"/>
+			<Option target="Taller12.3"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller12/adreesBookADT/adressBookADTTester.c">
+			<Option target="Taller12.4"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller12/bibleADT/bibleADT.c">
+			<Option target="Taller12.2"/>
+			<Option target="Taller12"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller12/bibleADT/bibleADT.h">
+			<Option target="Taller12.2"/>
+			<Option target="Taller12"/>
+		</Unit>
+		<Unit filename="/tmp/Practica/Taller/Taller12/bibleADT/bibleADTTester.c">
+			<Option target="Taller12.2"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Taller/Taller2.c">
 			<Option target="Taller2"/>

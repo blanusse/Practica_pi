@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /tmp/Practica/cmake-build-docker
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -278,6 +278,32 @@ claseTeorica2: cmake_check_build_system
 claseTeorica2/fast:
 	$(MAKE) -f CMakeFiles/claseTeorica2.dir/build.make CMakeFiles/claseTeorica2.dir/build
 .PHONY : claseTeorica2/fast
+
+#=============================================================================
+# Target rules for targets named Taller12.4
+
+# Build rule for target.
+Taller12.4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller12.4
+.PHONY : Taller12.4
+
+# fast build rule for target.
+Taller12.4/fast:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/build
+.PHONY : Taller12.4/fast
+
+#=============================================================================
+# Target rules for targets named Taller12.2
+
+# Build rule for target.
+Taller12.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller12.2
+.PHONY : Taller12.2
+
+# fast build rule for target.
+Taller12.2/fast:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/build
+.PHONY : Taller12.2/fast
 
 #=============================================================================
 # Target rules for targets named Taller11.31
@@ -657,6 +683,19 @@ listADT/fast:
 .PHONY : listADT/fast
 
 #=============================================================================
+# Target rules for targets named Taller12.3
+
+# Build rule for target.
+Taller12.3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller12.3
+.PHONY : Taller12.3
+
+# fast build rule for target.
+Taller12.3/fast:
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/build
+.PHONY : Taller12.3/fast
+
+#=============================================================================
 # Target rules for targets named Prac11.17
 
 # Build rule for target.
@@ -798,6 +837,19 @@ vecADT2: cmake_check_build_system
 vecADT2/fast:
 	$(MAKE) -f CMakeFiles/vecADT2.dir/build.make CMakeFiles/vecADT2.dir/build
 .PHONY : vecADT2/fast
+
+#=============================================================================
+# Target rules for targets named Taller12
+
+# Build rule for target.
+Taller12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Taller12
+.PHONY : Taller12
+
+# fast build rule for target.
+Taller12/fast:
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/build
+.PHONY : Taller12/fast
 
 #=============================================================================
 # Target rules for targets named Prac9.5
@@ -1798,6 +1850,7 @@ Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/getnum.c.o
@@ -1807,6 +1860,7 @@ Lib/getnum.c.o:
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/getnum.c.o
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/getnum.c.o
 	$(MAKE) -f CMakeFiles/Taller11.dir/build.make CMakeFiles/Taller11.dir/Lib/getnum.c.o
@@ -1874,6 +1928,7 @@ Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/getnum.c.i
@@ -1883,6 +1938,7 @@ Lib/getnum.c.i:
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/getnum.c.i
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/getnum.c.i
 	$(MAKE) -f CMakeFiles/Taller11.dir/build.make CMakeFiles/Taller11.dir/Lib/getnum.c.i
@@ -1950,6 +2006,7 @@ Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/getnum.c.s
@@ -1959,6 +2016,7 @@ Lib/getnum.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/getnum.c.s
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/getnum.c.s
 	$(MAKE) -f CMakeFiles/Taller11.dir/build.make CMakeFiles/Taller11.dir/Lib/getnum.c.s
@@ -2083,6 +2141,7 @@ Lib/random.c.o:
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/random.c.o
@@ -2092,6 +2151,7 @@ Lib/random.c.o:
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/random.c.o
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/random.c.o
 	$(MAKE) -f CMakeFiles/Taller11.dir/build.make CMakeFiles/Taller11.dir/Lib/random.c.o
@@ -2157,6 +2217,7 @@ Lib/random.c.i:
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/random.c.i
@@ -2166,6 +2227,7 @@ Lib/random.c.i:
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/random.c.i
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/random.c.i
 	$(MAKE) -f CMakeFiles/Taller11.dir/build.make CMakeFiles/Taller11.dir/Lib/random.c.i
@@ -2231,6 +2293,7 @@ Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.3.dir/build.make CMakeFiles/Prac9.3.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.16.dir/build.make CMakeFiles/Prac9.16.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.8.dir/build.make CMakeFiles/Prac9.8.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.17.dir/build.make CMakeFiles/Prac11.17.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.11.dir/build.make CMakeFiles/Prac9.11.dir/Lib/random.c.s
@@ -2240,6 +2303,7 @@ Lib/random.c.s:
 	$(MAKE) -f CMakeFiles/Prac9.4.dir/build.make CMakeFiles/Prac9.4.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.1.dir/build.make CMakeFiles/Prac9.1.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac11.11.dir/build.make CMakeFiles/Prac11.11.dir/Lib/random.c.s
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.5.dir/build.make CMakeFiles/Prac9.5.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Prac9.6.dir/build.make CMakeFiles/Prac9.6.dir/Lib/random.c.s
 	$(MAKE) -f CMakeFiles/Taller11.dir/build.make CMakeFiles/Taller11.dir/Lib/random.c.s
@@ -4077,6 +4141,120 @@ Taller/Taller11/queueADT/queueADTTester.c.s:
 	$(MAKE) -f CMakeFiles/Taller11.31.dir/build.make CMakeFiles/Taller11.31.dir/Taller/Taller11/queueADT/queueADTTester.c.s
 .PHONY : Taller/Taller11/queueADT/queueADTTester.c.s
 
+Taller/Taller12/adreesBookADT/adressBookADT.o: Taller/Taller12/adreesBookADT/adressBookADT.c.o
+
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADT.o
+
+# target to build an object file
+Taller/Taller12/adreesBookADT/adressBookADT.c.o:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/Taller/Taller12/adreesBookADT/adressBookADT.c.o
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Taller/Taller12/adreesBookADT/adressBookADT.c.o
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADT.c.o
+
+Taller/Taller12/adreesBookADT/adressBookADT.i: Taller/Taller12/adreesBookADT/adressBookADT.c.i
+
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADT.i
+
+# target to preprocess a source file
+Taller/Taller12/adreesBookADT/adressBookADT.c.i:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/Taller/Taller12/adreesBookADT/adressBookADT.c.i
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Taller/Taller12/adreesBookADT/adressBookADT.c.i
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADT.c.i
+
+Taller/Taller12/adreesBookADT/adressBookADT.s: Taller/Taller12/adreesBookADT/adressBookADT.c.s
+
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADT.s
+
+# target to generate assembly for a file
+Taller/Taller12/adreesBookADT/adressBookADT.c.s:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/Taller/Taller12/adreesBookADT/adressBookADT.c.s
+	$(MAKE) -f CMakeFiles/Taller12.3.dir/build.make CMakeFiles/Taller12.3.dir/Taller/Taller12/adreesBookADT/adressBookADT.c.s
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADT.c.s
+
+Taller/Taller12/adreesBookADT/adressBookADTTester.o: Taller/Taller12/adreesBookADT/adressBookADTTester.c.o
+
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADTTester.o
+
+# target to build an object file
+Taller/Taller12/adreesBookADT/adressBookADTTester.c.o:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/Taller/Taller12/adreesBookADT/adressBookADTTester.c.o
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADTTester.c.o
+
+Taller/Taller12/adreesBookADT/adressBookADTTester.i: Taller/Taller12/adreesBookADT/adressBookADTTester.c.i
+
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADTTester.i
+
+# target to preprocess a source file
+Taller/Taller12/adreesBookADT/adressBookADTTester.c.i:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/Taller/Taller12/adreesBookADT/adressBookADTTester.c.i
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADTTester.c.i
+
+Taller/Taller12/adreesBookADT/adressBookADTTester.s: Taller/Taller12/adreesBookADT/adressBookADTTester.c.s
+
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADTTester.s
+
+# target to generate assembly for a file
+Taller/Taller12/adreesBookADT/adressBookADTTester.c.s:
+	$(MAKE) -f CMakeFiles/Taller12.4.dir/build.make CMakeFiles/Taller12.4.dir/Taller/Taller12/adreesBookADT/adressBookADTTester.c.s
+.PHONY : Taller/Taller12/adreesBookADT/adressBookADTTester.c.s
+
+Taller/Taller12/bibleADT/bibleADT.o: Taller/Taller12/bibleADT/bibleADT.c.o
+
+.PHONY : Taller/Taller12/bibleADT/bibleADT.o
+
+# target to build an object file
+Taller/Taller12/bibleADT/bibleADT.c.o:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADT.c.o
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Taller/Taller12/bibleADT/bibleADT.c.o
+.PHONY : Taller/Taller12/bibleADT/bibleADT.c.o
+
+Taller/Taller12/bibleADT/bibleADT.i: Taller/Taller12/bibleADT/bibleADT.c.i
+
+.PHONY : Taller/Taller12/bibleADT/bibleADT.i
+
+# target to preprocess a source file
+Taller/Taller12/bibleADT/bibleADT.c.i:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADT.c.i
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Taller/Taller12/bibleADT/bibleADT.c.i
+.PHONY : Taller/Taller12/bibleADT/bibleADT.c.i
+
+Taller/Taller12/bibleADT/bibleADT.s: Taller/Taller12/bibleADT/bibleADT.c.s
+
+.PHONY : Taller/Taller12/bibleADT/bibleADT.s
+
+# target to generate assembly for a file
+Taller/Taller12/bibleADT/bibleADT.c.s:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADT.c.s
+	$(MAKE) -f CMakeFiles/Taller12.dir/build.make CMakeFiles/Taller12.dir/Taller/Taller12/bibleADT/bibleADT.c.s
+.PHONY : Taller/Taller12/bibleADT/bibleADT.c.s
+
+Taller/Taller12/bibleADT/bibleADTTester.o: Taller/Taller12/bibleADT/bibleADTTester.c.o
+
+.PHONY : Taller/Taller12/bibleADT/bibleADTTester.o
+
+# target to build an object file
+Taller/Taller12/bibleADT/bibleADTTester.c.o:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADTTester.c.o
+.PHONY : Taller/Taller12/bibleADT/bibleADTTester.c.o
+
+Taller/Taller12/bibleADT/bibleADTTester.i: Taller/Taller12/bibleADT/bibleADTTester.c.i
+
+.PHONY : Taller/Taller12/bibleADT/bibleADTTester.i
+
+# target to preprocess a source file
+Taller/Taller12/bibleADT/bibleADTTester.c.i:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADTTester.c.i
+.PHONY : Taller/Taller12/bibleADT/bibleADTTester.c.i
+
+Taller/Taller12/bibleADT/bibleADTTester.s: Taller/Taller12/bibleADT/bibleADTTester.c.s
+
+.PHONY : Taller/Taller12/bibleADT/bibleADTTester.s
+
+# target to generate assembly for a file
+Taller/Taller12/bibleADT/bibleADTTester.c.s:
+	$(MAKE) -f CMakeFiles/Taller12.2.dir/build.make CMakeFiles/Taller12.2.dir/Taller/Taller12/bibleADT/bibleADTTester.c.s
+.PHONY : Taller/Taller12/bibleADT/bibleADTTester.c.s
+
 Taller/Taller2.o: Taller/Taller2.c.o
 
 .PHONY : Taller/Taller2.o
@@ -4299,7 +4477,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... vecADT"
 	@echo "... utilist"
@@ -4314,6 +4491,9 @@ help:
 	@echo "... claseTeo_6"
 	@echo "... claseTeo_5"
 	@echo "... claseTeorica2"
+	@echo "... rebuild_cache"
+	@echo "... Taller12.4"
+	@echo "... Taller12.2"
 	@echo "... Taller11.31"
 	@echo "... Taller8"
 	@echo "... claseTeorica"
@@ -4343,6 +4523,7 @@ help:
 	@echo "... Prac9.16"
 	@echo "... Prac9.8"
 	@echo "... listADT"
+	@echo "... Taller12.3"
 	@echo "... Prac11.17"
 	@echo "... Prac10.1"
 	@echo "... Prac9.11"
@@ -4354,6 +4535,7 @@ help:
 	@echo "... Prac11.5"
 	@echo "... Prac11.11"
 	@echo "... vecADT2"
+	@echo "... Taller12"
 	@echo "... Prac9.5"
 	@echo "... claseTeo_1"
 	@echo "... Prac9.6"
@@ -4650,6 +4832,18 @@ help:
 	@echo "... Taller/Taller11/queueADT/queueADTTester.o"
 	@echo "... Taller/Taller11/queueADT/queueADTTester.i"
 	@echo "... Taller/Taller11/queueADT/queueADTTester.s"
+	@echo "... Taller/Taller12/adreesBookADT/adressBookADT.o"
+	@echo "... Taller/Taller12/adreesBookADT/adressBookADT.i"
+	@echo "... Taller/Taller12/adreesBookADT/adressBookADT.s"
+	@echo "... Taller/Taller12/adreesBookADT/adressBookADTTester.o"
+	@echo "... Taller/Taller12/adreesBookADT/adressBookADTTester.i"
+	@echo "... Taller/Taller12/adreesBookADT/adressBookADTTester.s"
+	@echo "... Taller/Taller12/bibleADT/bibleADT.o"
+	@echo "... Taller/Taller12/bibleADT/bibleADT.i"
+	@echo "... Taller/Taller12/bibleADT/bibleADT.s"
+	@echo "... Taller/Taller12/bibleADT/bibleADTTester.o"
+	@echo "... Taller/Taller12/bibleADT/bibleADTTester.i"
+	@echo "... Taller/Taller12/bibleADT/bibleADTTester.s"
 	@echo "... Taller/Taller2.o"
 	@echo "... Taller/Taller2.i"
 	@echo "... Taller/Taller2.s"
