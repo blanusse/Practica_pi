@@ -351,6 +351,9 @@ add_executable(claseTeo_10.2 ClasesTeoricas/ClaseTeo22_10/dateADT/dateADTTester.
 add_executable(claseTeo_10.a2 ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c)
 #add_executable(claseTeo_10.a3 ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c ClasesTeoricas/ClaseTeo22_10/stackADT/stackADT.c)
 
+add_executable(claseTeo_04_11 ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c )
+add_executable(claseTeo_04_11.2 ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c )
+
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 

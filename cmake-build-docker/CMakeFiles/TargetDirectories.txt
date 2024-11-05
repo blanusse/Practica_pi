@@ -2,6 +2,7 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/vecADT.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/utilist.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/getnum.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_04_11.2.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/listADT2.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_10.a2.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_10.2.dir
@@ -25,6 +26,7 @@
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller4.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller3.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir
+/tmp/Practica/cmake-build-docker/CMakeFiles/claseTeo_04_11.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.6.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.5.dir
 /tmp/Practica/cmake-build-docker/CMakeFiles/Prac11.82.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.o CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.o  -o claseTeo_04_11.2 

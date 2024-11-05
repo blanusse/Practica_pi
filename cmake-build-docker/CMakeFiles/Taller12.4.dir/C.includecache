@@ -20,3 +20,15 @@ strings.h
 
 /tmp/Practica/Taller/Taller12/adreesBookADT/adressBookADT.h
 
+/tmp/Practica/Taller/Taller12/adreesBookADT/adressBookADTTester.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+adressBookADT.h
+/tmp/Practica/Taller/Taller12/adreesBookADT/adressBookADT.h
+

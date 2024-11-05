@@ -150,6 +150,19 @@ getnum/fast:
 .PHONY : getnum/fast
 
 #=============================================================================
+# Target rules for targets named claseTeo_04_11.2
+
+# Build rule for target.
+claseTeo_04_11.2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeo_04_11.2
+.PHONY : claseTeo_04_11.2
+
+# fast build rule for target.
+claseTeo_04_11.2/fast:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/build
+.PHONY : claseTeo_04_11.2/fast
+
+#=============================================================================
 # Target rules for targets named listADT2
 
 # Build rule for target.
@@ -434,6 +447,19 @@ Taller2: cmake_check_build_system
 Taller2/fast:
 	$(MAKE) -f CMakeFiles/Taller2.dir/build.make CMakeFiles/Taller2.dir/build
 .PHONY : Taller2/fast
+
+#=============================================================================
+# Target rules for targets named claseTeo_04_11
+
+# Build rule for target.
+claseTeo_04_11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 claseTeo_04_11
+.PHONY : claseTeo_04_11
+
+# fast build rule for target.
+claseTeo_04_11/fast:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.dir/build.make CMakeFiles/claseTeo_04_11.dir/build
+.PHONY : claseTeo_04_11/fast
 
 #=============================================================================
 # Target rules for targets named Prac10.6
@@ -1383,6 +1409,63 @@ Taller1: cmake_check_build_system
 Taller1/fast:
 	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/build
 .PHONY : Taller1/fast
+
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.o: ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.o
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.dir/build.make CMakeFiles/claseTeo_04_11.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.o
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.o
+
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.i: ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.i
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.dir/build.make CMakeFiles/claseTeo_04_11.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.i
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.i
+
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.s: ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.s
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.dir/build.make CMakeFiles/claseTeo_04_11.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.s
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c.s
+
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.o: ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.o
+
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.o
+
+# target to build an object file
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.o:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.o
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.o
+
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.i: ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.i
+
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.i
+
+# target to preprocess a source file
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.i:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.i
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.i
+
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.s: ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.s
+
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.s
+
+# target to generate assembly for a file
+ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.s:
+	$(MAKE) -f CMakeFiles/claseTeo_04_11.2.dir/build.make CMakeFiles/claseTeo_04_11.2.dir/ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.s
+.PHONY : ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c.s
 
 ClasesTeoricas/ClaseTeo08_10/ej1.o: ClasesTeoricas/ClaseTeo08_10/ej1.c.o
 
@@ -4481,6 +4564,7 @@ help:
 	@echo "... vecADT"
 	@echo "... utilist"
 	@echo "... getnum"
+	@echo "... claseTeo_04_11.2"
 	@echo "... listADT2"
 	@echo "... claseTeo_10.a2"
 	@echo "... claseTeo_10.2"
@@ -4504,6 +4588,7 @@ help:
 	@echo "... Taller4"
 	@echo "... Taller3"
 	@echo "... Taller2"
+	@echo "... claseTeo_04_11"
 	@echo "... Prac10.6"
 	@echo "... Prac10.5"
 	@echo "... Prac11.82"
@@ -4577,6 +4662,12 @@ help:
 	@echo "... Prac11.15"
 	@echo "... Prac11.142"
 	@echo "... Taller1"
+	@echo "... ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.o"
+	@echo "... ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.i"
+	@echo "... ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.s"
+	@echo "... ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.o"
+	@echo "... ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.i"
+	@echo "... ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.s"
 	@echo "... ClasesTeoricas/ClaseTeo08_10/ej1.o"
 	@echo "... ClasesTeoricas/ClaseTeo08_10/ej1.i"
 	@echo "... ClasesTeoricas/ClaseTeo08_10/ej1.s"
