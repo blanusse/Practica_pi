@@ -15,6 +15,9 @@ int main (void) {
 	assert( rel[0] == NULL );
 	free(rel);
 
+
+
+
 	char aux[30] = "juan";
 	addPerson(soc, aux); // soc contiene a "juan"
 	strcpy(aux,"luisa");

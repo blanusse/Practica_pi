@@ -4,11 +4,9 @@
 CMakeFiles/Prac10.3.dir/Lib/getnum.c.o: ../Lib/getnum.c
 CMakeFiles/Prac10.3.dir/Lib/getnum.c.o: ../Lib/getnum.h
 
-CMakeFiles/Prac10.3.dir/Lib/list.c.o: ../Lib/list.c
-CMakeFiles/Prac10.3.dir/Lib/list.c.o: ../Lib/list.h
-
 CMakeFiles/Prac10.3.dir/Lib/random.c.o: ../Lib/random.c
 
-CMakeFiles/Prac10.3.dir/Practica10/ej3/ej3.c.o: ../Lib/list.h
+CMakeFiles/Prac10.3.dir/Practica10/ej3/ej3.c.o: ../Lib/listADT/listADT.h
+CMakeFiles/Prac10.3.dir/Practica10/ej3/ej3.c.o: ../Lib/utillist.h
 CMakeFiles/Prac10.3.dir/Practica10/ej3/ej3.c.o: ../Practica10/ej3/ej3.c
 

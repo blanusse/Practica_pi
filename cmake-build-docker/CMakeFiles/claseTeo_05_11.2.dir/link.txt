@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/claseTeo_05_11.2.dir/ClasesTeoricas/ClaseTeo05_11/boolMatADTTester.c.o CMakeFiles/claseTeo_05_11.2.dir/ClasesTeoricas/ClaseTeo05_11/boolMatADT.c.o  -o claseTeo_05_11.2 

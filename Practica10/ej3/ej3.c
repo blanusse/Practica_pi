@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include "../../Lib/list.h"
+#include "../../Lib/utillist.h"
 #include <assert.h>
+#include "../../Lib/listADT/listADT.h"
 
 void order(tList l){
     if(l==NULL || l->tail == NULL)
         return;
 
     order(l->tail);
-    int next = head(l->tail);
+    int next = l->tail->head;
     if(l->head >= next) {
         l->tail = delete(l->tail, next);
     }

@@ -298,6 +298,10 @@ add_executable(Prac11.16 Practica11/ej16/ej16.c Lib/getnum.c Lib/random.c )
 add_executable(Prac11.17 Practica11/ej17/phrasesADT.c Lib/getnum.c Lib/random.c )
 add_executable(Prac11.172 Practica11/ej17/phrasesADTTester.c Practica11/ej17/phrasesADT.c )
 
+add_executable(Prac11.17bis Practica11/ej17bis/squirrelCensusADT.c Lib/getnum.c Lib/random.c )
+add_executable(Prac11.17bis2 Practica11/ej17bis/squirrelCensusADTTester.c Practica11/ej17bis/squirrelCensusADT.c)
+
+
 add_executable(Prac11.18 Practica11/ej18/ej18.c Lib/getnum.c Lib/random.c )
 add_executable(Prac11.19 Practica11/ej19/ej19.c Lib/getnum.c Lib/random.c )
 
@@ -327,6 +331,11 @@ add_executable(Taller12.2 Taller/Taller12/bibleADT/bibleADTTester.c Taller/Talle
 add_executable(Taller12.3 Taller/Taller12/adreesBookADT/adressBookADT.c Lib/getnum.c Lib/random.c)
 add_executable(Taller12.4 Taller/Taller12/adreesBookADT/adressBookADTTester.c Taller/Taller12/adreesBookADT/adressBookADT.c)
 
+add_executable(Taller13 Taller/Taller13/museumTicketADT/museumTicketADT.c Lib/getnum.c Lib/random.c)
+add_executable(Taller13.2 Taller/Taller13/museumTicketADT/museumTicketADTTester.c Taller/Taller13/museumTicketADT/museumTicketADT.c)
+
+add_executable(Taller13.3 Taller/Taller13/matrixADT/matrixADT.c Lib/getnum.c Lib/random.c)
+add_executable(Taller13.4 Taller/Taller13/matrixADT/matrixADTTester.c Taller/Taller13/matrixADT/matrixADT.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #CLASES TEORICAS
@@ -355,6 +364,10 @@ add_executable(claseTeo_04_11 ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c )
 add_executable(claseTeo_04_11.2 ClasesTeoricas/ClaseTeo04_11/dictADT/dictADTTester.c ClasesTeoricas/ClaseTeo04_11/dictADT/dictADT.c )
 
 
+add_executable(claseTeo_05_11 ClasesTeoricas/ClaseTeo05_11/boolMatADT.c)
+add_executable(claseTeo_05_11.2 ClasesTeoricas/ClaseTeo05_11/boolMatADTTester.c ClasesTeoricas/ClaseTeo05_11/boolMatADT.c)
+
+
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 
 
@@ -368,9 +381,31 @@ add_executable(listADT2 Lib/listADT/listADTTester.c Lib/listADT/listADT.c)
 add_executable(vecADT Lib/vecADT/vecADT.c)
 add_executable(vecADT2 Lib/vecADT/vecADTTester.c Lib/vecADT/vecADT.c)
 
+#-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+#SEGUNDOS PARCIALES
+#2023
+add_executable(2023_2C_ej2 Parciales_Viejos/Segundos_Parciales/jokesADT/jokesADT.c)
+add_executable(2023_2C_ej2.2 Parciales_Viejos/Segundos_Parciales/jokesADT/jokesADTTester.c Parciales_Viejos/Segundos_Parciales/jokesADT/jokesADT.c Lib/random.c)
 
+#2016
+add_executable(2016_2C_ej1 Parciales_Viejos/Segundos_Parciales/2016_2C/ej1.c Lib/random.c)
 
+add_executable(2016_2C_ej2 Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADT.c )
+add_executable(2016_2C_ej2.2 Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADTTester.c Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADT.c Lib/random.c)
 
+#2018
+add_executable(2018_rec_ej1 Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c Lib/random.c)
+add_executable(2018_rec_ej2 Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADT.c Lib/random.c)
+add_executable(2018_rec_ej2.2 Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADTTester.c Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADT.c)
+
+#2017
+add_executable(2017_1C_ej1 Parciales_Viejos/Segundos_Parciales/2017_1C/ej1.c Lib/utillist.c)
+
+add_executable(2017_1C_ej2 Parciales_Viejos/Segundos_Parciales/2017_1C/dictADT/dictADT.c)
+add_executable(2017_1C_ej2.2 Parciales_Viejos/Segundos_Parciales/2017_1C/dictADT/dictADTTester.c Parciales_Viejos/Segundos_Parciales/2017_1C/dictADT/dictADT.c)
+
+add_executable(2017_1C_ej3 Parciales_Viejos/Segundos_Parciales/2017_1C/calADT/calADT.c)
+add_executable(2017_1C_ej3.2 Parciales_Viejos/Segundos_Parciales/2017_1C/calADT/calADTTester.c Parciales_Viejos/Segundos_Parciales/2017_1C/calADT/calADT.c)
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
@@ -429,5 +464,10 @@ add_executable(vecADT2 Lib/vecADT/vecADTTester.c Lib/vecADT/vecADT.c)
 #a[random] = aux;
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+
+
+add_executable(tCa Taller/T12/addressBookADT.c Lib/getnum.c Lib/random.c)
+add_executable(TCa2 Taller/T12/addressBookADTTester.c Taller/T12/addressBookADT.c)
+
 
 

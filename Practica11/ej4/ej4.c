@@ -7,7 +7,7 @@ int main() {
     double *(*p[])(void) = {};
 
     //p2 es una función que recibe un puntero a char y devuelve un puntero a un arreglo de 3x5 enteros.
-    int **p2(char *l);
+    int (*p(char *a))[3][5];
 
     //p3 es un puntero a un arreglo de N punteros a función que reciben un entero y retornan un puntero a entero.
     int *(*(*p3)[N]) (int a);

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Practica11/ej17bis/squirrelCensusADT.c
+squirrelCensusADT.h
+/tmp/Practica/Practica11/ej17bis/squirrelCensusADT.h
+
+/tmp/Practica/Practica11/ej17bis/squirrelCensusADT.h
+stdlib.h
+-
+

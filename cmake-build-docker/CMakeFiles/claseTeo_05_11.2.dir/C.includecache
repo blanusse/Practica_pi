@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/ClasesTeoricas/ClaseTeo05_11/boolMatADT.c
+boolMatADT.h
+/tmp/Practica/ClasesTeoricas/ClaseTeo05_11/boolMatADT.h
+
+/tmp/Practica/ClasesTeoricas/ClaseTeo05_11/boolMatADT.h
+stdlib.h
+-
+

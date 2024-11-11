@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADT.h
+
+/tmp/Practica/Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADTTester.c
+multiSetADT.h
+/tmp/Practica/Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADT.h
+stdio.h
+-
+assert.h
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Taller/Taller13/museumTicketADT/museumTicketADT.c
+museumTicketADT.h
+/tmp/Practica/Taller/Taller13/museumTicketADT/museumTicketADT.h
+assert.h
+-
+string.h
+-
+strings.h
+-
+
+/tmp/Practica/Taller/Taller13/museumTicketADT/museumTicketADT.h
+stdlib.h
+-
+

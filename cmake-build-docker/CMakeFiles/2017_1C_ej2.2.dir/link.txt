@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/2017_1C_ej2.2.dir/Parciales_Viejos/Segundos_Parciales/2017_1C/dictADT/dictADTTester.c.o CMakeFiles/2017_1C_ej2.2.dir/Parciales_Viejos/Segundos_Parciales/2017_1C/dictADT/dictADT.c.o  -o 2017_1C_ej2.2 

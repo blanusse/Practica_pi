@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/TCa2.dir/Taller/T12/addressBookADTTester.c.o CMakeFiles/TCa2.dir/Taller/T12/addressBookADT.c.o  -o TCa2 

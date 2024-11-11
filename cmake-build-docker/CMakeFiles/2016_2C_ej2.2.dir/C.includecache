@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/Lib/random.h
+stdlib.h
+-
+time.h
+-
+
+/tmp/Practica/Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADT.c
+hangmanADT.h
+/tmp/Practica/Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADT.h
+../../../../Lib/random.h
+/tmp/Practica/Lib/random.h
+
+/tmp/Practica/Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADT.h
+stdlib.h
+-
+string.h
+-
+

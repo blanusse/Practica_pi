@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/2016_2C_ej2.dir/Parciales_Viejos/Segundos_Parciales/2016_2C/hangmanADT/hangmanADT.c.o  -o 2016_2C_ej2 
