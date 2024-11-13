@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/tmp/Practica/Lib/getnum.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.5.dir/Lib/getnum.c.o"
   "/tmp/Practica/Lib/random.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.5.dir/Lib/random.c.o"
+  "/tmp/Practica/Lib/utillist.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.5.dir/Lib/utillist.c.o"
   "/tmp/Practica/Practica10/ej5/ej5.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Prac10.5.dir/Practica10/ej5/ej5.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

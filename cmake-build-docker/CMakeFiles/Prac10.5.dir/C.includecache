@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/tmp/Practica/Lib/list.h
-stdio.h
--
-stdlib.h
--
+/tmp/Practica/Lib/utillist.h
 
 /tmp/Practica/Practica10/ej5/ej5.c
 stdio.h
 -
-../../Lib/list.h
-/tmp/Practica/Lib/list.h
+../../Lib/utillist.h
+/tmp/Practica/Lib/utillist.h
+stdlib.h
+-
+../../Lib/utillist.h
+/tmp/Practica/Lib/utillist.h
 assert.h
 -
 

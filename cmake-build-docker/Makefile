@@ -2829,8 +2829,17 @@ Lib/utillist.c.o:
 	$(MAKE) -f CMakeFiles/Taller11.31.dir/build.make CMakeFiles/Taller11.31.dir/Lib/utillist.c.o
 	$(MAKE) -f CMakeFiles/Taller11.2.dir/build.make CMakeFiles/Taller11.2.dir/Lib/utillist.c.o
 	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/utillist.c.o
 	$(MAKE) -f CMakeFiles/2017_1C_ej1.dir/build.make CMakeFiles/2017_1C_ej1.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.8.dir/build.make CMakeFiles/Prac10.8.dir/Lib/utillist.c.o
 	$(MAKE) -f CMakeFiles/Taller11.32.dir/build.make CMakeFiles/Taller11.32.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/utillist.c.o
+	$(MAKE) -f CMakeFiles/Prac10.9.dir/build.make CMakeFiles/Prac10.9.dir/Lib/utillist.c.o
 .PHONY : Lib/utillist.c.o
 
 Lib/utillist.i: Lib/utillist.c.i
@@ -2843,8 +2852,17 @@ Lib/utillist.c.i:
 	$(MAKE) -f CMakeFiles/Taller11.31.dir/build.make CMakeFiles/Taller11.31.dir/Lib/utillist.c.i
 	$(MAKE) -f CMakeFiles/Taller11.2.dir/build.make CMakeFiles/Taller11.2.dir/Lib/utillist.c.i
 	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/utillist.c.i
 	$(MAKE) -f CMakeFiles/2017_1C_ej1.dir/build.make CMakeFiles/2017_1C_ej1.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.8.dir/build.make CMakeFiles/Prac10.8.dir/Lib/utillist.c.i
 	$(MAKE) -f CMakeFiles/Taller11.32.dir/build.make CMakeFiles/Taller11.32.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/utillist.c.i
+	$(MAKE) -f CMakeFiles/Prac10.9.dir/build.make CMakeFiles/Prac10.9.dir/Lib/utillist.c.i
 .PHONY : Lib/utillist.c.i
 
 Lib/utillist.s: Lib/utillist.c.s
@@ -2857,8 +2875,17 @@ Lib/utillist.c.s:
 	$(MAKE) -f CMakeFiles/Taller11.31.dir/build.make CMakeFiles/Taller11.31.dir/Lib/utillist.c.s
 	$(MAKE) -f CMakeFiles/Taller11.2.dir/build.make CMakeFiles/Taller11.2.dir/Lib/utillist.c.s
 	$(MAKE) -f CMakeFiles/Taller1.dir/build.make CMakeFiles/Taller1.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.6.dir/build.make CMakeFiles/Prac10.6.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.5.dir/build.make CMakeFiles/Prac10.5.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.4.dir/build.make CMakeFiles/Prac10.4.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.3.dir/build.make CMakeFiles/Prac10.3.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.7.dir/build.make CMakeFiles/Prac10.7.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.1.dir/build.make CMakeFiles/Prac10.1.dir/Lib/utillist.c.s
 	$(MAKE) -f CMakeFiles/2017_1C_ej1.dir/build.make CMakeFiles/2017_1C_ej1.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.8.dir/build.make CMakeFiles/Prac10.8.dir/Lib/utillist.c.s
 	$(MAKE) -f CMakeFiles/Taller11.32.dir/build.make CMakeFiles/Taller11.32.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.2.dir/build.make CMakeFiles/Prac10.2.dir/Lib/utillist.c.s
+	$(MAKE) -f CMakeFiles/Prac10.9.dir/build.make CMakeFiles/Prac10.9.dir/Lib/utillist.c.s
 .PHONY : Lib/utillist.c.s
 
 Lib/vecADT/vecADT.o: Lib/vecADT/vecADT.c.o

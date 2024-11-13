@@ -5114,16 +5114,34 @@
 			<Option target="Taller11.31"/>
 			<Option target="Taller11.2"/>
 			<Option target="Taller1"/>
+			<Option target="Prac10.6"/>
+			<Option target="Prac10.5"/>
+			<Option target="Prac10.4"/>
+			<Option target="Prac10.3"/>
+			<Option target="Prac10.7"/>
+			<Option target="Prac10.1"/>
 			<Option target="2017_1C_ej1"/>
+			<Option target="Prac10.8"/>
 			<Option target="Taller11.32"/>
+			<Option target="Prac10.2"/>
+			<Option target="Prac10.9"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Lib/utillist.h">
 			<Option target="utilist"/>
 			<Option target="Taller11.31"/>
 			<Option target="Taller11.2"/>
 			<Option target="Taller1"/>
+			<Option target="Prac10.6"/>
+			<Option target="Prac10.5"/>
+			<Option target="Prac10.4"/>
+			<Option target="Prac10.3"/>
+			<Option target="Prac10.7"/>
+			<Option target="Prac10.1"/>
 			<Option target="2017_1C_ej1"/>
+			<Option target="Prac10.8"/>
 			<Option target="Taller11.32"/>
+			<Option target="Prac10.2"/>
+			<Option target="Prac10.9"/>
 		</Unit>
 		<Unit filename="/tmp/Practica/Lib/vecADT/vecADT.c">
 			<Option target="vecADT"/>

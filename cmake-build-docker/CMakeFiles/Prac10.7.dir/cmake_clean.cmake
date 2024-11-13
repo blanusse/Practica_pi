@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Prac10.7.dir/Lib/getnum.c.o"
   "CMakeFiles/Prac10.7.dir/Lib/random.c.o"
+  "CMakeFiles/Prac10.7.dir/Lib/utillist.c.o"
   "CMakeFiles/Prac10.7.dir/Practica10/ej7/ej7.c.o"
   "Prac10.7"
   "Prac10.7.pdb"

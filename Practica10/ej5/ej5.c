@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include "../../Lib/utillist.h"
 #include <stdlib.h>
+#include "../../Lib/utillist.h"
 #include <assert.h>
 #define ELEMS 200
 
-tList restaList(tList l1, tList l2) {
-    if(l1 == NULL || l2 == NULL)
-        return l1;
-
-    if(l1->head == l2->head) {
-        tList aux = l1->tail;
-        free(l1);
-        return restaList(aux, l2->tail);
+tList restaList(tList lista1, tList lista2) {
+    if (lista1 == NULL){
+        return NULL;
     }
-    if(l1->head > l2->head) {
-        l1->tail = restaList(l1, l2->tail);
-        return l1;
+    if (lista2 == NULL || lista1->head < lista2->head){
+        tList aux = malloc(sizeof(tNode));
+        aux->head = lista1->head;
+        aux-> tail = restaList(lista1->tail, lista2);
+        return aux;
     }
-    l1->tail = restaList(l1->tail, l2);
-    return l1;
+    if (lista1->head > lista2->head){
+        return restaList(lista1, lista2->tail);
+    }
+    // Son iguales
+    return restaList(lista1->tail, lista2->tail);
 }
 
 

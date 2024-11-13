@@ -245,15 +245,15 @@ add_executable(Prac9.20 Practica9/ej20/ej20.c Lib/getnum.c Lib/random.c)
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #PRACTICA 10
 
-add_executable(Prac10.1 Practica10/ej1/ej1.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.2 Practica10/ej2/ej2.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.3 Practica10/ej3/ej3.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.4 Practica10/ej4/ej4.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.5 Practica10/ej5/ej5.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.6 Practica10/ej6/ej6.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.7 Practica10/ej7/ej7.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.8 Practica10/ej8/ej8.c Lib/getnum.c Lib/random.c )
-add_executable(Prac10.9 Practica10/ej9/ej9.c Lib/getnum.c Lib/random.c )
+add_executable(Prac10.1 Practica10/ej1/ej1.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.2 Practica10/ej2/ej2.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.3 Practica10/ej3/ej3.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.4 Practica10/ej4/ej4.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.5 Practica10/ej5/ej5.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.6 Practica10/ej6/ej6.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.7 Practica10/ej7/ej7.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.8 Practica10/ej8/ej8.c Lib/getnum.c Lib/random.c Lib/utillist.c)
+add_executable(Prac10.9 Practica10/ej9/ej9.c Lib/getnum.c Lib/random.c Lib/utillist.c)
 
 #-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
 #PRACTICA 11

@@ -39,7 +39,7 @@ int setElement(matrixADT m, size_t row, size_t col, elementType elem) {
     if(m->rowList[row-1].colCount < col) { //significa que hay que agregar columnas
         m->rowList[row-1].elements = realloc(m->rowList[row-1].elements, sizeof(elementType) * col);
         m->rowList[row-1].ocuppied = realloc(m->rowList[row-1].ocuppied, sizeof(char)*col);
-        for(int i=0; i<col; i++) {
+        for(int i=m->rowList[row-1].colCount; i<col; i++) {
             m->rowList[row-1].ocuppied[i] = 0;
         }
         m->rowList[row-1].colCount = col;

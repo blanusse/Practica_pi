@@ -113,27 +113,18 @@ unsigned int size(const bagADT bag) {
     return bag->size;
 }
 
-//Devuelve el tNode que mas se repite
-tList mostPopularRec(tList actual) {
-    int reps=0;
-    tList aux = actual;
-    for(;actual != NULL; actual = actual->tail) {
-        if(actual->count > reps) {
-            aux = actual; //guarda en el aux el tNode que mas se repite
-            reps = actual->count; //cambia el mas popular
-        }
-    }
-    return aux; // devuelve el que mas se repite
-
-
-
-}
 
 elemType mostPopular(bagADT bag) {
     if(bag->first == NULL)
         exit(1);
-    tList popular = mostPopularRec(bag->first);
-    if(popular ==NULL)
-        return NULL;
-    return popular->head;
+    tList aux = bag->first;
+    elemType toRet = aux->head;
+    size_t count = aux->count;
+    for(;aux != NULL; aux = aux->tail) {
+        if(aux->count > count) {
+            toRet = aux->head; //guarda en el aux el tNode que mas se repite
+            count = aux->count; //cambia el mas popular
+        }
+    }
+    return toRet; // devuelve el que mas se repite
 }

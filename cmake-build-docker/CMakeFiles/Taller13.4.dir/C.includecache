@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/tmp/Practica/Taller/Taller13/matrixADT/matrixADT.c
+matrixADT.h
+/tmp/Practica/Taller/Taller13/matrixADT/matrixADT.h
+
 /tmp/Practica/Taller/Taller13/matrixADT/matrixADT.h
 stdlib.h
 -
-
-/tmp/Practica/Taller/Taller13/matrixADT/matrixADTTester.c
-stdio.h
--
-assert.h
--
-matrixADT.h
-/tmp/Practica/Taller/Taller13/matrixADT/matrixADT.h
 

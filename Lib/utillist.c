@@ -34,6 +34,7 @@ int checkElems(const tList list, const int v[], int dim) {
 void freeList(tList list) {
     if ( list == NULL)
        return;
-    freeList(list->tail);
+    tList aux = list->tail;
     free(list);
+    freeList(aux);
 }
