@@ -106,7 +106,6 @@ elemType * get(moveToFrontADT moveToFront, elemType elem) {
     tList found; //almacenara si encuentra el elemento
     moveToFront->first = getRec(moveToFront->first, elem, moveToFront->pFunc, &found); //nueva lista sin el elemento buscado si se encontro,
                                                                                 // sino es la misma lista
-
     if(found != NULL) {
         found->tail = moveToFront->first;
         moveToFront->first = found;
@@ -118,3 +117,5 @@ elemType * get(moveToFrontADT moveToFront, elemType elem) {
 
 
 }
+
+
