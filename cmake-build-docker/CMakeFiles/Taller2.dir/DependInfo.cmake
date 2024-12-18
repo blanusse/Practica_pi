@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/tmp/Practica/Lib/getnum.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir/Lib/getnum.c.o"
-  "/tmp/Practica/Taller/Taller2.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir/Taller/Taller2.c.o"
+  "/tmp/Practica/Taller/Taller2/Taller2.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller2.dir/Taller/Taller2/Taller2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

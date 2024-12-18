@@ -119,4 +119,16 @@ elemType * minElements(const multiSetADT multiSet, int * dim) {
     return toReturn;
 }
 
+void freeMultiSetRec(tList l) {
+    if(l == NULL) {
+        return;
+    }
+    tList aux = l->tail;
+    free(l);
+    freeMultiSetRec(aux);
+}
 
+void freeMultiSet(multiSetADT m) {
+    freeMultiSetRec(m->list);
+    free(m);
+}

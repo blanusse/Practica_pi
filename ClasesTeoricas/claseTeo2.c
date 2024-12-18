@@ -12,12 +12,13 @@ int aparece(const int vec[], int num, unsigned dim){
 	}
 	return esta;
 }
+
 */
 
 int aparece2( int v[], int num, unsigned dim){
 	
 	int esta = 0;
-	int *actual = v; /*Puntero que apunta a la primera direccion de memoria del vecto*/ 
+	int *actual = v; /*Puntero que apunta a la primera direccion de memoria del vector*/
 	int *final = actual+dim; /* Puntero que apunta a la ultima direccion de memoria del vector*/
 	
 	while( actual < final && !esta){

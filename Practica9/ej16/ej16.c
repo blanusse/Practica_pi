@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 
+
 int orden(const int v[]) {
     if(*v == -1 || *(v+1) == -1)
         return 0;
@@ -15,6 +16,9 @@ int orden(const int v[]) {
             return 1;
     return 0;
 }
+
+
+
 
 int main(void) {
 
@@ -48,3 +52,4 @@ int main(void) {
     printf ("OK!\n");
     return 0;
 }
+

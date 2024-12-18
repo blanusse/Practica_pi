@@ -57,18 +57,18 @@ include CMakeFiles/Taller1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Taller1.dir/flags.make
 
-CMakeFiles/Taller1.dir/Taller/Taller1.c.o: CMakeFiles/Taller1.dir/flags.make
-CMakeFiles/Taller1.dir/Taller/Taller1.c.o: ../Taller/Taller1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller1.dir/Taller/Taller1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller1.dir/Taller/Taller1.c.o   -c /tmp/Practica/Taller/Taller1.c
+CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o: CMakeFiles/Taller1.dir/flags.make
+CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o: ../Taller/Taller1/Taller1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o   -c /tmp/Practica/Taller/Taller1/Taller1.c
 
-CMakeFiles/Taller1.dir/Taller/Taller1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller1.dir/Taller/Taller1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller1.c > CMakeFiles/Taller1.dir/Taller/Taller1.c.i
+CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller1/Taller1.c > CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.i
 
-CMakeFiles/Taller1.dir/Taller/Taller1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller1.dir/Taller/Taller1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller1.c -o CMakeFiles/Taller1.dir/Taller/Taller1.c.s
+CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller1/Taller1.c -o CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.s
 
 CMakeFiles/Taller1.dir/Lib/utillist.c.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/Lib/utillist.c.o: ../Lib/utillist.c
@@ -85,13 +85,13 @@ CMakeFiles/Taller1.dir/Lib/utillist.c.s: cmake_force
 
 # Object files for target Taller1
 Taller1_OBJECTS = \
-"CMakeFiles/Taller1.dir/Taller/Taller1.c.o" \
+"CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o" \
 "CMakeFiles/Taller1.dir/Lib/utillist.c.o"
 
 # External object files for target Taller1
 Taller1_EXTERNAL_OBJECTS =
 
-Taller1: CMakeFiles/Taller1.dir/Taller/Taller1.c.o
+Taller1: CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o
 Taller1: CMakeFiles/Taller1.dir/Lib/utillist.c.o
 Taller1: CMakeFiles/Taller1.dir/build.make
 Taller1: CMakeFiles/Taller1.dir/link.txt

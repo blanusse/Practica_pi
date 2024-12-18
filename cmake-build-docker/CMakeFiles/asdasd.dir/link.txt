@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/asdasd.dir/TPE/prueba.c.o  -o asdasd 

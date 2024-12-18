@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Taller1.dir/Taller/Taller1.c.o CMakeFiles/Taller1.dir/Lib/utillist.c.o  -o Taller1 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Taller1.dir/Taller/Taller1/Taller1.c.o CMakeFiles/Taller1.dir/Lib/utillist.c.o  -o Taller1 

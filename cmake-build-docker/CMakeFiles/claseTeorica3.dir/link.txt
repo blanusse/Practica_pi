@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/claseTeorica3.dir/ClasesTeoricas/claseTeo30_09.c.o CMakeFiles/claseTeorica3.dir/Lib/getnum.c.o CMakeFiles/claseTeorica3.dir/Lib/random.c.o  -o claseTeorica3 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/claseTeorica3.dir/ClasesTeoricas/claseTeo30_09.c.o CMakeFiles/claseTeorica3.dir/Lib/getnum.c.o CMakeFiles/claseTeorica3.dir/Lib/random.c.o  -o claseTeorica3 

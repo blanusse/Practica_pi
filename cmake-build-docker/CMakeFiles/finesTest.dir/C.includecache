@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Practica/TPE/bstADT.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/tmp/Practica/TPE/finesADT.c
+finesADT.h
+/tmp/Practica/TPE/finesADT.h
+
+/tmp/Practica/TPE/finesADT.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+bstADT.h
+/tmp/Practica/TPE/bstADT.h
+

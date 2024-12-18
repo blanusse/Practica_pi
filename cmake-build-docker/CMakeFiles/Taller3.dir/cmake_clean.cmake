@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Taller3.dir/Lib/getnum.c.o"
-  "CMakeFiles/Taller3.dir/Taller/Taller3.c.o"
+  "CMakeFiles/Taller3.dir/Taller/Taller3/Taller3.c.o"
   "Taller3"
   "Taller3.pdb"
 )

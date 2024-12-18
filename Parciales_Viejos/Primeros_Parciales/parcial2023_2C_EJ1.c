@@ -20,16 +20,13 @@ void pasteRow(char v[], char v2[]){
 	}
 }
 
-
 int elimina(char m[][COLS], int rows){
 	int k=0;
 	for(int i=0; i<rows; i++){
-
 		if(!esCapicua(m[i])){
 			pasteRow(m[i], m[k++]);
 		}
 	}
-
 	return k; 
 
 }

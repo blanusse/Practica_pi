@@ -57,18 +57,18 @@ include CMakeFiles/Taller8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Taller8.dir/flags.make
 
-CMakeFiles/Taller8.dir/Taller/Taller8.c.o: CMakeFiles/Taller8.dir/flags.make
-CMakeFiles/Taller8.dir/Taller/Taller8.c.o: ../Taller/Taller8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller8.dir/Taller/Taller8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller8.dir/Taller/Taller8.c.o   -c /tmp/Practica/Taller/Taller8.c
+CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.o: CMakeFiles/Taller8.dir/flags.make
+CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.o: ../Taller/Taller8/Taller8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.o   -c /tmp/Practica/Taller/Taller8/Taller8.c
 
-CMakeFiles/Taller8.dir/Taller/Taller8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller8.dir/Taller/Taller8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller8.c > CMakeFiles/Taller8.dir/Taller/Taller8.c.i
+CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller8/Taller8.c > CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.i
 
-CMakeFiles/Taller8.dir/Taller/Taller8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller8.dir/Taller/Taller8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller8.c -o CMakeFiles/Taller8.dir/Taller/Taller8.c.s
+CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller8/Taller8.c -o CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.s
 
 CMakeFiles/Taller8.dir/Lib/getnum.c.o: CMakeFiles/Taller8.dir/flags.make
 CMakeFiles/Taller8.dir/Lib/getnum.c.o: ../Lib/getnum.c
@@ -98,14 +98,14 @@ CMakeFiles/Taller8.dir/Lib/random.c.s: cmake_force
 
 # Object files for target Taller8
 Taller8_OBJECTS = \
-"CMakeFiles/Taller8.dir/Taller/Taller8.c.o" \
+"CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.o" \
 "CMakeFiles/Taller8.dir/Lib/getnum.c.o" \
 "CMakeFiles/Taller8.dir/Lib/random.c.o"
 
 # External object files for target Taller8
 Taller8_EXTERNAL_OBJECTS =
 
-Taller8: CMakeFiles/Taller8.dir/Taller/Taller8.c.o
+Taller8: CMakeFiles/Taller8.dir/Taller/Taller8/Taller8.c.o
 Taller8: CMakeFiles/Taller8.dir/Lib/getnum.c.o
 Taller8: CMakeFiles/Taller8.dir/Lib/random.c.o
 Taller8: CMakeFiles/Taller8.dir/build.make

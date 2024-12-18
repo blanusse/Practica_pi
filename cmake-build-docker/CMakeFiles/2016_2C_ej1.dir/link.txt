@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/2016_2C_ej1.dir/Parciales_Viejos/Segundos_Parciales/2016_2C/ej1.c.o CMakeFiles/2016_2C_ej1.dir/Lib/random.c.o  -o 2016_2C_ej1 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/2016_2C_ej1.dir/Parciales_Viejos/Segundos_Parciales/2016_2C/ej1.c.o CMakeFiles/2016_2C_ej1.dir/Lib/random.c.o  -o 2016_2C_ej1 

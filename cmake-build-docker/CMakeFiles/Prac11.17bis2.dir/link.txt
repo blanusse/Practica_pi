@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac11.17bis2.dir/Practica11/ej17bis/squirrelCensusADTTester.c.o CMakeFiles/Prac11.17bis2.dir/Practica11/ej17bis/squirrelCensusADT.c.o  -o Prac11.17bis2 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Prac11.17bis2.dir/Practica11/ej17bis/squirrelCensusADTTester.c.o CMakeFiles/Prac11.17bis2.dir/Practica11/ej17bis/squirrelCensusADT.c.o  -o Prac11.17bis2 

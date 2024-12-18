@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac4.11.dir/Practica4/ej11.c.o  -o Prac4.11 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Prac4.11.dir/Practica4/ej11.c.o  -o Prac4.11 

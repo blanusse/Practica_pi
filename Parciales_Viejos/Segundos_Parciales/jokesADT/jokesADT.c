@@ -2,7 +2,6 @@
 
 #include <string.h>
 
-#include "../../../Lib/random.h"
 #define BLOCK	10
 
 struct tCategory {
@@ -107,6 +106,18 @@ void addJoke(jokesADT jokes, const char * category, const char * joke){
 	aux = addJokeRec(aux, joke);
 }
 //-------------------------------------------------------//////\\\\\\-------------------------------------------------------------------
+static double randNormalize() {
+	return rand() / ( (double) RAND_MAX+1);
+}
+
+static int randInt(int min, int max) {
+	if(min > max) {
+		int aux = min;
+		min = max;
+		max = aux;
+	}
+	return randNormalize() * (max-min+1) + min;
+}
 
 static char * jokeRec(categoryList cat){
 	int jokeNum = randInt(0, cat->jokesCount - 1);

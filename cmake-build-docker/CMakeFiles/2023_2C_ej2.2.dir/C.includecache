@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/tmp/Practica/Lib/random.h
-stdlib.h
--
-time.h
--
-
 /tmp/Practica/Parciales_Viejos/Segundos_Parciales/jokesADT/jokesADT.c
 jokesADT.h
 /tmp/Practica/Parciales_Viejos/Segundos_Parciales/jokesADT/jokesADT.h
 string.h
 -
-../../../Lib/random.h
-/tmp/Practica/Lib/random.h
 
 /tmp/Practica/Parciales_Viejos/Segundos_Parciales/jokesADT/jokesADT.h
 stdlib.h

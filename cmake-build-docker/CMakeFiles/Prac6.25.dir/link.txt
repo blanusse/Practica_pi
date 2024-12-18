@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac6.25.dir/Practica6/ej25/ej25.c.o CMakeFiles/Prac6.25.dir/Lib/getnum.c.o CMakeFiles/Prac6.25.dir/Lib/random.c.o  -o Prac6.25 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Prac6.25.dir/Practica6/ej25/ej25.c.o CMakeFiles/Prac6.25.dir/Lib/getnum.c.o CMakeFiles/Prac6.25.dir/Lib/random.c.o  -o Prac6.25 

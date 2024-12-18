@@ -9,4 +9,8 @@
 /tmp/Practica/Practica9/ej2/ej2.c
 stdio.h
 -
+assert.h
+-
+stdlib.h
+-
 

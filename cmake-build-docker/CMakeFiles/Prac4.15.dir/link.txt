@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o CMakeFiles/Prac4.15.dir/Lib/getnum.c.o  -o Prac4.15 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Prac4.15.dir/Practica4/tp4_15main.c.o CMakeFiles/Prac4.15.dir/Practica4/tp4_15b.c.o CMakeFiles/Prac4.15.dir/Practica4/tp4_15a.c.o CMakeFiles/Prac4.15.dir/Lib/getnum.c.o  -o Prac4.15 

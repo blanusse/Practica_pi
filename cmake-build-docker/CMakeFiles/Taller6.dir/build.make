@@ -57,18 +57,18 @@ include CMakeFiles/Taller6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Taller6.dir/flags.make
 
-CMakeFiles/Taller6.dir/Taller/Taller6.c.o: CMakeFiles/Taller6.dir/flags.make
-CMakeFiles/Taller6.dir/Taller/Taller6.c.o: ../Taller/Taller6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller6.dir/Taller/Taller6.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller6.dir/Taller/Taller6.c.o   -c /tmp/Practica/Taller/Taller6.c
+CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.o: CMakeFiles/Taller6.dir/flags.make
+CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.o: ../Taller/Taller6/Taller6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.o   -c /tmp/Practica/Taller/Taller6/Taller6.c
 
-CMakeFiles/Taller6.dir/Taller/Taller6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller6.dir/Taller/Taller6.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller6.c > CMakeFiles/Taller6.dir/Taller/Taller6.c.i
+CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller6/Taller6.c > CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.i
 
-CMakeFiles/Taller6.dir/Taller/Taller6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller6.dir/Taller/Taller6.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller6.c -o CMakeFiles/Taller6.dir/Taller/Taller6.c.s
+CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller6/Taller6.c -o CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.s
 
 CMakeFiles/Taller6.dir/Lib/getnum.c.o: CMakeFiles/Taller6.dir/flags.make
 CMakeFiles/Taller6.dir/Lib/getnum.c.o: ../Lib/getnum.c
@@ -98,14 +98,14 @@ CMakeFiles/Taller6.dir/Lib/random.c.s: cmake_force
 
 # Object files for target Taller6
 Taller6_OBJECTS = \
-"CMakeFiles/Taller6.dir/Taller/Taller6.c.o" \
+"CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.o" \
 "CMakeFiles/Taller6.dir/Lib/getnum.c.o" \
 "CMakeFiles/Taller6.dir/Lib/random.c.o"
 
 # External object files for target Taller6
 Taller6_EXTERNAL_OBJECTS =
 
-Taller6: CMakeFiles/Taller6.dir/Taller/Taller6.c.o
+Taller6: CMakeFiles/Taller6.dir/Taller/Taller6/Taller6.c.o
 Taller6: CMakeFiles/Taller6.dir/Lib/getnum.c.o
 Taller6: CMakeFiles/Taller6.dir/Lib/random.c.o
 Taller6: CMakeFiles/Taller6.dir/build.make

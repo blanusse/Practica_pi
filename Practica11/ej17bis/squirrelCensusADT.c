@@ -13,6 +13,11 @@ struct squirrelCensusCDT {
     size_t blockSize; // cuanto mide cada bloque
 };
 
+
+
+
+
+
 squirrelCensusADT newSquirrelCensus(size_t blockSizeMetres) {
     if(blockSizeMetres == 0) {
         return NULL;

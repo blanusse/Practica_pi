@@ -57,18 +57,18 @@ include CMakeFiles/Taller5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Taller5.dir/flags.make
 
-CMakeFiles/Taller5.dir/Taller/Taller5.c.o: CMakeFiles/Taller5.dir/flags.make
-CMakeFiles/Taller5.dir/Taller/Taller5.c.o: ../Taller/Taller5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller5.dir/Taller/Taller5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller5.dir/Taller/Taller5.c.o   -c /tmp/Practica/Taller/Taller5.c
+CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.o: CMakeFiles/Taller5.dir/flags.make
+CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.o: ../Taller/Taller5/Taller5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.o   -c /tmp/Practica/Taller/Taller5/Taller5.c
 
-CMakeFiles/Taller5.dir/Taller/Taller5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller5.dir/Taller/Taller5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller5.c > CMakeFiles/Taller5.dir/Taller/Taller5.c.i
+CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller5/Taller5.c > CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.i
 
-CMakeFiles/Taller5.dir/Taller/Taller5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller5.dir/Taller/Taller5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller5.c -o CMakeFiles/Taller5.dir/Taller/Taller5.c.s
+CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller5/Taller5.c -o CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.s
 
 CMakeFiles/Taller5.dir/Lib/getnum.c.o: CMakeFiles/Taller5.dir/flags.make
 CMakeFiles/Taller5.dir/Lib/getnum.c.o: ../Lib/getnum.c
@@ -98,14 +98,14 @@ CMakeFiles/Taller5.dir/Lib/random.c.s: cmake_force
 
 # Object files for target Taller5
 Taller5_OBJECTS = \
-"CMakeFiles/Taller5.dir/Taller/Taller5.c.o" \
+"CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.o" \
 "CMakeFiles/Taller5.dir/Lib/getnum.c.o" \
 "CMakeFiles/Taller5.dir/Lib/random.c.o"
 
 # External object files for target Taller5
 Taller5_EXTERNAL_OBJECTS =
 
-Taller5: CMakeFiles/Taller5.dir/Taller/Taller5.c.o
+Taller5: CMakeFiles/Taller5.dir/Taller/Taller5/Taller5.c.o
 Taller5: CMakeFiles/Taller5.dir/Lib/getnum.c.o
 Taller5: CMakeFiles/Taller5.dir/Lib/random.c.o
 Taller5: CMakeFiles/Taller5.dir/build.make

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Taller7.dir/Lib/getnum.c.o"
   "CMakeFiles/Taller7.dir/Lib/random.c.o"
-  "CMakeFiles/Taller7.dir/Taller/Taller7.c.o"
+  "CMakeFiles/Taller7.dir/Taller/Taller7/Taller7.c.o"
   "Taller7"
   "Taller7.pdb"
 )

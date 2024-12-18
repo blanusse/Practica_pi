@@ -28,3 +28,5 @@ void removeAllM(multiSetADT multiSet, elemType elem);
 ** En el parámetro de salida dim almacena la cantidad de elementos del vector
 */
 elemType * minElements(const multiSetADT multiSet, int * dim);
+
+void freeMultiSet(multiSetADT m);

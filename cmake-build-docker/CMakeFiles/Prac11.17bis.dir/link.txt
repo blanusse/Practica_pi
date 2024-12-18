@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac11.17bis.dir/Practica11/ej17bis/squirrelCensusADT.c.o CMakeFiles/Prac11.17bis.dir/Lib/getnum.c.o CMakeFiles/Prac11.17bis.dir/Lib/random.c.o  -o Prac11.17bis 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Prac11.17bis.dir/Practica11/ej17bis/squirrelCensusADT.c.o CMakeFiles/Prac11.17bis.dir/Lib/getnum.c.o CMakeFiles/Prac11.17bis.dir/Lib/random.c.o  -o Prac11.17bis 

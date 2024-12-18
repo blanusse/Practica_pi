@@ -1,5 +1,6 @@
 #include "multiSetADT.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <assert.h>
 
 int main() {
@@ -21,4 +22,7 @@ int main() {
     for(int i=0; i<dim; i++) {
         printf("%d\n", v[i]);
     }
+    free(v);
+    freeMultiSet(m);
+    printf("OK!");
 }

@@ -70,29 +70,29 @@ CMakeFiles/2018_rec_ej1.dir/Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2018_rec_ej1.dir/Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c -o CMakeFiles/2018_rec_ej1.dir/Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c.s
 
-CMakeFiles/2018_rec_ej1.dir/Lib/random.c.o: CMakeFiles/2018_rec_ej1.dir/flags.make
-CMakeFiles/2018_rec_ej1.dir/Lib/random.c.o: ../Lib/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/2018_rec_ej1.dir/Lib/random.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/2018_rec_ej1.dir/Lib/random.c.o   -c /tmp/Practica/Lib/random.c
+CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.o: CMakeFiles/2018_rec_ej1.dir/flags.make
+CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.o: ../Lib/utillist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.o   -c /tmp/Practica/Lib/utillist.c
 
-CMakeFiles/2018_rec_ej1.dir/Lib/random.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2018_rec_ej1.dir/Lib/random.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/random.c > CMakeFiles/2018_rec_ej1.dir/Lib/random.c.i
+CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Lib/utillist.c > CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.i
 
-CMakeFiles/2018_rec_ej1.dir/Lib/random.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2018_rec_ej1.dir/Lib/random.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/random.c -o CMakeFiles/2018_rec_ej1.dir/Lib/random.c.s
+CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Lib/utillist.c -o CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.s
 
 # Object files for target 2018_rec_ej1
 2018_rec_ej1_OBJECTS = \
 "CMakeFiles/2018_rec_ej1.dir/Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c.o" \
-"CMakeFiles/2018_rec_ej1.dir/Lib/random.c.o"
+"CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.o"
 
 # External object files for target 2018_rec_ej1
 2018_rec_ej1_EXTERNAL_OBJECTS =
 
 2018_rec_ej1: CMakeFiles/2018_rec_ej1.dir/Parciales_Viejos/Segundos_Parciales/2018_rec/ej1.c.o
-2018_rec_ej1: CMakeFiles/2018_rec_ej1.dir/Lib/random.c.o
+2018_rec_ej1: CMakeFiles/2018_rec_ej1.dir/Lib/utillist.c.o
 2018_rec_ej1: CMakeFiles/2018_rec_ej1.dir/build.make
 2018_rec_ej1: CMakeFiles/2018_rec_ej1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable 2018_rec_ej1"

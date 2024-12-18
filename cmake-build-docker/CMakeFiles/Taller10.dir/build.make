@@ -57,18 +57,18 @@ include CMakeFiles/Taller10.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Taller10.dir/flags.make
 
-CMakeFiles/Taller10.dir/Taller/Taller10.c.o: CMakeFiles/Taller10.dir/flags.make
-CMakeFiles/Taller10.dir/Taller/Taller10.c.o: ../Taller/Taller10.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller10.dir/Taller/Taller10.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller10.dir/Taller/Taller10.c.o   -c /tmp/Practica/Taller/Taller10.c
+CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.o: CMakeFiles/Taller10.dir/flags.make
+CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.o: ../Taller/Taller10/Taller10.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Practica/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.o   -c /tmp/Practica/Taller/Taller10/Taller10.c
 
-CMakeFiles/Taller10.dir/Taller/Taller10.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller10.dir/Taller/Taller10.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller10.c > CMakeFiles/Taller10.dir/Taller/Taller10.c.i
+CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/Practica/Taller/Taller10/Taller10.c > CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.i
 
-CMakeFiles/Taller10.dir/Taller/Taller10.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller10.dir/Taller/Taller10.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller10.c -o CMakeFiles/Taller10.dir/Taller/Taller10.c.s
+CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/Practica/Taller/Taller10/Taller10.c -o CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.s
 
 CMakeFiles/Taller10.dir/Lib/getnum.c.o: CMakeFiles/Taller10.dir/flags.make
 CMakeFiles/Taller10.dir/Lib/getnum.c.o: ../Lib/getnum.c
@@ -98,14 +98,14 @@ CMakeFiles/Taller10.dir/Lib/random.c.s: cmake_force
 
 # Object files for target Taller10
 Taller10_OBJECTS = \
-"CMakeFiles/Taller10.dir/Taller/Taller10.c.o" \
+"CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.o" \
 "CMakeFiles/Taller10.dir/Lib/getnum.c.o" \
 "CMakeFiles/Taller10.dir/Lib/random.c.o"
 
 # External object files for target Taller10
 Taller10_EXTERNAL_OBJECTS =
 
-Taller10: CMakeFiles/Taller10.dir/Taller/Taller10.c.o
+Taller10: CMakeFiles/Taller10.dir/Taller/Taller10/Taller10.c.o
 Taller10: CMakeFiles/Taller10.dir/Lib/getnum.c.o
 Taller10: CMakeFiles/Taller10.dir/Lib/random.c.o
 Taller10: CMakeFiles/Taller10.dir/build.make

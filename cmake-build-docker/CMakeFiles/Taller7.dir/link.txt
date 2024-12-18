@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Taller7.dir/Taller/Taller7.c.o CMakeFiles/Taller7.dir/Lib/getnum.c.o CMakeFiles/Taller7.dir/Lib/random.c.o  -o Taller7 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Taller7.dir/Taller/Taller7/Taller7.c.o CMakeFiles/Taller7.dir/Lib/getnum.c.o CMakeFiles/Taller7.dir/Lib/random.c.o  -o Taller7 

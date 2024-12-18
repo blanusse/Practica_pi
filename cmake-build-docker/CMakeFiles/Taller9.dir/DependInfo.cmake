@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/tmp/Practica/Lib/getnum.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller9.dir/Lib/getnum.c.o"
   "/tmp/Practica/Lib/random.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller9.dir/Lib/random.c.o"
-  "/tmp/Practica/Taller/Taller9.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller9.dir/Taller/Taller9.c.o"
+  "/tmp/Practica/Taller/Taller9/Taller9.c" "/tmp/Practica/cmake-build-docker/CMakeFiles/Taller9.dir/Taller/Taller9/Taller9.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

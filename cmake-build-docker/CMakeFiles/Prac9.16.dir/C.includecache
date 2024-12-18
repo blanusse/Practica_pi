@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/tmp/Practica/Lib/random.h
+stdlib.h
+-
+time.h
+-
+
 /tmp/Practica/Practica9/ej16/ej16.c
 stdio.h
 -
 assert.h
 -
+../../Lib/random.h
+/tmp/Practica/Lib/random.h
 

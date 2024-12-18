@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.o CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.o  -o claseTeo_10.a2 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTTester.c.o CMakeFiles/claseTeo_10.a2.dir/ClasesTeoricas/ClaseTeo22_10/stackADT/stackADTList.c.o  -o claseTeo_10.a2 

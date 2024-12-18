@@ -3,8 +3,7 @@
 #include <string.h>
 #include "../../Lib/random.h"
 
-
-#define MANO   5
+#define MANO    4
 #define TOTAL   52
 #define PALOS   4
 #define RANGO   13

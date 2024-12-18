@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Prac11.142.dir/Practica11/ej14/listADTTester.c.o CMakeFiles/Prac11.142.dir/Practica11/ej14/listADT.c.o  -o Prac11.142 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Prac11.142.dir/Practica11/ej14/listADTTester.c.o CMakeFiles/Prac11.142.dir/Practica11/ej14/listADT.c.o  -o Prac11.142 

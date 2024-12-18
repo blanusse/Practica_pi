@@ -6,5 +6,6 @@ CMakeFiles/Prac9.16.dir/Lib/getnum.c.o: ../Lib/getnum.h
 
 CMakeFiles/Prac9.16.dir/Lib/random.c.o: ../Lib/random.c
 
+CMakeFiles/Prac9.16.dir/Practica9/ej16/ej16.c.o: ../Lib/random.h
 CMakeFiles/Prac9.16.dir/Practica9/ej16/ej16.c.o: ../Practica9/ej16/ej16.c
 

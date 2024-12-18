@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/fines.dir/TPE/finesADT.c.o  -o fines 

@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Taller13.2.dir/Taller/Taller13/museumTicketADT/museumTicketADTTester.c.o CMakeFiles/Taller13.2.dir/Taller/Taller13/museumTicketADT/museumTicketADT.c.o  -o Taller13.2 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Taller13.2.dir/Taller/Taller13/museumTicketADT/museumTicketADTTester.c.o CMakeFiles/Taller13.2.dir/Taller/Taller13/museumTicketADT/museumTicketADT.c.o  -o Taller13.2 

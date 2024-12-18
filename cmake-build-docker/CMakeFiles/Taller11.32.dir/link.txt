@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address   CMakeFiles/Taller11.32.dir/Taller/Taller11/queueADT/queueADT.c.o CMakeFiles/Taller11.32.dir/Lib/getnum.c.o CMakeFiles/Taller11.32.dir/Lib/random.c.o CMakeFiles/Taller11.32.dir/Lib/utillist.c.o  -o Taller11.32 
+/usr/bin/cc -Wall -pedantic -std=c99 -g -fsanitize=address   CMakeFiles/Taller11.32.dir/Taller/Taller11/queueADT/queueADT.c.o CMakeFiles/Taller11.32.dir/Lib/getnum.c.o CMakeFiles/Taller11.32.dir/Lib/random.c.o CMakeFiles/Taller11.32.dir/Lib/utillist.c.o  -o Taller11.32 

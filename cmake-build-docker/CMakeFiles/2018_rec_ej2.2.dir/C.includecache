@@ -13,6 +13,8 @@ multiSetADT.h
 /tmp/Practica/Parciales_Viejos/Segundos_Parciales/2018_rec/multiSetADT/multiSetADT.h
 stdio.h
 -
+stdlib.h
+-
 assert.h
 -
 
